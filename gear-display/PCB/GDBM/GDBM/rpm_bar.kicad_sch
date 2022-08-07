@@ -1,0 +1,25 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 8f775a4d-5bbd-4330-bdf4-053c1687c4e3)
+
+  (paper "A4")
+
+  (title_block
+    (title "Gear Display Board")
+    (date "2022-08-07")
+    (rev "1.0")
+    (company "Kallio Designs Oy")
+    (comment 1 "Teemu Latonen")
+    (comment 2 "ASSEMBLY_PN")
+    (comment 3 "PCB_PN")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "PWM" (shape input) (at 60.96 34.29 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 782fc23e-62cf-4959-aeaa-300d173fa2e5)
+  )
+)
