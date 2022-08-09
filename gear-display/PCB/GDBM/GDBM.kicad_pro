@@ -671,8 +671,28 @@
       "LED Driver 1"
     ],
     [
-      "db36a957-b3d5-4a68-88b8-f2ad74a99a74",
+      "2c020b5b-c97c-4bcf-a38b-010b33e0246d",
+      "Shift Indicator"
+    ],
+    [
+      "ae337b7a-c287-4fd4-a065-0e921a565068",
       "LED Driver 2"
+    ],
+    [
+      "a409feb3-82e7-4e71-a86a-338ee5c1b1cc",
+      "LED Driver 3"
+    ],
+    [
+      "cf1cdf27-6546-4af7-9073-7f8b56965781",
+      "Buttons"
+    ],
+    [
+      "3a3c6e9c-b870-414a-b9a7-03c4d62753cd",
+      "Level Shifter"
+    ],
+    [
+      "d5432ca7-524c-447e-b53c-48db40cafebb",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
