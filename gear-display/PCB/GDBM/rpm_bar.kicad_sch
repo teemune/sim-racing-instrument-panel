@@ -1879,8 +1879,8 @@
     (property "Price" "0.15" (id 10) (at 50.8 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "2" (uuid 79eb9cf2-588a-49d2-9eec-497fd17aa31e))
-    (pin "2" (uuid 79eb9cf2-588a-49d2-9eec-497fd17aa31e))
+    (pin "2" (uuid 79eb9cf2-588a-49d2-9eec-497fd17aa321))
+    (pin "2" (uuid 79eb9cf2-588a-49d2-9eec-497fd17aa321))
     (pin "3" (uuid 973f1463-e0b3-427d-a011-90830752f387))
   )
 
