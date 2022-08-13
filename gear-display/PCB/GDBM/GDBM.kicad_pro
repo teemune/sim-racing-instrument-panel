@@ -55,7 +55,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|179000000|101160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|355c41d9-6bcd-42d5-a7d7-d551aa3ec13a",
+        "silk_over_copper|179000000|102340000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|a5ea7530-e258-4c85-8803-b901cc4d59fc",
+        "silk_over_copper|179000000|124660000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|2c6cb2d7-5f16-47e0-a74f-2af92afff58d",
+        "silk_over_copper|179000000|125840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|bed7c9d3-eb6c-4625-b140-27ee26e0de08",
+        "silk_over_copper|179000000|148160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|94fcca88-a1f0-401a-95f0-a86d12a58a47",
+        "silk_over_copper|179000000|78840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|cc88c52a-1f39-4e4c-b6cf-9f0f37cac162",
+        "silk_over_copper|83000000|101160000|61996362-1384-4305-8201-169b5e9dbeff|06face08-dd2c-4947-af42-03533d8bc53c",
+        "silk_over_copper|83000000|102340000|61996362-1384-4305-8201-169b5e9dbeff|9c874b6e-83d7-4931-abe0-335408880256",
+        "silk_over_copper|83000000|124660000|61996362-1384-4305-8201-169b5e9dbeff|eae5b1b2-4a82-4c2c-b657-499d40021952",
+        "silk_over_copper|83000000|125840000|61996362-1384-4305-8201-169b5e9dbeff|39a8cd39-294a-4c8a-99d7-71b35feea45f",
+        "silk_over_copper|83000000|148160000|61996362-1384-4305-8201-169b5e9dbeff|29c28e74-513e-4abb-bebe-ce4d6d156196",
+        "silk_over_copper|83000000|78840000|61996362-1384-4305-8201-169b5e9dbeff|0c39ce5d-ab2c-45ae-b514-ea95c203dd0d"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -691,7 +704,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "C:\\GitHubProjects\\kicad\\schematic_templates\\A4_sheet.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./Schematic.pdf",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
@@ -707,10 +720,6 @@
       "Power Supply"
     ],
     [
-      "8f5ee264-ab78-438d-b8d5-1e547e5afc7c",
-      "Mechanical"
-    ],
-    [
       "2eb44e1a-4042-4ea6-aca2-4836a6ec84e9",
       "MCU"
     ],
@@ -719,32 +728,36 @@
       "USB"
     ],
     [
-      "67e35e0a-77e9-4a25-928b-43c27de68dee",
-      "7-Segment Display"
+      "cf1cdf27-6546-4af7-9073-7f8b56965781",
+      "Brightness Control"
     ],
     [
-      "049e3529-b599-416f-9297-34a8c6367a59",
-      "RPM Bar"
+      "d5432ca7-524c-447e-b53c-48db40cafebb",
+      "Interfaces"
+    ],
+    [
+      "67e35e0a-77e9-4a25-928b-43c27de68dee",
+      "7-Segment Display"
     ],
     [
       "2c020b5b-c97c-4bcf-a38b-010b33e0246d",
       "Shift Indicator"
     ],
     [
+      "049e3529-b599-416f-9297-34a8c6367a59",
+      "RPM Bar"
+    ],
+    [
       "a409feb3-82e7-4e71-a86a-338ee5c1b1cc",
       "LED Driver 3"
     ],
     [
-      "cf1cdf27-6546-4af7-9073-7f8b56965781",
-      "Brightness Control"
+      "8f5ee264-ab78-438d-b8d5-1e547e5afc7c",
+      "Mechanical"
     ],
     [
       "2c2083b9-dec5-498d-a410-8da724f3bacc",
       "Revision History"
-    ],
-    [
-      "d5432ca7-524c-447e-b53c-48db40cafebb",
-      "Interfaces"
     ]
   ],
   "text_variables": {}

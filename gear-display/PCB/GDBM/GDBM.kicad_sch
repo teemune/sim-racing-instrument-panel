@@ -109,10 +109,10 @@
   (no_connect (at 214.63 124.46) (uuid 27807e1f-61f7-4dcd-b17c-db15f3864b9b))
   (no_connect (at 205.74 109.22) (uuid 5a0b91ef-f630-4db3-ae89-01586bc2196d))
   (no_connect (at 102.87 93.98) (uuid a64f4074-1811-43e0-aad4-16c68ace7582))
-  (no_connect (at 102.87 90.17) (uuid a64f4074-1811-43e0-aad4-16c68ace7582))
-  (no_connect (at 129.54 90.17) (uuid a64f4074-1811-43e0-aad4-16c68ace7582))
+  (no_connect (at 102.87 90.17) (uuid a64f4074-1811-43e0-aad4-16c68ace7583))
+  (no_connect (at 129.54 90.17) (uuid a64f4074-1811-43e0-aad4-16c68ace7584))
   (no_connect (at 182.88 104.14) (uuid b23d2bcb-6c59-48f9-8118-d8453c7eaef1))
-  (no_connect (at 182.88 101.6) (uuid b23d2bcb-6c59-48f9-8118-d8453c7eaef1))
+  (no_connect (at 182.88 101.6) (uuid b23d2bcb-6c59-48f9-8118-d8453c7eaef2))
   (no_connect (at 129.54 134.62) (uuid bc4d4c86-dc79-49b7-b0ea-7d6b863bb490))
   (no_connect (at 129.54 137.16) (uuid bc4d4c86-dc79-49b7-b0ea-7d6b863bb491))
   (no_connect (at 102.87 128.27) (uuid bc4d4c86-dc79-49b7-b0ea-7d6b863bb492))
@@ -910,16 +910,16 @@
   (sheet_instances
     (path "/" (page "1"))
     (path "/d2a51ab8-87f6-45a5-af73-2506f338456e" (page "2"))
-    (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c" (page "3"))
-    (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "4"))
-    (path "/124ce659-22a5-4a84-b30d-e5ec849b4e60" (page "5"))
-    (path "/67e35e0a-77e9-4a25-928b-43c27de68dee" (page "6"))
-    (path "/049e3529-b599-416f-9297-34a8c6367a59" (page "7"))
-    (path "/2c020b5b-c97c-4bcf-a38b-010b33e0246d" (page "9"))
-    (path "/a409feb3-82e7-4e71-a86a-338ee5c1b1cc" (page "11"))
-    (path "/cf1cdf27-6546-4af7-9073-7f8b56965781" (page "12"))
+    (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9" (page "3"))
+    (path "/124ce659-22a5-4a84-b30d-e5ec849b4e60" (page "4"))
+    (path "/cf1cdf27-6546-4af7-9073-7f8b56965781" (page "5"))
+    (path "/d5432ca7-524c-447e-b53c-48db40cafebb" (page "6"))
+    (path "/67e35e0a-77e9-4a25-928b-43c27de68dee" (page "7"))
+    (path "/2c020b5b-c97c-4bcf-a38b-010b33e0246d" (page "8"))
+    (path "/049e3529-b599-416f-9297-34a8c6367a59" (page "9"))
+    (path "/a409feb3-82e7-4e71-a86a-338ee5c1b1cc" (page "10"))
+    (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c" (page "11"))
     (path "/2c2083b9-dec5-498d-a410-8da724f3bacc" (page "12"))
-    (path "/d5432ca7-524c-447e-b53c-48db40cafebb" (page "14"))
   )
 
   (symbol_instances
@@ -1050,10 +1050,10 @@
       (reference "#PWR0142") (unit 1) (value "+5V") (footprint "")
     )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/510db68c-4ef5-40e6-931f-9cfb950f0ebd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0143") (unit 1) (value "GND") (footprint "")
     )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/64bdb63a-7fec-4036-9e2f-5ef29891106c"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0144") (unit 1) (value "GND") (footprint "")
     )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/c8fa5099-95d3-4d57-b80a-efb350d92b30"
       (reference "ART1") (unit 1) (value "Artwork_DC_Plug_Polarity") (footprint "KD_Mechanical:ART_DC_POLARITY")
@@ -1320,7 +1320,7 @@
       (reference "X2") (unit 1) (value "CON_1x04_TH_staggered") (footprint "KD_Connector_Pads:CON_PINHD_1X04_TH_OFFSET")
     )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/40d57120-5652-4643-914f-bd922789209a"
-      (reference "X?") (unit 1) (value "CON_GND_Probe_Hook") (footprint "KD_Connector_Pads:GND_HOOK_M")
+      (reference "X3") (unit 1) (value "CON_GND_Probe_Hook") (footprint "KD_Connector_Pads:GND_HOOK_M")
     )
     (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/4d5e4fb8-0bfe-4998-a74b-69f8123087db"
       (reference "Y1") (unit 1) (value "Crystal_16M_AS-16.000-18-SMD-TR") (footprint "KD_Oscillator:OSC_CRYSTAL_HC49_US_N")

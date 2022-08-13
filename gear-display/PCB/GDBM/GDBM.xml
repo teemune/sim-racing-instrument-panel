@@ -1,0 +1,3832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\GitHubProjects\sim-racing-instrument-panel\gear-display\PCB\GDBM\GDBM.kicad_sch</source>
+    <date>13/08/2022 23.11.07</date>
+    <tool>Eeschema (6.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>GDBM.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>psu.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>main.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>usb.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>buttonui.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Interfaces/" tstamps="/d5432ca7-524c-447e-b53c-48db40cafebb/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>interfaces2.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>7seg_display.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>indicators.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>rpm_bar.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="10" name="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>led_driver.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="11" name="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>mechanical.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="12" name="/Revision History/" tstamps="/2c2083b9-dec5-498d-a410-8da724f3bacc/">
+      <title_block>
+        <title>Gear Display Board</title>
+        <company>Kallio Designs Oy</company>
+        <rev>1.0</rev>
+        <date>2022-08-13</date>
+        <source>rev_history.kicad_sch</source>
+        <comment number="1" value="Teemu Latonen"/>
+        <comment number="2" value="000064"/>
+        <comment number="3" value="000065"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GDBM.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c5b0676-a1c3-4af3-83cc-4ea808fdc226</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="GDBM.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79bd58cd-72c8-40ad-af06-26c31d86dcee</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>0a92171f-025e-40ee-983a-0fe34d5150d4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>7578a93e-c6d7-4a3f-9e5c-a09544c14a9d</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>b283c780-f85d-474a-969f-7857f180a75d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>05657406-456b-4574-9bed-0e5c729e7b03</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>96f5c9d9-ad99-4922-937b-aac2f9e06f42</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Schottky_30V_1A_Toshiba_CUS10S30</value>
+      <footprint>KD_Diode:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Code">CUS10S30,H3F</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CUS10S30,H3F</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Price">0.2</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CUS10S30H3FCT-ND</field>
+      </fields>
+      <libsource lib="KD_Diode" part="Schottky_30V_1A_Toshiba_CUS10S30" description="DIODE SCHOTTKY 30V 1A USC"/>
+      <property name="Code" value="CUS10S30,H3F"/>
+      <property name="Manufacturer" value="Toshiba Semiconductor and Storage"/>
+      <property name="MFG_PartNo" value="CUS10S30,H3F"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CUS10S30H3FCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.2"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>af5a4141-fe46-49c1-9c31-e552f8e4acd5</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>TVS_12V_LF_SMAJ12CA</value>
+      <footprint>KD_Diode:DIOC530X280X230_SMA_A</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/Transient%20Suppression%20Diodes.pdf</datasheet>
+      <fields>
+        <field name="Code">SMAJ12A</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">SMAJ12A</field>
+        <field name="Manufacturer">Littelfuse Inc.</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">SMAJ12ALFCT-ND</field>
+      </fields>
+      <libsource lib="KD_Diode" part="TVS_12V_LF_SMAJ12CA" description="TVS DIODE 12VWM 19.9VC DO214AC"/>
+      <property name="Code" value="SMAJ12A"/>
+      <property name="Manufacturer" value="Littelfuse Inc."/>
+      <property name="MFG_PartNo" value="SMAJ12A"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="SMAJ12ALFCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>bc22600c-853a-4147-a388-a9b8bca4a7f9</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse_1A_C1F_1</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf</datasheet>
+      <fields>
+        <field name="Code">Fuse 1 A</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">C1F 1</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Price">0.15</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">507-1878-1-ND</field>
+      </fields>
+      <libsource lib="KD_Devices_Other" part="Fuse_1A_C1F_1" description=""/>
+      <property name="Code" value="Fuse 1 A"/>
+      <property name="Manufacturer" value="Bel Fuse Inc."/>
+      <property name="MFG_PartNo" value="C1F 1"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="507-1878-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>833cc33d-d708-4177-a80b-04907eafe0b0</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>DC_2.5_5.5_PJ-090BH</value>
+      <footprint>KD_Connector_Circular:CON_DC_2.5_5.5_PJ-090BH</footprint>
+      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</datasheet>
+      <fields>
+        <field name="Code">2.5 mm DC</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">PJ-090BH</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Price">1.7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">102-5562-1-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Circular" part="DC_2.5_5.5_PJ-090BH" description="DC Barrel connector 2.5mm"/>
+      <property name="Code" value="2.5 mm DC"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="MFG_PartNo" value="PJ-090BH"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="102-5562-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="1.7"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>c00bb95c-6be8-4d26-8857-0e54790d32a5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DC_DC_5V_0A5_K78U05-500R3</value>
+      <footprint>KD_IC_DCDC_Converter:DC_DC_Mornsun_K78U05-500R3_H</footprint>
+      <datasheet>https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</datasheet>
+      <fields>
+        <field name="Code">K78U05-500R3</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">K78U05-500R3</field>
+        <field name="Manufacturer">Mornsun America, LLC</field>
+        <field name="Price">3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2725-K78U05-500R3-ND</field>
+      </fields>
+      <libsource lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_0A5_K78U05-500R3" description="Non-Isolated PoL Module DC DC Converter 1 Output 5V 500mA 9V - 90V Input"/>
+      <property name="Code" value="K78U05-500R3"/>
+      <property name="Manufacturer" value="Mornsun America, LLC"/>
+      <property name="MFG_PartNo" value="K78U05-500R3"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="2725-K78U05-500R3-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="3"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>06073a5c-9f1a-407e-8e15-cc22108e7ba5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>e465c3e1-760c-4fcf-9518-f43bfbca9629</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>C_0805_1u_X7R_25V</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">1u</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <property name="Code" value="1u"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-1066-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>7672e614-db75-42ec-809d-e743f9afeb12</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>C_0603_33p_NP0_5%_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Code">33p</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">C0603C330J1GAC7867</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_33p_NP0_5%_100V" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Code" value="33p"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MFG_PartNo" value="C0603C330J1GAC7867"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="399-C0603C330J1GAC7867CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>52b1235e-4b09-4601-84b3-e05156a94604</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>C_0805_1u_X7R_25V</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">1u</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <property name="Code" value="1u"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-1066-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>31e220e7-f99c-4bfd-811f-f625e4053e82</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>C_0603_33p_NP0_5%_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
+      <fields>
+        <field name="Code">33p</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">C0603C330J1GAC7867</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_33p_NP0_5%_100V" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <property name="Code" value="33p"/>
+      <property name="Manufacturer" value="KEMET"/>
+      <property name="MFG_PartNo" value="C0603C330J1GAC7867"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="399-C0603C330J1GAC7867CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>0ab797d9-9ac0-403d-9936-e2e58bdd4b4d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>C_0805_1u_X7R_25V</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">1u</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <property name="Code" value="1u"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-1066-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>ba9dc0b0-e9a6-48e8-a2b9-06c289cea46b</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>0603_Green_Clear_LTST-C190KGKT</value>
+      <footprint>KD_Diode:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</datasheet>
+      <fields>
+        <field name="Code">Green Clear</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">LTST-C190KGKT</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">160-1435-1-ND</field>
+      </fields>
+      <libsource lib="KD_Led" part="0603_Green_Clear_LTST-C190KGKT" description="LED GREEN CLEAR CHIP SMD"/>
+      <property name="Code" value="Green Clear"/>
+      <property name="Manufacturer" value="Lite-On Inc."/>
+      <property name="MFG_PartNo" value="LTST-C190KGKT"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="160-1435-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>afc3fb23-2407-4c07-96d3-83ddf9bde418</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R_0805_DNP</value>
+      <footprint>KD_Resistor:RESC2012X60N_DNP</footprint>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>2279801b-0cef-426c-932e-65b653a84850</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R_0603_22k_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">22k</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_22k_1%" description="RES 22K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="22k"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>66c0c2c8-e103-4ec9-91ed-7318cf9bfc23</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R_0603_360_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Code">360</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RT0603FRE07360RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.02</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">13-RT0603FRE07360RLCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_360_1%" description="RES SMD 12.4K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="360"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RT0603FRE07360RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="13-RT0603FRE07360RLCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.02"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>68c0fc71-2b45-4729-8775-d062d7a1e80b</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R_0603_22k_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">22k</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_22k_1%" description="RES 22K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="22k"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>accb7a5e-fcd6-4ba7-9045-341951b1a218</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R_0603_DNP</value>
+      <footprint>KD_Resistor:RESC1608X55N_DNP</footprint>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>12ddd3b3-3aa0-412c-9807-9e612793ab86</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R_0603_360_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Code">360</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RT0603FRE07360RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.02</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">13-RT0603FRE07360RLCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_360_1%" description="RES SMD 12.4K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="360"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RT0603FRE07360RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="13-RT0603FRE07360RLCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.02"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>3b42271a-5996-4a19-bb38-7f431187fd11</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R_0603_360_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</datasheet>
+      <fields>
+        <field name="Code">360</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RT0603FRE07360RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.02</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">13-RT0603FRE07360RLCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_360_1%" description="RES SMD 12.4K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="360"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RT0603FRE07360RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="13-RT0603FRE07360RLCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.02"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>0d51f445-36ae-40ce-8f52-16dd72d9db25</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R_0402_DNP</value>
+      <footprint>KD_Resistor:RESC1005X40N</footprint>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0402_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>67011b18-fb93-4d5e-9351-45d5bc294028</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ATmega32U4-AU</value>
+      <footprint>KD_Package_QFP:QFP80P1200X1200X120-44R_N</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf</datasheet>
+      <fields>
+        <field name="Code">ATMEGA32U4-AU</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">ATMEGA32U4-AU</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Price">5.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">ATMEGA32U4-AU-ND</field>
+      </fields>
+      <libsource lib="KD_IC_MCU" part="ATmega32U4-AU" description=""/>
+      <property name="Code" value="ATMEGA32U4-AU"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="MFG_PartNo" value="ATMEGA32U4-AU"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="ATMEGA32U4-AU-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="5.3"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>7f16d2bc-94fe-40a9-8ada-41e38f370a07</tstamps>
+    </comp>
+    <comp ref="X1">
+      <value>Programming_AVR_ISP_Staggered_Holes</value>
+      <footprint>KD_Connector_Pads:CON_PINHD_1X06_TH_OFFSET</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">AVR ISP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Connector_Special" part="Programming_AVR_ISP_Staggered_Holes" description="AVR ISP programming connector 1x06"/>
+      <property name="Code" value="AVR ISP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>59b87873-f12a-4c6e-870e-4feaa92fe1ae</tstamps>
+    </comp>
+    <comp ref="X2">
+      <value>CON_1x04_TH_staggered</value>
+      <footprint>KD_Connector_Pads:CON_PINHD_1X04_TH_OFFSET</footprint>
+      <fields>
+        <field name="Code">1x04 DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Connector_Pads" part="CON_1x04_TH_staggered" description="1x04"/>
+      <property name="Code" value="1x04 DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>88af43ad-0ce6-423b-bab0-2a1dbd5eaa54</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_16M_AS-16.000-18-SMD-TR</value>
+      <footprint>KD_Oscillator:OSC_CRYSTAL_HC49_US_N</footprint>
+      <datasheet>https://www.raltron.com/webproducts/specs/CRYSTAL/AS-16.000-18-SMD-TR.pdf</datasheet>
+      <fields>
+        <field name="Code">16 MHz</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">AS-16.000-18-SMD-TR</field>
+        <field name="Manufacturer">Raltron Electronics</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2151-AS-16.000-18-SMD-TRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Oscillator" part="Crystal_16M_AS-16.000-18-SMD-TR" description="16 MHz Crystal Oscillator"/>
+      <property name="Code" value="16 MHz"/>
+      <property name="Manufacturer" value="Raltron Electronics"/>
+      <property name="MFG_PartNo" value="AS-16.000-18-SMD-TR"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="2151-AS-16.000-18-SMD-TRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="MCU"/>
+      <property name="Sheetfile" value="main.kicad_sch"/>
+      <sheetpath names="/MCU/" tstamps="/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/"/>
+      <tstamps>4d5e4fb8-0bfe-4998-a74b-69f8123087db</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>2b1e367c-434c-4727-8f77-fd7888722bcc</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>5a8d1292-890e-4b1a-90ab-366335376809</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>TVS_5V5_DRTR5V0U4S-7-M</value>
+      <footprint>KD_Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf</datasheet>
+      <fields>
+        <field name="Code">DRTR5V0U4S-7</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">DRTR5V0U4S-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Price">0.30</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">DRTR5V0U4S-7DICT-ND</field>
+      </fields>
+      <libsource lib="KD_Diode" part="TVS_5V5_DRTR5V0U4S-7-M" description="TVS DIODE 5.5VWM SOT363"/>
+      <property name="Code" value="DRTR5V0U4S-7"/>
+      <property name="Manufacturer" value="Diodes Incorporated"/>
+      <property name="MFG_PartNo" value="DRTR5V0U4S-7"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="DRTR5V0U4S-7DICT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.30"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>99d469d2-4e6f-45a5-8c64-c4903c2788e9</tstamps>
+    </comp>
+    <comp ref="FB1">
+      <value>Ferrite_250mA_Murata_BLM15HG102SN1D</value>
+      <footprint>KD_Inductor:INDC1005X55N</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">BLM15HG102SN1D</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">BLM15HG102SN1D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">490-3999-1-ND</field>
+      </fields>
+      <libsource lib="KD_Inductor" part="Ferrite_250mA_Murata_BLM15HG102SN1D" description="FERRITE BEAD 1 KOHM 0402 1LN"/>
+      <property name="Code" value="BLM15HG102SN1D"/>
+      <property name="Manufacturer" value="Murata Electronics"/>
+      <property name="MFG_PartNo" value="BLM15HG102SN1D"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="490-3999-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>105fdfcd-8c11-4755-9504-552389cbbfc0</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>USB_B_V_Adam_USB-B-S-VT</value>
+      <footprint>KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Code">USB Mini B</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">USB-B-S-VT</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Price">1</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2057-USB-B-S-VT-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_USB_HDMI_Etc" part="USB_B_V_Adam_USB-B-S-VT" description="USB Mini Vertical Connector"/>
+      <property name="Code" value="USB Mini B"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="MFG_PartNo" value="USB-B-S-VT"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="2057-USB-B-S-VT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="1"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>2a748db8-1f9d-43bb-a225-2baa11a20704</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R_0603_10_5%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Code">10</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">WR06X100 JTL</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1292-WR06X100JTLCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_10_5%" description="RES 10 OHM 5% 1/10W 0603"/>
+      <property name="Code" value="10"/>
+      <property name="Manufacturer" value="Walsin Technology Corporation"/>
+      <property name="MFG_PartNo" value="WR06X100 JTL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1292-WR06X100JTLCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>c633414d-a37d-469a-87c2-3f264b8d33e4</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R_0603_10_5%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Code">10</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">WR06X100 JTL</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1292-WR06X100JTLCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_10_5%" description="RES 10 OHM 5% 1/10W 0603"/>
+      <property name="Code" value="10"/>
+      <property name="Manufacturer" value="Walsin Technology Corporation"/>
+      <property name="MFG_PartNo" value="WR06X100 JTL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1292-WR06X100JTLCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="USB"/>
+      <property name="Sheetfile" value="usb.kicad_sch"/>
+      <sheetpath names="/USB/" tstamps="/124ce659-22a5-4a84-b30d-e5ec849b4e60/"/>
+      <tstamps>22a126e7-68c5-4b78-bc99-ea3a9a954e61</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>C_0805_1u_X7R_25V</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">1u</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <property name="Code" value="1u"/>
+      <property name="Manufacturer" value="Kemet"/>
+      <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-1066-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>d0a64585-7546-4530-b7cc-66090b75bfb9</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Knob_6mm_BL_RED_CLIFF_CL170842CR</value>
+      <footprint>KD_Mechanical:Knob_CLIFF_CL170842CR</footprint>
+      <fields>
+        <field name="Code">CL170842CR</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL170842CR</field>
+        <field name="Manufacturer">CLIFF Electronic Components Ltd</field>
+        <field name="Price">1</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">3185-CL170842CR-ND</field>
+      </fields>
+      <libsource lib="KD_Mechanical" part="Knob_6mm_BL_RED_CLIFF_CL170842CR" description="Knurled, Straight Knob 0.236&quot; (6.00mm)"/>
+      <property name="Code" value="CL170842CR"/>
+      <property name="Manufacturer" value="CLIFF Electronic Components Ltd"/>
+      <property name="MFG_PartNo" value="CL170842CR"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="3185-CL170842CR-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="1"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>5a7d554d-bfdc-4d22-803b-42dc71d4b4d0</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>Pot_V_10k_CUI_PT01-D120K2-B103</value>
+      <footprint>KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX</footprint>
+      <fields>
+        <field name="Code">PT01-D120K2-B103</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">PT01-D120K2-B103</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="Price">0.77</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2223-PT01-D120K2-B103-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="Pot_V_10k_CUI_PT01-D120K2-B103" description="POT 10K OHM 1/20W CARBON LINEAR"/>
+      <property name="Code" value="PT01-D120K2-B103"/>
+      <property name="Manufacturer" value="CUI Devices"/>
+      <property name="MFG_PartNo" value="PT01-D120K2-B103"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="2223-PT01-D120K2-B103-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.77"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>297a6752-0c4e-4547-a03c-135a2886e8dd</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>R_0402_4700_1%</value>
+      <footprint>KD_Resistor:RESC1005X40N</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Code">4k7</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0402_4700_1%" description="RES SMD 4.7K OHM 1% 1/16W 0402"/>
+      <property name="Code" value="4k7"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="MFG_PartNo" value="CR0402-FX-4701GLF"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CR0402-FX-4701GLFCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>67805566-d788-4955-ba47-e42381fbab8e</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="interfaces2.kicad_sch"/>
+      <sheetpath names="/Interfaces/" tstamps="/d5432ca7-524c-447e-b53c-48db40cafebb/"/>
+      <tstamps>d4d5d10c-e762-4b66-a537-afeb1bf5d69d</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="interfaces2.kicad_sch"/>
+      <sheetpath names="/Interfaces/" tstamps="/d5432ca7-524c-447e-b53c-48db40cafebb/"/>
+      <tstamps>ae76ca70-a185-4e1f-8c28-db65e16c0aba</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>R_0402_4700_1%</value>
+      <footprint>KD_Resistor:RESC1005X40N</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Code">4k7</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0402_4700_1%" description="RES SMD 4.7K OHM 1% 1/16W 0402"/>
+      <property name="Code" value="4k7"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="MFG_PartNo" value="CR0402-FX-4701GLF"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CR0402-FX-4701GLFCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="interfaces2.kicad_sch"/>
+      <sheetpath names="/Interfaces/" tstamps="/d5432ca7-524c-447e-b53c-48db40cafebb/"/>
+      <tstamps>e8d9e7fc-3d23-47b4-8cc7-ff7aac9fec11</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>R_0402_4700_1%</value>
+      <footprint>KD_Resistor:RESC1005X40N</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Code">4k7</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0402_4700_1%" description="RES SMD 4.7K OHM 1% 1/16W 0402"/>
+      <property name="Code" value="4k7"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="MFG_PartNo" value="CR0402-FX-4701GLF"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CR0402-FX-4701GLFCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Interfaces"/>
+      <property name="Sheetfile" value="interfaces2.kicad_sch"/>
+      <sheetpath names="/Interfaces/" tstamps="/d5432ca7-524c-447e-b53c-48db40cafebb/"/>
+      <tstamps>adf6a5b4-fa08-4a95-92de-ffcde7e24dc2</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>0faad465-4c40-4872-999e-d019f546e301</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>C_0805_DNP</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric_DNP</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_DNP" description="Capacitor"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>440b2786-8b59-4258-b2a2-67b398b5c4c1</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>7seg_70mm_CA_Lumex_LDS-AD16RI</value>
+      <footprint>KD_Display:7seg_70mm_Kingbright_SC23-11SURKWA</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">LDS-AD16RI</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">LDS-AD16RI</field>
+        <field name="Manufacturer">Lumex Opto/Components Inc.</field>
+        <field name="Price">13</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">67-1493-ND</field>
+      </fields>
+      <libsource lib="KD_Display" part="7seg_70mm_CA_Lumex_LDS-AD16RI" description="CA Red LED 7-segment display 70.00mm x 48.00mm x 12.00mm"/>
+      <property name="Code" value="LDS-AD16RI"/>
+      <property name="Manufacturer" value="Lumex Opto/Components Inc."/>
+      <property name="MFG_PartNo" value="LDS-AD16RI"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="67-1493-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="13"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>5e523a64-cc32-41ac-84cb-791043031e1c</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>PMOS_30V_4A1_SIL3407-TP</value>
+      <footprint>KD_Package_TO_SOT_SMD:SOT95P280X120-6RN</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/SIL3407(SOT23-6L).pdf</datasheet>
+      <fields>
+        <field name="Code">SIL3407-TP</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">SIL3407-TP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Price">0.4</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">353-SIL3407-TPCT-ND</field>
+      </fields>
+      <libsource lib="KD_Transistor_FET" part="PMOS_30V_4A1_SIL3407-TP" description="Logic level P-Channel SOT-23-6"/>
+      <property name="Code" value="SIL3407-TP"/>
+      <property name="Manufacturer" value="Micro Commercial Co"/>
+      <property name="MFG_PartNo" value="SIL3407-TP"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="353-SIL3407-TPCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.4"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>ec6c01f6-558a-4711-be93-ceddddf9e2d4</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>73229ec7-30e7-4b2b-8931-f11c38aa7ae2</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>c8281639-ba6b-413c-a73a-7c3b84139163</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>ff3df421-0ba6-4b14-82ee-763441a25fa6</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>4d1a6d92-5b2a-4ccf-9009-a09c1d60243f</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R_0603_22k_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">22k</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_22k_1%" description="RES 22K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="22k"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>223d16ae-90c2-47f7-985e-d19de9d42af4</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>dace799a-377a-42e3-b86b-bcb46f9dd83d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>df3fd324-3d61-4e81-86aa-e723fc29e6d8</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>8af847ed-0e5a-4df3-9c6d-475f1ba58432</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>R_1206_191_1%</value>
+      <footprint>KD_Resistor:RESC3216X70N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">191</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_1206_191_1%" description=""/>
+      <property name="Code" value="191"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="RC1206FR-07191RL"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-191FRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>60ed205e-bad5-469a-b2da-8790719526fe</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>R_0603_DNP</value>
+      <footprint>KD_Resistor:RESC1608X55N_DNP</footprint>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>3a000e19-55fc-45ee-b56b-c6aa646fc08f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Gate_Driver_MCP1401T-E-OT</value>
+      <footprint>KD_Package_TO_SOT_SMD:SOT95P280X145-5N</footprint>
+      <datasheet>https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf</datasheet>
+      <fields>
+        <field name="Code">MCP1401</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">MCP1401T-E/OT</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="Price">0.7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">MCP1401T-E/OTCT-ND</field>
+      </fields>
+      <libsource lib="KD_IC_Buffer_Driver_Interface" part="Gate_Driver_MCP1401T-E-OT" description="Low-Side Gate Driver IC Inverting SOT-23-5"/>
+      <property name="Code" value="MCP1401"/>
+      <property name="Manufacturer" value="Microchip Technology"/>
+      <property name="MFG_PartNo" value="MCP1401T-E/OT"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="MCP1401T-E/OTCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.7"/>
+      <property name="Sheetname" value="7-Segment Display"/>
+      <property name="Sheetfile" value="7seg_display.kicad_sch"/>
+      <sheetpath names="/7-Segment Display/" tstamps="/67e35e0a-77e9-4a25-928b-43c27de68dee/"/>
+      <tstamps>804fdca8-3d3f-497d-a987-1a3bd755381f</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value="Shift Indicator"/>
+      <property name="Sheetfile" value="indicators.kicad_sch"/>
+      <sheetpath names="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/"/>
+      <tstamps>64b40a8f-bb58-4ec9-b6be-7bfbf1d78ae2</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Shift Indicator"/>
+      <property name="Sheetfile" value="indicators.kicad_sch"/>
+      <sheetpath names="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/"/>
+      <tstamps>3bf0e5cb-8201-4b02-b5b3-1e33a8f1c696</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Shift Indicator"/>
+      <property name="Sheetfile" value="indicators.kicad_sch"/>
+      <sheetpath names="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/"/>
+      <tstamps>4ce2a8b5-a317-4d75-b98b-177c5be21137</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="Shift Indicator"/>
+      <property name="Sheetfile" value="indicators.kicad_sch"/>
+      <sheetpath names="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/"/>
+      <tstamps>54e65b67-305f-4f2e-9bb0-425544500478</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>16efdfe7-1fee-423b-81cb-b85d1791e472</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>ec8db1b2-0758-455a-86da-8589405c319e</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>C_1206_10u_50V</value>
+      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <datasheet>datasheet</datasheet>
+      <fields>
+        <field name="Code">10 uF</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.10</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <property name="Code" value="10 uF"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6767-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.10"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>3e42dc77-fa00-4855-a483-76721000f4c8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Con_Screw_1x04_691313510004</value>
+      <footprint>KD_Connector_Screw:CON_508_1X04_691313510004_Mated</footprint>
+      <datasheet>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</datasheet>
+      <fields>
+        <field name="Code">1x04</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="Price">0.3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+      </fields>
+      <libsource lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004" description="TERM BLOCK HDR 4POS 90DEG 5.08MM"/>
+      <property name="Code" value="1x04"/>
+      <property name="Manufacturer" value="Würth Elektronik"/>
+      <property name="MFG_PartNo" value="691313510004"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="732-2072-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.3"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>5e44d6a4-3ae4-47d6-8066-1afe8f0774d2</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>R_0805_DNP</value>
+      <footprint>KD_Resistor:RESC2012X60N_DNP</footprint>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>c401e53f-fdb7-4d47-bcaf-c01fe0f7cfb8</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>48bf8d93-f142-4176-9592-621ea1c4719c</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
+      <fields>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="RPM Bar"/>
+      <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
+      <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
+      <tstamps>0337a280-02c7-4b7f-bcd2-c37deb9034ba</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>C_0603_100n_X7R_100V</value>
+      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
+      <fields>
+        <field name="Code">100n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.03</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <property name="Code" value="100n"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-6807-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.03"/>
+      <property name="Sheetname" value="LED Driver 3"/>
+      <property name="Sheetfile" value="led_driver.kicad_sch"/>
+      <sheetpath names="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/"/>
+      <tstamps>95c82c7d-c9d5-43a4-8f49-88c917586d23</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>C_0805_DNP</value>
+      <footprint>KD_Capacitor:C_0805_2012Metric_DNP</footprint>
+      <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_DNP" description="Capacitor"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="LED Driver 3"/>
+      <property name="Sheetfile" value="led_driver.kicad_sch"/>
+      <sheetpath names="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/"/>
+      <tstamps>31379585-af14-438b-bfc5-6eac40a11502</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>R_0603_22k_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">22k</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_22k_1%" description="RES 22K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="22k"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="LED Driver 3"/>
+      <property name="Sheetfile" value="led_driver.kicad_sch"/>
+      <sheetpath names="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/"/>
+      <tstamps>cd4047b7-15ec-4d6b-9b52-d3810b0c7252</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>R_0603_22k_1%</value>
+      <footprint>KD_Resistor:RESC1608X55N</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Code">22k</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+      </fields>
+      <libsource lib="KD_Resistor" part="R_0603_22k_1%" description="RES 22K OHM 1% 1/10W 0603"/>
+      <property name="Code" value="22k"/>
+      <property name="Manufacturer" value="YAGEO"/>
+      <property name="MFG_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="311-22.0KHRCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
+      <property name="Sheetname" value="LED Driver 3"/>
+      <property name="Sheetfile" value="led_driver.kicad_sch"/>
+      <sheetpath names="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/"/>
+      <tstamps>85c88b16-547c-42ff-8f38-cf8d1d586cfe</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>Shift_register_OC_8bit_STPIC6D595MTR</value>
+      <footprint>KD_Package_SO:SOIC127P640X200-16N</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/e5/1c/d3/4a/66/f5/41/dc/CD00163738.pdf/files/CD00163738.pdf/jcr:content/translations/en.CD00163738.pdf</datasheet>
+      <fields>
+        <field name="Code">STPIC6D595MTR</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">STPIC6D595MTR</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="Price">0.9</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">497-6329-1-ND</field>
+      </fields>
+      <libsource lib="KD_IC_Buffer_Driver_Interface" part="Shift_register_OC_8bit_STPIC6D595MTR" description="Shift Register 1 Element 8 Bit 16-SO"/>
+      <property name="Code" value="STPIC6D595MTR"/>
+      <property name="Manufacturer" value="STMicroelectronics"/>
+      <property name="MFG_PartNo" value="STPIC6D595MTR"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="497-6329-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.9"/>
+      <property name="Sheetname" value="LED Driver 3"/>
+      <property name="Sheetfile" value="led_driver.kicad_sch"/>
+      <sheetpath names="/LED Driver 3/" tstamps="/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/"/>
+      <tstamps>35702365-57d1-4af2-a1b1-f075fcb9dec1</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>NPTH_3.2_M3_Clearance</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <fields>
+        <field name="Code">3.2 mm hole</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <property name="Code" value="3.2 mm hole"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>c8a032d8-4286-41d3-9f4e-ea1b93d7b066</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>NPTH_3.2_M3_Clearance</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <fields>
+        <field name="Code">3.2 mm hole</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <property name="Code" value="3.2 mm hole"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>891b3c1b-7bae-4cce-b482-e561525ac85b</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>NPTH_3.2_M3_Clearance</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <fields>
+        <field name="Code">3.2 mm hole</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <property name="Code" value="3.2 mm hole"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>3bb9cbd1-acf6-4a8f-bbf8-5162bef7a0d5</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>NPTH_3.2_M3_Clearance</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <fields>
+        <field name="Code">3.2 mm hole</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <property name="Code" value="3.2 mm hole"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>548db8b4-8155-4025-817e-1d9a32201acf</tstamps>
+    </comp>
+    <comp ref="H6">
+      <value>NPTH_3.2_M3_Clearance</value>
+      <footprint>KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</footprint>
+      <fields>
+        <field name="Code">3.2 mm hole</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance" description="Hole"/>
+      <property name="Code" value="3.2 mm hole"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>2ef0e228-186d-4f79-bcd8-acac151ced02</tstamps>
+    </comp>
+    <comp ref="X3">
+      <value>CON_GND_Probe_Hook</value>
+      <footprint>KD_Connector_Pads:GND_HOOK_M</footprint>
+      <fields>
+        <field name="Code">1x01 DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Connector_Pads" part="CON_GND_Probe_Hook" description="Oscilloscope probe GND hook"/>
+      <property name="Code" value="1x01 DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Mechanical"/>
+      <property name="Sheetfile" value="mechanical.kicad_sch"/>
+      <sheetpath names="/Mechanical/" tstamps="/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/"/>
+      <tstamps>40d57120-5652-4643-914f-bd922789209a</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="KD_Capacitor" part="C_0603_100n_X7R_100V">
+      <description>CAP CER 0.1UF 100V X7R 0603</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>0603</fp>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_100n_X7R_100V</field>
+        <field name="Footprint">KD_Capacitor:C_0603_1608Metric</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</field>
+        <field name="Code">100n</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_0603_33p_NP0_5%_100V">
+      <description>33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <footprints>
+        <fp>*0603*</fp>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_33p_NP0_5%_100V</field>
+        <field name="Footprint">KD_Capacitor:C_0603_1608Metric</field>
+        <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Code">33p</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MFG_PartNo">C0603C330J1GAC7867</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_0805_1u_X7R_25V">
+      <description>CAP CER 1UF 25V X7R 0805</description>
+      <docs>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</docs>
+      <footprints>
+        <fp>0805</fp>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_1u_X7R_25V</field>
+        <field name="Footprint">KD_Capacitor:C_0805_2012Metric</field>
+        <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
+        <field name="Code">1u</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_0805_DNP">
+      <description>Capacitor</description>
+      <footprints>
+        <fp>0805</fp>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_DNP</field>
+        <field name="Footprint">KD_Capacitor:C_0805_2012Metric_DNP</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_1206_10u_50V">
+      <description>Capacitor</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>1206</fp>
+        <fp>CAPC3216*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1206_10u_50V</field>
+        <field name="Footprint">KD_Capacitor:C_1206_3216Metric</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">10 uF</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Circular" part="DC_2.5_5.5_PJ-090BH">
+      <description>DC Barrel connector 2.5mm</description>
+      <docs>https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</docs>
+      <footprints>
+        <fp>*PJ-090BH*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DC_2.5_5.5_PJ-090BH</field>
+        <field name="Footprint">KD_Connector_Circular:CON_DC_2.5_5.5_PJ-090BH</field>
+        <field name="Datasheet">https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</field>
+        <field name="Code">2.5 mm DC</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="MFG_PartNo">PJ-090BH</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">102-5562-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">1.7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CENTER" type="power_out"/>
+        <pin num="2" name="SLEEVE" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="CENTER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Pads" part="CON_1x04_TH_staggered">
+      <description>1x04</description>
+      <footprints>
+        <fp>1x04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CON_1x04_TH_staggered</field>
+        <field name="Footprint">KD_Connector_Pads:CON_PINHD_1X04_TH_OFFSET</field>
+        <field name="Code">1x04 DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Pads" part="CON_GND_Probe_Hook">
+      <description>Oscilloscope probe GND hook</description>
+      <footprints>
+        <fp>1x01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CON_GND_Probe_Hook</field>
+        <field name="Footprint">KD_Connector_Pads:GND_HOOK_M</field>
+        <field name="Code">1x01 DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004">
+      <description>TERM BLOCK HDR 4POS 90DEG 5.08MM</description>
+      <docs>https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</docs>
+      <footprints>
+        <fp>*1x04*</fp>
+        <fp>*691313510004*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Con_Screw_1x04_691313510004</field>
+        <field name="Footprint">KD_Connector_Screw:CON_508_1X04_691313510004_Mated</field>
+        <field name="Datasheet">https://www.we-online.com/katalog/datasheet/6913135100xx.pdf</field>
+        <field name="Code">1x04</field>
+        <field name="Manufacturer">Würth Elektronik</field>
+        <field name="MFG_PartNo">691313510004</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">732-2072-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Special" part="Programming_AVR_ISP_Staggered_Holes">
+      <description>AVR ISP programming connector 1x06</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>*1x?6*</fp>
+        <fp>*2x?3*</fp>
+        <fp>*ISP*</fp>
+        <fp>*AVR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Programming_AVR_ISP_Staggered_Holes</field>
+        <field name="Footprint">KD_Connector_Pads:CON_PINHD_1X06_TH_OFFSET</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">AVR ISP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="input"/>
+        <pin num="2" name="VCC" type="input"/>
+        <pin num="3" name="SCK" type="output"/>
+        <pin num="4" name="MOSI" type="output"/>
+        <pin num="5" name="RST" type="output"/>
+        <pin num="6" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_USB_HDMI_Etc" part="USB_B_V_Adam_USB-B-S-VT">
+      <description>USB Mini Vertical Connector</description>
+      <docs>https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</docs>
+      <footprints>
+        <fp>*USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_V_Adam_USB-B-S-VT</field>
+        <field name="Footprint">KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT</field>
+        <field name="Datasheet">https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf</field>
+        <field name="Code">USB Mini B</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="MFG_PartNo">USB-B-S-VT</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2057-USB-B-S-VT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="H1" name="Shield" type="passive"/>
+        <pin num="H2" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Devices_Other" part="Fuse_1A_C1F_1">
+      <docs>https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf</docs>
+      <footprints>
+        <fp>1206</fp>
+        <fp>3216</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_1A_C1F_1</field>
+        <field name="Footprint">KD_Resistor:RESC3216X70N</field>
+        <field name="Datasheet">https://belfuse.com/resources/datasheets/circuitprotection/ds-cp-c1f-series.pdf</field>
+        <field name="Code">Fuse 1 A</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="MFG_PartNo">C1F 1</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">507-1878-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.15</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Diode" part="Schottky_30V_1A_Toshiba_CUS10S30">
+      <description>DIODE SCHOTTKY 30V 1A USC</description>
+      <docs>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</docs>
+      <footprints>
+        <fp>SC-76</fp>
+        <fp>SOD-323</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Schottky_30V_1A_Toshiba_CUS10S30</field>
+        <field name="Footprint">KD_Diode:D_SOD-323</field>
+        <field name="Datasheet">https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</field>
+        <field name="Code">CUS10S30,H3F</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="MFG_PartNo">CUS10S30,H3F</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CUS10S30H3FCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Diode" part="TVS_12V_LF_SMAJ12CA">
+      <description>TVS DIODE 12VWM 19.9VC DO214AC</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/Transient%20Suppression%20Diodes.pdf</docs>
+      <footprints>
+        <fp>SMA</fp>
+        <fp>DO-214AC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_12V_LF_SMAJ12CA</field>
+        <field name="Footprint">KD_Diode:DIOC530X280X230_SMA_A</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/Transient%20Suppression%20Diodes.pdf</field>
+        <field name="Code">SMAJ12A</field>
+        <field name="Manufacturer">Littelfuse Inc.</field>
+        <field name="MFG_PartNo">SMAJ12A</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">SMAJ12ALFCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Diode" part="TVS_5V5_DRTR5V0U4S-7-M">
+      <description>TVS DIODE 5.5VWM SOT363</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf</docs>
+      <footprints>
+        <fp>6-TSSOP</fp>
+        <fp>SOT-363</fp>
+        <fp>SC-88</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_5V5_DRTR5V0U4S-7-M</field>
+        <field name="Footprint">KD_Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf</field>
+        <field name="Code">DRTR5V0U4S-7</field>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="MFG_PartNo">DRTR5V0U4S-7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">DRTR5V0U4S-7DICT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.30</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="V+" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Display" part="7seg_70mm_CA_Lumex_LDS-AD16RI">
+      <description>CA Red LED 7-segment display 70.00mm x 48.00mm x 12.00mm</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>*7seg*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">7seg_70mm_CA_Lumex_LDS-AD16RI</field>
+        <field name="Footprint">KD_Display:7seg_70mm_Kingbright_SC23-11SURKWA</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">LDS-AD16RI</field>
+        <field name="Manufacturer">Lumex Opto/Components Inc.</field>
+        <field name="MFG_PartNo">LDS-AD16RI</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">67-1493-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">13</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="Ae" type="passive"/>
+        <pin num="3" name="Ad" type="passive"/>
+        <pin num="4" name="Ac" type="passive"/>
+        <pin num="5" name="C" type="passive"/>
+        <pin num="6" name="Ab" type="passive"/>
+        <pin num="7" name="Aa" type="passive"/>
+        <pin num="8" name="Adp" type="passive"/>
+        <pin num="9" name="Af" type="passive"/>
+        <pin num="10" name="Ag" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_IC_Buffer_Driver_Interface" part="Gate_Driver_MCP1401T-E-OT">
+      <description>Low-Side Gate Driver IC Inverting SOT-23-5</description>
+      <docs>https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf</docs>
+      <footprints>
+        <fp>SOT-23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Gate_Driver_MCP1401T-E-OT</field>
+        <field name="Footprint">KD_Package_TO_SOT_SMD:SOT95P280X145-5N</field>
+        <field name="Datasheet">https://ww1.microchip.com/downloads/en/DeviceDoc/20002052D.pdf</field>
+        <field name="Code">MCP1401</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="MFG_PartNo">MCP1401T-E/OT</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">MCP1401T-E/OTCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="bidirectional"/>
+        <pin num="2" name="VCC" type="bidirectional"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="GND" type="bidirectional"/>
+        <pin num="5" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_IC_Buffer_Driver_Interface" part="Shift_register_OC_8bit_STPIC6D595MTR">
+      <description>Shift Register 1 Element 8 Bit 16-SO</description>
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/e5/1c/d3/4a/66/f5/41/dc/CD00163738.pdf/files/CD00163738.pdf/jcr:content/translations/en.CD00163738.pdf</docs>
+      <footprints>
+        <fp>SO*127P*-16*</fp>
+        <fp>SO-16</fp>
+        <fp>SOIC-16</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Shift_register_OC_8bit_STPIC6D595MTR</field>
+        <field name="Footprint">KD_Package_SO:SOIC127P640X200-16N</field>
+        <field name="Datasheet">https://www.st.com/content/ccc/resource/technical/document/datasheet/e5/1c/d3/4a/66/f5/41/dc/CD00163738.pdf/files/CD00163738.pdf/jcr:content/translations/en.CD00163738.pdf</field>
+        <field name="Code">STPIC6D595MTR</field>
+        <field name="Manufacturer">STMicroelectronics</field>
+        <field name="MFG_PartNo">STPIC6D595MTR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">497-6329-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="SER_IN" type="input"/>
+        <pin num="3" name="DRAIN0" type="open_collector"/>
+        <pin num="4" name="DRAIN1" type="open_collector"/>
+        <pin num="5" name="DRAIN2" type="open_collector"/>
+        <pin num="6" name="DRAIN3" type="open_collector"/>
+        <pin num="7" name="~{CLR}" type="input"/>
+        <pin num="8" name="~{G}" type="input"/>
+        <pin num="9" name="SER_OUT" type="output"/>
+        <pin num="10" name="RCK" type="input"/>
+        <pin num="11" name="DRAIN4" type="open_collector"/>
+        <pin num="12" name="DRAIN5" type="open_collector"/>
+        <pin num="13" name="DRAIN6" type="open_collector"/>
+        <pin num="14" name="DRAIN7" type="open_collector"/>
+        <pin num="15" name="SRCK" type="input"/>
+        <pin num="16" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_IC_MCU" part="ATmega32U4-AU">
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf</docs>
+      <footprints>
+        <fp>44TQFP</fp>
+        <fp>TQFP-44*</fp>
+        <fp>QFP80P1200X1200X120-44*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega32U4-AU</field>
+        <field name="Footprint">KD_Package_QFP:QFP80P1200X1200X120-44R_N</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Summary.pdf</field>
+        <field name="Code">ATMEGA32U4-AU</field>
+        <field name="Manufacturer">Microchip Technology</field>
+        <field name="MFG_PartNo">ATMEGA32U4-AU</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">ATMEGA32U4-AU-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">5.3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6(INT.6/AIN0)" type="bidirectional"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="bidirectional"/>
+        <pin num="4" name="D+" type="bidirectional"/>
+        <pin num="5" name="UGND" type="power_in"/>
+        <pin num="6" name="UCAP" type="bidirectional"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0(SS)" type="bidirectional"/>
+        <pin num="9" name="PB1(SCK)" type="bidirectional"/>
+        <pin num="10" name="PB2(PDI/MOSI)" type="bidirectional"/>
+        <pin num="11" name="PB3(PDO/MISO)" type="bidirectional"/>
+        <pin num="12" name="PB7(OC0A/OC1C/RTS)" type="bidirectional"/>
+        <pin num="13" name="~{RESET}" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="bidirectional"/>
+        <pin num="17" name="XTAL1" type="bidirectional"/>
+        <pin num="18" name="PD0(INT0/OC0B/SCL)" type="bidirectional"/>
+        <pin num="19" name="PD1(INT1/SDA)" type="bidirectional"/>
+        <pin num="20" name="PD2(INT2/RXD1)" type="bidirectional"/>
+        <pin num="21" name="PD3(INT3/TXD1)" type="bidirectional"/>
+        <pin num="22" name="PD5(XCK/CTS)" type="bidirectional"/>
+        <pin num="23" name="GND1" type="power_in"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4(ICP1/ADC8)" type="bidirectional"/>
+        <pin num="26" name="PD6(T1/ADC9/~{OC4D})" type="bidirectional"/>
+        <pin num="27" name="PD7(OC4D/ADC10/T0)" type="bidirectional"/>
+        <pin num="28" name="PB4(ADC11)" type="bidirectional"/>
+        <pin num="29" name="PB5(OC1A/ADC12/~{OC4B})" type="bidirectional"/>
+        <pin num="30" name="PB6(OC1B/OC4B/ADC13)" type="bidirectional"/>
+        <pin num="31" name="PC6(OC3A/~{OC4A})" type="bidirectional"/>
+        <pin num="32" name="PC7(ICP3/CLK0/OC4A)" type="bidirectional"/>
+        <pin num="33" name="PE2(~{HWB})" type="bidirectional"/>
+        <pin num="34" name="VCC1" type="power_in"/>
+        <pin num="35" name="GND2" type="power_in"/>
+        <pin num="36" name="PF7(ADC7(TDI)" type="bidirectional"/>
+        <pin num="37" name="PF6(ADC6/TDO)" type="bidirectional"/>
+        <pin num="38" name="PF5(ADC5/TMS)" type="bidirectional"/>
+        <pin num="39" name="PF4(ADC4/TCK)" type="bidirectional"/>
+        <pin num="40" name="PF1(ADC1)" type="tri_state"/>
+        <pin num="41" name="PF0(ADC0)" type="tri_state"/>
+        <pin num="42" name="AREF" type="input"/>
+        <pin num="43" name="GND3" type="power_in"/>
+        <pin num="44" name="AVCC1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_0A5_K78U05-500R3">
+      <description>Non-Isolated PoL Module DC DC Converter 1 Output 5V 500mA 9V - 90V Input</description>
+      <docs>https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</docs>
+      <footprints>
+        <fp>*K78U05-500R3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DC_DC_5V_0A5_K78U05-500R3</field>
+        <field name="Footprint">KD_IC_DCDC_Converter:DC_DC_Mornsun_K78U05-500R3_H</field>
+        <field name="Datasheet">https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</field>
+        <field name="Code">K78U05-500R3</field>
+        <field name="Manufacturer">Mornsun America, LLC</field>
+        <field name="MFG_PartNo">K78U05-500R3</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2725-K78U05-500R3-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Inductor" part="Ferrite_250mA_Murata_BLM15HG102SN1D">
+      <description>FERRITE BEAD 1 KOHM 0402 1LN</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*1005*</fp>
+        <fp>0402</fp>
+        <fp>1005</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_250mA_Murata_BLM15HG102SN1D</field>
+        <field name="Footprint">KD_Inductor:INDC1005X55N</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">BLM15HG102SN1D</field>
+        <field name="Manufacturer">Murata Electronics</field>
+        <field name="MFG_PartNo">BLM15HG102SN1D</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">490-3999-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Led" part="0603_Green_Clear_LTST-C190KGKT">
+      <description>LED GREEN CLEAR CHIP SMD</description>
+      <docs>https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</docs>
+      <footprints>
+        <fp>0603</fp>
+        <fp>1608</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">0603_Green_Clear_LTST-C190KGKT</field>
+        <field name="Footprint">KD_Diode:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</field>
+        <field name="Code">Green Clear</field>
+        <field name="Manufacturer">Lite-On Inc.</field>
+        <field name="MFG_PartNo">LTST-C190KGKT</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">160-1435-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Mechanical" part="Artwork_DC_Plug_Polarity">
+      <description>Artwork</description>
+      <fields>
+        <field name="Reference">ART</field>
+        <field name="Value">Artwork_DC_Plug_Polarity</field>
+        <field name="Footprint">KD_Mechanical:ART_DC_POLARITY</field>
+        <field name="Code">DC Plug Polarity</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Mechanical" part="Fiducial_0.5mm">
+      <description>Fiducial</description>
+      <footprints>
+        <fp>*fidu*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">Fiducial_0.5mm</field>
+        <field name="Footprint">KD_Mechanical:Fiducial_0.5mm_Mask1mm</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Mechanical" part="Knob_6mm_BL_RED_CLIFF_CL170842CR">
+      <description>Knurled, Straight Knob 0.236" (6.00mm)</description>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Knob_6mm_BL_RED_CLIFF_CL170842CR</field>
+        <field name="Footprint">KD_Mechanical:Knob_CLIFF_CL170842CR</field>
+        <field name="Code">CL170842CR</field>
+        <field name="Manufacturer">CLIFF Electronic Components Ltd</field>
+        <field name="MFG_PartNo">CL170842CR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">3185-CL170842CR-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">1</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Mechanical_Mounting_Hole" part="NPTH_3.2_M3_Clearance">
+      <description>Hole</description>
+      <fields>
+        <field name="Reference">H?</field>
+        <field name="Value">NPTH_3.2_M3_Clearance</field>
+        <field name="Footprint">KD_Mechanical_Mounting_Hole:NPTH_3.2mm_M3_clearance</field>
+        <field name="Code">3.2 mm hole</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+    </libpart>
+    <libpart lib="KD_Oscillator" part="Crystal_16M_AS-16.000-18-SMD-TR">
+      <description>16 MHz Crystal Oscillator</description>
+      <docs>https://www.raltron.com/webproducts/specs/CRYSTAL/AS-16.000-18-SMD-TR.pdf</docs>
+      <footprints>
+        <fp>*HC-49*</fp>
+        <fp>*HC49*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_16M_AS-16.000-18-SMD-TR</field>
+        <field name="Footprint">KD_Oscillator:OSC_CRYSTAL_HC49_US_N</field>
+        <field name="Datasheet">https://www.raltron.com/webproducts/specs/CRYSTAL/AS-16.000-18-SMD-TR.pdf</field>
+        <field name="Code">16 MHz</field>
+        <field name="Manufacturer">Raltron Electronics</field>
+        <field name="MFG_PartNo">AS-16.000-18-SMD-TR</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2151-AS-16.000-18-SMD-TRCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="Pot_V_10k_CUI_PT01-D120K2-B103">
+      <description>POT 10K OHM 1/20W CARBON LINEAR</description>
+      <footprints>
+        <fp>*PT01-D*20K2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Pot_V_10k_CUI_PT01-D120K2-B103</field>
+        <field name="Footprint">KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX</field>
+        <field name="Code">PT01-D120K2-B103</field>
+        <field name="Manufacturer">CUI Devices</field>
+        <field name="MFG_PartNo">PT01-D120K2-B103</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">2223-PT01-D120K2-B103-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.77</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0402_4700_1%">
+      <description>RES SMD 4.7K OHM 1% 1/16W 0402</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</docs>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*1005*</fp>
+        <fp>RESC1005*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0402_4700_1%</field>
+        <field name="Footprint">KD_Resistor:RESC1005X40N</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="Code">4k7</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="MFG_PartNo">CR0402-FX-4701GLF</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CR0402-FX-4701GLFCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0402_DNP">
+      <description>Do not populate</description>
+      <footprints>
+        <fp>*1005*</fp>
+        <fp>*0402*</fp>
+        <fp>RESC1005*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0402_DNP</field>
+        <field name="Footprint">KD_Resistor:RESC1005X40N</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0603_10_5%">
+      <description>RES 10 OHM 5% 1/10W 0603</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</docs>
+      <footprints>
+        <fp>RESC1608*</fp>
+        <fp>*0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0603_10_5%</field>
+        <field name="Footprint">KD_Resistor:RESC1608X55N</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1773204-3&amp;DocType=DS&amp;DocLang=English</field>
+        <field name="Code">10</field>
+        <field name="Manufacturer">Walsin Technology Corporation</field>
+        <field name="MFG_PartNo">WR06X100 JTL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1292-WR06X100JTLCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0603_22k_1%">
+      <description>RES 22K OHM 1% 1/10W 0603</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</docs>
+      <footprints>
+        <fp>0603</fp>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0603_22k_1%</field>
+        <field name="Footprint">KD_Resistor:RESC1608X55N</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</field>
+        <field name="Code">22k</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MFG_PartNo">311-22.0KHRCT-ND</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-22.0KHRCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0603_360_1%">
+      <description>RES SMD 12.4K OHM 1% 1/10W 0603</description>
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</docs>
+      <footprints>
+        <fp>0603</fp>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0603_360_1%</field>
+        <field name="Footprint">KD_Resistor:RESC1608X55N</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_12.pdf</field>
+        <field name="Code">360</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MFG_PartNo">RT0603FRE07360RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">13-RT0603FRE07360RLCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0603_DNP">
+      <description>Do not populate</description>
+      <footprints>
+        <fp>*0603*</fp>
+        <fp>*1608*</fp>
+        <fp>RESC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0603_DNP</field>
+        <field name="Footprint">KD_Resistor:RESC1608X55N_DNP</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0805_0_automotive">
+      <description>RES 0 OHM JUMPER 1/8W 0805</description>
+      <docs>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</docs>
+      <footprints>
+        <fp>2012</fp>
+        <fp>0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_0_automotive</field>
+        <field name="Footprint">KD_Resistor:RESC2012X60N</field>
+        <field name="Datasheet">https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</field>
+        <field name="Code">0</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_0805_DNP">
+      <description>Do not populate</description>
+      <footprints>
+        <fp>2012</fp>
+        <fp>0805</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0805_DNP</field>
+        <field name="Footprint">KD_Resistor:RESC2012X60N_DNP</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Resistor" part="R_1206_191_1%">
+      <docs>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</docs>
+      <footprints>
+        <fp>RESC3216*</fp>
+        <fp>1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1206_191_1%</field>
+        <field name="Footprint">KD_Resistor:RESC3216X70N</field>
+        <field name="Datasheet">https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</field>
+        <field name="Code">191</field>
+        <field name="Manufacturer">YAGEO</field>
+        <field name="MFG_PartNo">RC1206FR-07191RL</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">311-191FRCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Transistor_FET" part="PMOS_30V_4A1_SIL3407-TP">
+      <description>Logic level P-Channel SOT-23-6</description>
+      <docs>https://www.mccsemi.com/pdf/Products/SIL3407(SOT23-6L).pdf</docs>
+      <footprints>
+        <fp>SOT-23-6</fp>
+        <fp>SOT23-6</fp>
+        <fp>SOT95P280X120-6*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMOS_30V_4A1_SIL3407-TP</field>
+        <field name="Footprint">KD_Package_TO_SOT_SMD:SOT95P280X120-6RN</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/SIL3407(SOT23-6L).pdf</field>
+        <field name="Code">SIL3407-TP</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="MFG_PartNo">SIL3407-TP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">353-SIL3407-TPCT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+        <pin num="4" name="S" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="KD_Capacitor">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Capacitor.kicad_sym</uri>
+    </library>
+    <library logical="KD_Connector_Circular">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Connector_Circular.kicad_sym</uri>
+    </library>
+    <library logical="KD_Connector_Pads">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Connector_Pads.kicad_sym</uri>
+    </library>
+    <library logical="KD_Connector_Screw">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Connector_Screw.kicad_sym</uri>
+    </library>
+    <library logical="KD_Connector_Special">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Connector_Special.kicad_sym</uri>
+    </library>
+    <library logical="KD_Connector_USB_HDMI_Etc">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Connector_USB_HDMI_Etc.kicad_sym</uri>
+    </library>
+    <library logical="KD_Devices_Other">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Devices_Other.kicad_sym</uri>
+    </library>
+    <library logical="KD_Diode">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Diode.kicad_sym</uri>
+    </library>
+    <library logical="KD_Display">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Display.kicad_sym</uri>
+    </library>
+    <library logical="KD_IC_Buffer_Driver_Interface">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_Buffer_Driver_Interface.kicad_sym</uri>
+    </library>
+    <library logical="KD_IC_MCU">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_MCU.kicad_sym</uri>
+    </library>
+    <library logical="KD_IC_Regulator_DC_Converter">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_Regulator_DC_Converter.kicad_sym</uri>
+    </library>
+    <library logical="KD_Inductor">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Inductor.kicad_sym</uri>
+    </library>
+    <library logical="KD_Led">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Led.kicad_sym</uri>
+    </library>
+    <library logical="KD_Mechanical">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="KD_Mechanical_Mounting_Hole">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Mechanical_Mounting_Hole.kicad_sym</uri>
+    </library>
+    <library logical="KD_Oscillator">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Oscillator.kicad_sym</uri>
+    </library>
+    <library logical="KD_Resistor">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Resistor.kicad_sym</uri>
+    </library>
+    <library logical="KD_Transistor_FET">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="R28" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VO" pintype="power_out"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="UVCC" pintype="power_in"/>
+      <node ref="U2" pin="24" pinfunction="AVCC" pintype="power_in"/>
+      <node ref="U2" pin="34" pinfunction="VCC1" pintype="power_in"/>
+      <node ref="U2" pin="44" pinfunction="AVCC1" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VI" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VCC" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/7-Segment Display/12V_PWM">
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="5" pinfunction="C" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="S" pintype="passive"/>
+    </net>
+    <net code="5" name="/7-Segment Display/PWM">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U2" pin="31" pinfunction="PC6(OC3A/~{OC4A})" pintype="bidirectional"/>
+      <node ref="U3" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="6" name="/7-Segment Display/a">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="DRAIN7" pintype="open_collector"/>
+    </net>
+    <net code="7" name="/7-Segment Display/b">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="DRAIN6" pintype="open_collector"/>
+    </net>
+    <net code="8" name="/7-Segment Display/c">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="DRAIN5" pintype="open_collector"/>
+    </net>
+    <net code="9" name="/7-Segment Display/d">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="DRAIN4" pintype="open_collector"/>
+    </net>
+    <net code="10" name="/7-Segment Display/dp">
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="DRAIN0" pintype="open_collector"/>
+    </net>
+    <net code="11" name="/7-Segment Display/e">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="DRAIN3" pintype="open_collector"/>
+    </net>
+    <net code="12" name="/7-Segment Display/f">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="DRAIN2" pintype="open_collector"/>
+    </net>
+    <net code="13" name="/7-Segment Display/g">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="DRAIN1" pintype="open_collector"/>
+    </net>
+    <net code="14" name="/Brightness Control/POT_W">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U2" pin="41" pinfunction="PF0(ADC0)" pintype="tri_state"/>
+    </net>
+    <net code="15" name="/Interfaces/SCL">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="PD0(INT0/OC0B/SCL)" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Interfaces/SDA">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="PD1(INT1/SDA)" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/LED Driver 3/RCK">
+      <node ref="U2" pin="30" pinfunction="PB6(OC1B/OC4B/ADC13)" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="RCK" pintype="input"/>
+    </net>
+    <net code="19" name="/LED Driver 3/SER_IN">
+      <node ref="U2" pin="12" pinfunction="PB7(OC0A/OC1C/RTS)" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="SER_IN" pintype="input"/>
+    </net>
+    <net code="20" name="/LED Driver 3/SER_OUT">
+      <node ref="U4" pin="9" pinfunction="SER_OUT" pintype="output"/>
+    </net>
+    <net code="21" name="/LED Driver 3/SRCK">
+      <node ref="U2" pin="32" pinfunction="PC7(ICP3/CLK0/OC4A)" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="SRCK" pintype="input"/>
+    </net>
+    <net code="22" name="/LED Driver 3/~{CLR}">
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="~{CLR}" pintype="input"/>
+    </net>
+    <net code="23" name="/LED Driver 3/~{G}">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="~{G}" pintype="input"/>
+    </net>
+    <net code="24" name="/MCU/A0(D18)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U2" pin="36" pinfunction="PF7(ADC7(TDI)" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/MCU/A1(D19)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="37" pinfunction="PF6(ADC6/TDO)" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/MCU/A2(D20)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="38" pinfunction="PF5(ADC5/TMS)" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/MCU/A3(D21)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="39" pinfunction="PF4(ADC4/TCK)" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/MCU/A4(D22)">
+      <node ref="U2" pin="40" pinfunction="PF1(ADC1)" pintype="tri_state"/>
+    </net>
+    <net code="29" name="/MCU/A_REF">
+      <node ref="U2" pin="42" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="30" name="/MCU/CS">
+      <node ref="U2" pin="8" pinfunction="PB0(SS)" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/MCU/D0(RX)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="20" pinfunction="PD2(INT2/RXD1)" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/MCU/D1(TX)">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="PD3(INT3/TXD1)" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/MCU/D4">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="25" pinfunction="PD4(ICP1/ADC8)" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/MCU/D6">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="27" pinfunction="PD7(OC4D/ADC10/T0)" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/MCU/D7">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PE6(INT.6/AIN0)" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/MCU/D8">
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U2" pin="28" pinfunction="PB4(ADC11)" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/MCU/D9">
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U2" pin="29" pinfunction="PB5(OC1A/ADC12/~{OC4B})" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/MCU/D12">
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U2" pin="26" pinfunction="PD6(T1/ADC9/~{OC4D})" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/MCU/MISO">
+      <node ref="U2" pin="11" pinfunction="PB3(PDO/MISO)" pintype="bidirectional"/>
+      <node ref="X1" pin="1" pinfunction="MISO" pintype="input"/>
+    </net>
+    <net code="40" name="/MCU/MOSI">
+      <node ref="U2" pin="10" pinfunction="PB2(PDI/MOSI)" pintype="bidirectional"/>
+      <node ref="X1" pin="4" pinfunction="MOSI" pintype="output"/>
+    </net>
+    <net code="41" name="/MCU/SCLK">
+      <node ref="U2" pin="9" pinfunction="PB1(SCK)" pintype="bidirectional"/>
+      <node ref="X1" pin="3" pinfunction="SCK" pintype="output"/>
+    </net>
+    <net code="42" name="/MCU/USB_D_N">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="D-" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/MCU/USB_D_P">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="D+" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="/MCU/USB_VBUS">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="VBUS" pintype="input"/>
+    </net>
+    <net code="45" name="/MCU/X4_RXD">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="X2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="46" name="/MCU/X4_TXD">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="X2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="48" name="/MCU/~{RESET}">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="~{RESET}" pintype="input"/>
+      <node ref="X1" pin="5" pinfunction="RST" pintype="output"/>
+      <node ref="X2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="49" name="/RPM Bar/LED_STRIP_B">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="50" name="/USB/USB_CON_D_N">
+      <node ref="D4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="/USB/USB_CON_D_P">
+      <node ref="D4" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="52" name="Earth">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="V-" pintype="input"/>
+      <node ref="J3" pin="2" pinfunction="SLEEVE" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="CENTER" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="H1" pinfunction="Shield" pintype="passive"/>
+      <node ref="J8" pin="H2" pinfunction="Shield" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="23" pinfunction="GND1" pintype="power_in"/>
+      <node ref="U2" pin="35" pinfunction="GND2" pintype="power_in"/>
+      <node ref="U2" pin="43" pinfunction="GND3" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="UGND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U4" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="X1" pin="6" pinfunction="GND" pintype="input"/>
+      <node ref="X2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="X3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="X3" pin="2" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="XTAL1" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="XTAL2" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(C11-Pad2)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="UCAP" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D4-Pad5)">
+      <node ref="D4" pin="5" pinfunction="V+" pintype="input"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
+    </net>
+    <net code="60" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="Ae" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(D5-Pad3)">
+      <node ref="D5" pin="3" pinfunction="Ad" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(D5-Pad4)">
+      <node ref="D5" pin="4" pinfunction="Ac" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(D5-Pad6)">
+      <node ref="D5" pin="6" pinfunction="Ab" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(D5-Pad7)">
+      <node ref="D5" pin="7" pinfunction="Aa" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(D5-Pad8)">
+      <node ref="D5" pin="8" pinfunction="Adp" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(D5-Pad9)">
+      <node ref="D5" pin="9" pinfunction="Af" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(D5-Pad10)">
+      <node ref="D5" pin="10" pinfunction="Ag" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="CENTER" pintype="power_out"/>
+    </net>
+    <net code="69" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="73" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="PD5(XCK/CTS)" pintype="bidirectional"/>
+    </net>
+    <net code="74" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="33" pinfunction="PE2(~{HWB})" pintype="bidirectional"/>
+    </net>
+    <net code="75" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="76" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="unconnected-(D4-Pad3)">
+      <node ref="D4" pin="3" pinfunction="3" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(D4-Pad4)">
+      <node ref="D4" pin="4" pinfunction="4" pintype="input+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

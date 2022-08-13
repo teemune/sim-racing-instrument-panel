@@ -1428,7 +1428,6 @@
   )
 
   (bus_alias "USB" (members "USB_CON_D_P" "USB_CON_D_N"))
-
   (junction (at 91.44 99.06) (diameter 0) (color 0 0 0 0)
     (uuid 24726590-072b-4541-932a-85d72510d8c2)
   )
@@ -1449,7 +1448,7 @@
   )
 
   (no_connect (at 92.71 144.78) (uuid 98196af0-f4ba-4a25-baf5-c077371df5b6))
-  (no_connect (at 107.95 144.78) (uuid 98196af0-f4ba-4a25-baf5-c077371df5b6))
+  (no_connect (at 107.95 144.78) (uuid 98196af0-f4ba-4a25-baf5-c077371df5b7))
 
   (wire (pts (xy 110.49 62.23) (xy 110.49 64.77))
     (stroke (width 0) (type default) (color 0 0 0 0))
