@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -409,7 +409,18 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "150mA_50V",
-        "nets": [],
+        "nets": [
+          "+12V",
+          "+3V3",
+          "/7-Segment Display/a",
+          "/7-Segment Display/b",
+          "/7-Segment Display/c",
+          "/7-Segment Display/d",
+          "/7-Segment Display/dp",
+          "/7-Segment Display/e",
+          "/7-Segment Display/f",
+          "/7-Segment Display/g"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
@@ -427,7 +438,10 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "1A",
-        "nets": [],
+        "nets": [
+          "+5V",
+          "/7-Segment Display/12V_PWM"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
@@ -499,7 +513,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50mA_50V",
-        "nets": [],
+        "nets": [
+          "/7-Segment Display/PWM"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -545,6 +561,27 @@
       },
       {
         "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "nets": [
+          "/MCU/USB_D_N",
+          "/MCU/USB_D_P"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -553,7 +590,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "analog",
-        "nets": [],
+        "nets": [
+          "/Brightness Control/POT_W",
+          "/MCU/A0(D18)",
+          "/MCU/A1(D19)",
+          "/MCU/A2(D20)",
+          "/MCU/A3(D21)",
+          "/MCU/A4(D22)",
+          "/MCU/A_REF"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
@@ -571,7 +616,22 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "bus",
-        "nets": [],
+        "nets": [
+          "/Interfaces/SCL",
+          "/Interfaces/SDA",
+          "/LED Driver 3/RCK",
+          "/LED Driver 3/SER_IN",
+          "/LED Driver 3/SER_OUT",
+          "/LED Driver 3/SRCK",
+          "/LED Driver 3/~{CLR}",
+          "/MCU/D0(RX)",
+          "/MCU/D1(TX)",
+          "/MCU/MISO",
+          "/MCU/MOSI",
+          "/MCU/SCLK",
+          "/MCU/X4_RXD",
+          "/MCU/X4_TXD"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,

@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Gear Display Board")
+    (date "2022-08-13")
+    (rev "1.0")
+    (company "Kallio Designs Oy")
+    (comment 1 "Teemu Latonen")
+    (comment 2 "000064")
+    (comment 3 "000065")
+  )
+
   (lib_symbols
   )
 
