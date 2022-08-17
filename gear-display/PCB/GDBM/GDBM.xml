@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GitHubProjects\sim-racing-instrument-panel\gear-display\PCB\GDBM\GDBM.kicad_sch</source>
-    <date>13/08/2022 23.11.07</date>
+    <date>17/08/2022 22.38.24</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -246,7 +246,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GDBM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1c5b0676-a1c3-4af3-83cc-4ea808fdc226</tstamps>
+      <tstamps>b6e59d16-f1b3-48f7-82eb-1cd0fe73562f</tstamps>
     </comp>
     <comp ref="J2">
       <value>Con_Screw_1x04_691313510004</value>
@@ -272,11 +272,11 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="GDBM.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>79bd58cd-72c8-40ad-af06-26c31d86dcee</tstamps>
+      <tstamps>3829ead3-dba8-482c-a75e-f6a1cae5b6fb</tstamps>
     </comp>
     <comp ref="C1">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -287,7 +287,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <libsource lib="" part="C_1206_10u_50V_1" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -302,7 +302,7 @@
     </comp>
     <comp ref="C2">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -328,7 +328,7 @@
     </comp>
     <comp ref="C3">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -339,7 +339,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <libsource lib="" part="C_1206_10u_50V_2" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -354,7 +354,7 @@
     </comp>
     <comp ref="C4">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -380,7 +380,7 @@
     </comp>
     <comp ref="C5">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -391,7 +391,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6807-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <libsource lib="" part="C_0603_100n_X7R_100V_1" description="CAP CER 0.1UF 100V X7R 0603"/>
       <property name="Code" value="100n"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
@@ -403,6 +403,32 @@
       <property name="Sheetfile" value="psu.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
       <tstamps>96f5c9d9-ad99-4922-937b-aac2f9e06f42</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>C_0805_22u_X5R_10V</value>
+      <footprint>KD_Capacitor:CAPC2012X135N</footprint>
+      <datasheet>https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MPQNNNE.jsp</datasheet>
+      <fields>
+        <field name="Code">22u</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CL21A226MPQNNNE</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="Price">0.15</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-2910-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0805_22u_X5R_10V" description="CAP CER 22UF 10V X5R 0805"/>
+      <property name="Code" value="22u"/>
+      <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
+      <property name="MFG_PartNo" value="CL21A226MPQNNNE"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="1276-2910-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.15"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>feca105d-63dc-443c-ac7c-fff99a7a5292</tstamps>
     </comp>
     <comp ref="D1">
       <value>Schottky_30V_1A_Toshiba_CUS10S30</value>
@@ -510,25 +536,25 @@
     </comp>
     <comp ref="U1">
       <value>DC_DC_5V_0A5_K78U05-500R3</value>
-      <footprint>KD_IC_DCDC_Converter:DC_DC_Mornsun_K78U05-500R3_H</footprint>
-      <datasheet>https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</datasheet>
+      <footprint>KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H</footprint>
+      <datasheet>https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf</datasheet>
       <fields>
-        <field name="Code">K78U05-500R3</field>
+        <field name="Code">LMS78_05-2.0R</field>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">K78U05-500R3</field>
-        <field name="Manufacturer">Mornsun America, LLC</field>
-        <field name="Price">3</field>
+        <field name="MFG_PartNo">LMS78_05-2.0R</field>
+        <field name="Manufacturer">GAPTEC Electronic</field>
+        <field name="Price">5</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">2725-K78U05-500R3-ND</field>
+        <field name="Supplier_PartNo">3182-LMS78_05-2.0R-ND</field>
       </fields>
-      <libsource lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_0A5_K78U05-500R3" description="Non-Isolated PoL Module DC DC Converter 1 Output 5V 500mA 9V - 90V Input"/>
-      <property name="Code" value="K78U05-500R3"/>
-      <property name="Manufacturer" value="Mornsun America, LLC"/>
-      <property name="MFG_PartNo" value="K78U05-500R3"/>
+      <libsource lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H" description="Non-Isolated PoL Module DC DC Converter 1 Output 5V - - - 2A 8V - 36V Input"/>
+      <property name="Code" value="LMS78_05-2.0R"/>
+      <property name="Manufacturer" value="GAPTEC Electronic"/>
+      <property name="MFG_PartNo" value="LMS78_05-2.0R"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="2725-K78U05-500R3-ND"/>
+      <property name="Supplier_PartNo" value="3182-LMS78_05-2.0R-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="3"/>
+      <property name="Price" value="5"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="psu.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
@@ -536,7 +562,7 @@
     </comp>
     <comp ref="C6">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -562,7 +588,7 @@
     </comp>
     <comp ref="C7">
       <value>C_0805_1u_X7R_25V</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">1u</field>
@@ -573,7 +599,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1066-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <libsource lib="" part="C_0805_1u_X7R_25V_1" description="CAP CER 1UF 25V X7R 0805"/>
       <property name="Code" value="1u"/>
       <property name="Manufacturer" value="Kemet"/>
       <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
@@ -588,7 +614,7 @@
     </comp>
     <comp ref="C8">
       <value>C_0603_33p_NP0_5%_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
       <fields>
         <field name="Code">33p</field>
@@ -599,7 +625,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_0603_33p_NP0_5%_100V" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <libsource lib="" part="C_0603_33p_NP0_5%_100V_1" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
       <property name="Code" value="33p"/>
       <property name="Manufacturer" value="KEMET"/>
       <property name="MFG_PartNo" value="C0603C330J1GAC7867"/>
@@ -614,7 +640,7 @@
     </comp>
     <comp ref="C9">
       <value>C_0805_1u_X7R_25V</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">1u</field>
@@ -625,7 +651,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1066-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
+      <libsource lib="" part="C_0805_1u_X7R_25V_2" description="CAP CER 1UF 25V X7R 0805"/>
       <property name="Code" value="1u"/>
       <property name="Manufacturer" value="Kemet"/>
       <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
@@ -640,7 +666,7 @@
     </comp>
     <comp ref="C10">
       <value>C_0603_33p_NP0_5%_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</datasheet>
       <fields>
         <field name="Code">33p</field>
@@ -666,7 +692,7 @@
     </comp>
     <comp ref="C11">
       <value>C_0805_1u_X7R_25V</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">1u</field>
@@ -1026,7 +1052,7 @@
     </comp>
     <comp ref="C12">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -1052,7 +1078,7 @@
     </comp>
     <comp ref="C13">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -1208,7 +1234,7 @@
     </comp>
     <comp ref="C21">
       <value>C_0805_1u_X7R_25V</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">1u</field>
@@ -1414,7 +1440,7 @@
     </comp>
     <comp ref="C14">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -1440,7 +1466,7 @@
     </comp>
     <comp ref="C15">
       <value>C_0805_DNP</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric_DNP</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N_DNP</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">DNP</field>
@@ -1825,7 +1851,7 @@
       <property name="Sheetname" value="Shift Indicator"/>
       <property name="Sheetfile" value="indicators.kicad_sch"/>
       <sheetpath names="/Shift Indicator/" tstamps="/2c020b5b-c97c-4bcf-a38b-010b33e0246d/"/>
-      <tstamps>64b40a8f-bb58-4ec9-b6be-7bfbf1d78ae2</tstamps>
+      <tstamps>20011626-a423-4048-8fa8-84663e1eddc1</tstamps>
     </comp>
     <comp ref="R23">
       <value>R_0805_0_automotive</value>
@@ -1907,7 +1933,7 @@
     </comp>
     <comp ref="C16">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -1918,7 +1944,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <libsource lib="" part="C_1206_10u_50V_2" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -1933,7 +1959,7 @@
     </comp>
     <comp ref="C17">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -1959,7 +1985,7 @@
     </comp>
     <comp ref="C18">
       <value>C_1206_10u_50V</value>
-      <footprint>KD_Capacitor:C_1206_3216Metric</footprint>
+      <footprint>KD_Capacitor:CAPC3216X150N</footprint>
       <datasheet>datasheet</datasheet>
       <fields>
         <field name="Code">10 uF</field>
@@ -1970,7 +1996,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
+      <libsource lib="" part="C_1206_10u_50V_1" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -2010,25 +2036,26 @@
       <tstamps>5e44d6a4-3ae4-47d6-8066-1afe8f0774d2</tstamps>
     </comp>
     <comp ref="R20">
-      <value>R_0805_DNP</value>
-      <footprint>KD_Resistor:RESC2012X60N_DNP</footprint>
+      <value>R_0805_0_automotive</value>
+      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
       <fields>
-        <field name="Code">DNP</field>
-        <field name="DNP">T</field>
-        <field name="MFG_PartNo">DNP</field>
-        <field name="Manufacturer">DNP</field>
-        <field name="Price">0.00</field>
-        <field name="Supplier">DNP</field>
-        <field name="Supplier_PartNo">DNP</field>
+        <field name="Code">0</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
+        <field name="Manufacturer">Stackpole Electronics Inc</field>
+        <field name="Price">0.01</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
       </fields>
-      <libsource lib="KD_Resistor" part="R_0805_DNP" description="Do not populate"/>
-      <property name="Code" value="DNP"/>
-      <property name="Manufacturer" value="DNP"/>
-      <property name="MFG_PartNo" value="DNP"/>
-      <property name="Supplier" value="DNP"/>
-      <property name="Supplier_PartNo" value="DNP"/>
-      <property name="DNP" value="T"/>
-      <property name="Price" value="0.00"/>
+      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
+      <property name="Code" value="0"/>
+      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
+      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.01"/>
       <property name="Sheetname" value="RPM Bar"/>
       <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
       <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
@@ -2061,26 +2088,26 @@
       <tstamps>48bf8d93-f142-4176-9592-621ea1c4719c</tstamps>
     </comp>
     <comp ref="R22">
-      <value>R_0805_0_automotive</value>
-      <footprint>KD_Resistor:RESC2012X60N</footprint>
+      <value>R_0805_DNP</value>
+      <footprint>KD_Resistor:RESC2012X60N_DNP</footprint>
       <datasheet>https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf</datasheet>
       <fields>
-        <field name="Code">0</field>
-        <field name="DNP">F</field>
-        <field name="MFG_PartNo">RMCF0805ZT0R00</field>
-        <field name="Manufacturer">Stackpole Electronics Inc</field>
-        <field name="Price">0.01</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">RMCF0805ZT0R00CT-ND</field>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
       </fields>
-      <libsource lib="KD_Resistor" part="R_0805_0_automotive" description="RES 0 OHM JUMPER 1/8W 0805"/>
-      <property name="Code" value="0"/>
-      <property name="Manufacturer" value="Stackpole Electronics Inc"/>
-      <property name="MFG_PartNo" value="RMCF0805ZT0R00"/>
-      <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="RMCF0805ZT0R00CT-ND"/>
-      <property name="DNP" value="F"/>
-      <property name="Price" value="0.01"/>
+      <libsource lib="KD_Resistor" part="R_0805_DNP" description="Do not populate"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
       <property name="Sheetname" value="RPM Bar"/>
       <property name="Sheetfile" value="rpm_bar.kicad_sch"/>
       <sheetpath names="/RPM Bar/" tstamps="/049e3529-b599-416f-9297-34a8c6367a59/"/>
@@ -2088,7 +2115,7 @@
     </comp>
     <comp ref="C19">
       <value>C_0603_100n_X7R_100V</value>
-      <footprint>KD_Capacitor:C_0603_1608Metric</footprint>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
       <datasheet>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</datasheet>
       <fields>
         <field name="Code">100n</field>
@@ -2114,7 +2141,7 @@
     </comp>
     <comp ref="C20">
       <value>C_0805_DNP</value>
-      <footprint>KD_Capacitor:C_0805_2012Metric_DNP</footprint>
+      <footprint>KD_Capacitor:CAPC2012X135N_DNP</footprint>
       <datasheet>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</datasheet>
       <fields>
         <field name="Code">DNP</field>
@@ -2368,6 +2395,156 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="" part="C_0603_100n_X7R_100V_1">
+      <description>CAP CER 0.1UF 100V X7R 0603</description>
+      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</docs>
+      <footprints>
+        <fp>0603</fp>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_100n_X7R_100V_1</field>
+        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
+        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</field>
+        <field name="Code">100n</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6807-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_0603_33p_NP0_5%_100V_1">
+      <description>33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
+      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
+      <footprints>
+        <fp>*0603*</fp>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_33p_NP0_5%_100V_1</field>
+        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
+        <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
+        <field name="Code">33p</field>
+        <field name="Manufacturer">KEMET</field>
+        <field name="MFG_PartNo">C0603C330J1GAC7867</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_0805_1u_X7R_25V_1">
+      <description>CAP CER 1UF 25V X7R 0805</description>
+      <docs>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</docs>
+      <footprints>
+        <fp>0805</fp>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_1u_X7R_25V_1</field>
+        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
+        <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
+        <field name="Code">1u</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_0805_1u_X7R_25V_2">
+      <description>CAP CER 1UF 25V X7R 0805</description>
+      <docs>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</docs>
+      <footprints>
+        <fp>0805</fp>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_1u_X7R_25V_2</field>
+        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
+        <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
+        <field name="Code">1u</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-1066-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_1206_10u_50V_1">
+      <description>Capacitor</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>1206</fp>
+        <fp>CAPC3216*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1206_10u_50V_1</field>
+        <field name="Footprint">KD_Capacitor:CAPC3216X150N</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">10 uF</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="C_1206_10u_50V_2">
+      <description>Capacitor</description>
+      <docs>datasheet</docs>
+      <footprints>
+        <fp>1206</fp>
+        <fp>CAPC3216*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1206_10u_50V_2</field>
+        <field name="Footprint">KD_Capacitor:CAPC3216X150N</field>
+        <field name="Datasheet">datasheet</field>
+        <field name="Code">10 uF</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-6767-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="KD_Capacitor" part="C_0603_100n_X7R_100V">
       <description>CAP CER 0.1UF 100V X7R 0603</description>
       <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</docs>
@@ -2378,7 +2555,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_0603_100n_X7R_100V</field>
-        <field name="Footprint">KD_Capacitor:C_0603_1608Metric</field>
+        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
         <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</field>
         <field name="Code">100n</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
@@ -2403,7 +2580,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_0603_33p_NP0_5%_100V</field>
-        <field name="Footprint">KD_Capacitor:C_0603_1608Metric</field>
+        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
         <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
         <field name="Code">33p</field>
         <field name="Manufacturer">KEMET</field>
@@ -2428,7 +2605,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_0805_1u_X7R_25V</field>
-        <field name="Footprint">KD_Capacitor:C_0805_2012Metric</field>
+        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
         <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
         <field name="Code">1u</field>
         <field name="Manufacturer">Kemet</field>
@@ -2437,6 +2614,31 @@
         <field name="Supplier_PartNo">1276-1066-1-ND</field>
         <field name="DNP">F</field>
         <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_0805_22u_X5R_10V">
+      <description>CAP CER 22UF 10V X5R 0805</description>
+      <docs>https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MPQNNNE.jsp</docs>
+      <footprints>
+        <fp>0805</fp>
+        <fp>CAPC2012*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0805_22u_X5R_10V</field>
+        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
+        <field name="Datasheet">https://www.samsungsem.com/kr/support/product-search/mlcc/CL21A226MPQNNNE.jsp</field>
+        <field name="Code">22u</field>
+        <field name="Manufacturer">Samsung Electro-Mechanics</field>
+        <field name="MFG_PartNo">CL21A226MPQNNNE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">1276-2910-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.15</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2452,7 +2654,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_0805_DNP</field>
-        <field name="Footprint">KD_Capacitor:C_0805_2012Metric_DNP</field>
+        <field name="Footprint">KD_Capacitor:CAPC2012X135N_DNP</field>
         <field name="Code">DNP</field>
         <field name="Manufacturer">DNP</field>
         <field name="MFG_PartNo">DNP</field>
@@ -2476,7 +2678,7 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C_1206_10u_50V</field>
-        <field name="Footprint">KD_Capacitor:C_1206_3216Metric</field>
+        <field name="Footprint">KD_Capacitor:CAPC3216X150N</field>
         <field name="Datasheet">datasheet</field>
         <field name="Code">10 uF</field>
         <field name="Manufacturer">Samsung Electro-Mechanics</field>
@@ -2919,24 +3121,24 @@
         <pin num="44" name="AVCC1" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_0A5_K78U05-500R3">
-      <description>Non-Isolated PoL Module DC DC Converter 1 Output 5V 500mA 9V - 90V Input</description>
-      <docs>https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</docs>
+    <libpart lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H">
+      <description>Non-Isolated PoL Module DC DC Converter 1 Output 5V - - - 2A 8V - 36V Input</description>
+      <docs>https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf</docs>
       <footprints>
         <fp>*K78U05-500R3*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">DC_DC_5V_0A5_K78U05-500R3</field>
-        <field name="Footprint">KD_IC_DCDC_Converter:DC_DC_Mornsun_K78U05-500R3_H</field>
-        <field name="Datasheet">https://www.mornsun-power.com/html/pdf/K78U05-500R3.html</field>
-        <field name="Code">K78U05-500R3</field>
-        <field name="Manufacturer">Mornsun America, LLC</field>
-        <field name="MFG_PartNo">K78U05-500R3</field>
+        <field name="Value">DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H</field>
+        <field name="Footprint">KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H</field>
+        <field name="Datasheet">https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf</field>
+        <field name="Code">LMS78_05-2.0R</field>
+        <field name="Manufacturer">GAPTEC Electronic</field>
+        <field name="MFG_PartNo">LMS78_05-2.0R</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">2725-K78U05-500R3-ND</field>
+        <field name="Supplier_PartNo">3182-LMS78_05-2.0R-ND</field>
         <field name="DNP">F</field>
-        <field name="Price">3</field>
+        <field name="Price">5</field>
       </fields>
       <pins>
         <pin num="1" name="VI" type="passive"/>
@@ -3451,6 +3653,7 @@
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -3466,12 +3669,12 @@
     <net code="4" name="/7-Segment Display/12V_PWM">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D5" pin="5" pinfunction="C" pintype="passive"/>
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="Q1" pin="4" pinfunction="S" pintype="passive"/>
     </net>
     <net code="5" name="/7-Segment Display/PWM">
-      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R30" pin="1" pintype="passive"/>
       <node ref="U2" pin="31" pinfunction="PC6(OC3A/~{OC4A})" pintype="bidirectional"/>
@@ -3515,13 +3718,13 @@
       <node ref="U2" pin="41" pinfunction="PF0(ADC0)" pintype="tri_state"/>
     </net>
     <net code="15" name="/Interfaces/SCL">
-      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="PD0(INT0/OC0B/SCL)" pintype="bidirectional"/>
     </net>
     <net code="16" name="/Interfaces/SDA">
-      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
       <node ref="U2" pin="19" pinfunction="PD1(INT1/SDA)" pintype="bidirectional"/>
     </net>
     <net code="18" name="/LED Driver 3/RCK">
@@ -3548,19 +3751,19 @@
       <node ref="U4" pin="8" pinfunction="~{G}" pintype="input"/>
     </net>
     <net code="24" name="/MCU/A0(D18)">
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U2" pin="36" pinfunction="PF7(ADC7(TDI)" pintype="bidirectional"/>
     </net>
     <net code="25" name="/MCU/A1(D19)">
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="37" pinfunction="PF6(ADC6/TDO)" pintype="bidirectional"/>
     </net>
     <net code="26" name="/MCU/A2(D20)">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="38" pinfunction="PF5(ADC5/TMS)" pintype="bidirectional"/>
     </net>
     <net code="27" name="/MCU/A3(D21)">
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="39" pinfunction="PF4(ADC4/TCK)" pintype="bidirectional"/>
     </net>
     <net code="28" name="/MCU/A4(D22)">
@@ -3573,18 +3776,18 @@
       <node ref="U2" pin="8" pinfunction="PB0(SS)" pintype="bidirectional"/>
     </net>
     <net code="31" name="/MCU/D0(RX)">
-      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="PD2(INT2/RXD1)" pintype="bidirectional"/>
     </net>
     <net code="32" name="/MCU/D1(TX)">
-      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="PD3(INT3/TXD1)" pintype="bidirectional"/>
     </net>
     <net code="33" name="/MCU/D4">
-      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="PD4(ICP1/ADC8)" pintype="bidirectional"/>
     </net>
     <net code="34" name="/MCU/D6">
@@ -3592,7 +3795,7 @@
       <node ref="U2" pin="27" pinfunction="PD7(OC4D/ADC10/T0)" pintype="bidirectional"/>
     </net>
     <net code="35" name="/MCU/D7">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="PE6(INT.6/AIN0)" pintype="bidirectional"/>
     </net>
     <net code="36" name="/MCU/D8">
@@ -3647,21 +3850,29 @@
       <node ref="X1" pin="5" pinfunction="RST" pintype="output"/>
       <node ref="X2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="49" name="/RPM Bar/LED_STRIP_B">
+    <net code="49" name="/RPM Bar/LED_PWR">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="50" name="/RPM Bar/LED_STRIP_B">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="50" name="/USB/USB_CON_D_N">
+    <net code="51" name="/USB/USB_CON_D_N">
       <node ref="D4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="/USB/USB_CON_D_P">
+    <net code="52" name="/USB/USB_CON_D_P">
       <node ref="D4" pin="6" pinfunction="6" pintype="input"/>
       <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="Earth">
+    <net code="53" name="Earth">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
@@ -3676,6 +3887,7 @@
       <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -3714,29 +3926,21 @@
       <node ref="X3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="X3" pin="2" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="53" name="Net-(C8-Pad1)">
+    <net code="54" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="17" pinfunction="XTAL1" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(C10-Pad1)">
+    <net code="55" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="XTAL2" pintype="bidirectional"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(C11-Pad2)">
+    <net code="56" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="UCAP" pintype="bidirectional"/>
-    </net>
-    <net code="56" name="Net-(C16-Pad1)">
-      <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="R22" pin="2" pintype="passive"/>
     </net>
     <net code="57" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
@@ -3787,33 +3991,33 @@
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="CENTER" pintype="power_out"/>
     </net>
-    <net code="69" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
-    </net>
-    <net code="70" name="Net-(J5-Pad3)">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-    </net>
-    <net code="71" name="Net-(J5-Pad4)">
-      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-    </net>
-    <net code="72" name="Net-(Q1-Pad3)">
+    <net code="69" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
       <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="73" name="Net-(R3-Pad2)">
+    <net code="70" name="Net-(R3-Pad2)">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U2" pin="22" pinfunction="PD5(XCK/CTS)" pintype="bidirectional"/>
     </net>
-    <net code="74" name="Net-(R4-Pad1)">
+    <net code="71" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="33" pinfunction="PE2(~{HWB})" pintype="bidirectional"/>
     </net>
-    <net code="75" name="Net-(R8-Pad2)">
+    <net code="72" name="Net-(R8-Pad2)">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="X1" pin="2" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="73" name="Net-(R23-Pad1)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R24-Pad1)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R25-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
     </net>
     <net code="76" name="Net-(R28-Pad2)">
       <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
