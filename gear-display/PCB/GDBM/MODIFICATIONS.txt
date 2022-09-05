@@ -1,2 +1,3 @@
 - D3 footprint too big
 - U4 footprint too big
+- PSU footprint rotated 180
