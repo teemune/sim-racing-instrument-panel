@@ -1,3 +1,4 @@
 - D3 footprint too big
 - U4 footprint too big
+- 1.27 mm offset needed on both sides of the 7-seg display
 - PSU footprint rotated 180
