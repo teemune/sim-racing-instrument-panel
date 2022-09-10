@@ -1117,7 +1117,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 06073a5c-9f1a-407e-8e15-cc22108e7ba5)
     (property "Reference" "U1" (id 0) (at 149.86 90.17 0))
-    (property "Value" "DC_DC_5V_0A5_K78U05-500R3" (id 1) (at 137.16 66.04 0)
+    (property "Value" "DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H" (id 1) (at 137.16 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H" (id 2) (at 137.16 83.82 0)

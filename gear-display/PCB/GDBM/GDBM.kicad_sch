@@ -1130,7 +1130,7 @@
       (reference "D2") (unit 1) (value "TVS_12V_LF_SMAJ12CA") (footprint "KD_Diode:DIOC530X280X230_SMA_A")
     )
     (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/afc3fb23-2407-4c07-96d3-83ddf9bde418"
-      (reference "D3") (unit 1) (value "0603_Green_Clear_LTST-C190KGKT") (footprint "KD_Diode:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
+      (reference "D3") (unit 1) (value "0603_Green_Clear_LTST-C190KGKT") (footprint "KD_Diode:DIOC1608X70")
     )
     (path "/124ce659-22a5-4a84-b30d-e5ec849b4e60/99d469d2-4e6f-45a5-8c64-c4903c2788e9"
       (reference "D4") (unit 1) (value "TVS_5V5_DRTR5V0U4S-7-M") (footprint "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -1304,7 +1304,7 @@
       (reference "R32") (unit 1) (value "R_0402_4700_1%") (footprint "KD_Resistor:RESC1005X40N")
     )
     (path "/d2a51ab8-87f6-45a5-af73-2506f338456e/06073a5c-9f1a-407e-8e15-cc22108e7ba5"
-      (reference "U1") (unit 1) (value "DC_DC_5V_0A5_K78U05-500R3") (footprint "KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H")
+      (reference "U1") (unit 1) (value "DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H") (footprint "KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H")
     )
     (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/7f16d2bc-94fe-40a9-8ada-41e38f370a07"
       (reference "U2") (unit 1) (value "ATmega32U4-AU") (footprint "KD_Package_QFP:QFP80P1200X1200X120-44R_N")
