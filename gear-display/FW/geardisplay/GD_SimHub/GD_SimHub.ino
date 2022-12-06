@@ -838,19 +838,19 @@ byte RS_74HC595_NeutralDigit = 0b11101100;
 #define RS_6c595_LATCHPIN 13        //{"Name":"RS_6c595_LATCHPIN","Title":"LATCH digital pin number, can't be changed !","DefaultValue":"13","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 #define RS_6c595_SLAVEPIN 10        //{"Name":"RS_6c595_SLAVEPIN","Title":"SLAVE digital pin number","DefaultValue":"10","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 byte g_6c595fontArray[] = {
-	// dp-a-b-c-d-e-f-g
-  0b00111111, // 0        
-  0b00000110, // 1            
-  0b01011011, // 2
-  0b01001111, // 3
-  0b01010110, // 4
-  0b01101101, // 5
-  0b01111101, // 6
-  0b00000111, // 7
-	0b01111111, // 8
-	0b01101111, // 9
+	// a-b-c-d-e-f-g-dp
+  0b11111100, // 0        
+  0b01100000, // 1            
+  0b11011010, // 2
+  0b11110010, // 3
+  0b01101010, // 4
+  0b10110110, // 5
+  0b10111110, // 6
+  0b11100000, // 7
+	0b11111100, // 8
+	0b11110110, // 9
 	0b00000000, // OFF empty
-	0b11110111, // REVERSE SPEED
+	0b11101111, // REVERSE SPEED
 };
 byte g_6c595LEDarray; //computed order that will be sent to the LED display
 #endif
