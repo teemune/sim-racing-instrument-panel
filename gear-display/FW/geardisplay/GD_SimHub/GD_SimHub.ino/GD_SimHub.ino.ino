@@ -74,8 +74,8 @@
 #include "SHButton.h"
 
 // ----------------------------------------------------- HW SETTINGS, PLEASE REVIEW ALL -------------------------------------------
-#define DEVICE_NAME "Gear Display" //{"Group":"General","Name":"DEVICE_NAME","Title":"Device name,\r\n make sure to use a unique name when using multiple arduinos","DefaultValue":"SimHub Dash","Type":"string","Template":"#define DEVICE_NAME \"{0}\""}
-#define DEVICE_UNIQUE_ID "2dd90712-612f-4c89-b42d-6009f3b6eb7b" //{"UniqueId":"2dd90712-612f-4c89-b42d-6009f3b6eb7b","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
+#define DEVICE_NAME "SimHub Dash" //{"Group":"General","Name":"DEVICE_NAME","Title":"Device name,\r\n make sure to use a unique name when using multiple arduinos","DefaultValue":"SimHub Dash","Type":"string","Template":"#define DEVICE_NAME \"{0}\""}
+#define DEVICE_UNIQUE_ID "1b096afe-cb29-4c99-b7ae-2d46c389080b" //{"UniqueId":"1b096afe-cb29-4c99-b7ae-2d46c389080b","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
 
 #define ENABLE_MICRO_GAMEPAD 0           //{"Group":"GAMEPAD","Name":"ENABLE_MICRO_GAMEPAD","Title":"Enable arduino micro gamepad output for all the activated buttons/encoders","DefaultValue":"0","Type":"bool"}
 #define MICRO_GAMEPAD_ENCODERPRESSTIME 50 //{"Name":"MICRO_GAMEPAD_ENCODERPRESSTIME","Title":"Define how long (in milliseconds) the encoder related button will be hold after an encoder movement","DefaultValue":"50","Type":"int","Condition":"ENABLE_MICRO_GAMEPAD>0","Max":100}
@@ -814,9 +814,9 @@ SHGLCD_NOKIA shNOKIA;
 #ifdef INCLUDE_74HC595_GEAR_DISPLAY
 // Reverse led state
 int RS_74HC595_INVERT = 0;
-#define RS_74HC595_DATAPIN 11         //{"Name":"RS_74HC595_DATAPIN","Title":"DATA digital pin number","DefaultValue":"2","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY >0"}
-#define RS_74HC595_LATCHPIN 10        //{"Name":"RS_74HC595_LATCHPIN","Title":"LATCH digital pin number","DefaultValue":"3","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY > 0"}
-#define RS_74HC595_CLOCKPIN 13        //{"Name":"RS_74HC595_CLOCKPIN","Title":"CLOCK digital pin number","DefaultValue":"4","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY > 0"}
+#define RS_74HC595_DATAPIN 2          //{"Name":"RS_74HC595_DATAPIN","Title":"DATA digital pin number","DefaultValue":"2","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY >0"}
+#define RS_74HC595_LATCHPIN 3         //{"Name":"RS_74HC595_LATCHPIN","Title":"LATCH digital pin number","DefaultValue":"3","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY > 0"}
+#define RS_74HC595_CLOCKPIN 4         //{"Name":"RS_74HC595_CLOCKPIN","Title":"CLOCK digital pin number","DefaultValue":"4","Type":"pin","Condition":"ENABLE_74HC595_GEAR_DISPLAY > 0"}
 // RS_74HC595 DIGITS
 // 0,1,2 ....
 byte RS_74HC595_dec_digits[] = { 0b11111100, 0b01100000, 0b11011010, 0b11110010, 0b01100110, 0b10110110, 0b10111110, 0b11100000, 0b11111110, 0b11110110 };
@@ -839,18 +839,18 @@ byte RS_74HC595_NeutralDigit = 0b11101100;
 #define RS_6c595_SLAVEPIN 10        //{"Name":"RS_6c595_SLAVEPIN","Title":"SLAVE digital pin number","DefaultValue":"10","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 byte g_6c595fontArray[] = {
 	// dp-a-b-c-d-e-f-g
-	0b10100001, // 0
-	0b00101000, // 1
-	0b11001101, // 2
-	0b01101101, // 3
-	0b00101011, // 4
-	0b01100111, // 5
-	0b11100111, // 6
-	0b00101100, // 7
+  0b00111111, // 0        
+  0b00000110, // 1            
+  0b01011011, // 2
+  0b01001111, // 3
+  0b01010110, // 4
+  0b01101101, // 5
+  0b01111101, // 6
+  0b00000111, // 7
 	0b01111111, // 8
-	0b01111111, // 9
+	0b01101111, // 9
 	0b00000000, // OFF empty
-	0b10000001, // REVERSE SPEED
+	0b11110111, // REVERSE SPEED
 };
 byte g_6c595LEDarray; //computed order that will be sent to the LED display
 #endif
