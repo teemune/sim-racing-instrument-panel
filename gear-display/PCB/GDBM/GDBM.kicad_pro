@@ -425,7 +425,6 @@
         "name": "150mA_50V",
         "nets": [
           "+12V",
-          "+3V3",
           "/7-Segment Display/a",
           "/7-Segment Display/b",
           "/7-Segment Display/c",
@@ -605,7 +604,6 @@
         "microvia_drill": 0.1,
         "name": "analog",
         "nets": [
-          "/Brightness Control/POT_W",
           "/MCU/A0(D18)",
           "/MCU/A1(D19)",
           "/MCU/A2(D20)",
