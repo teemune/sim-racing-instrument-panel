@@ -851,6 +851,22 @@ byte g_6c595fontArray[] = {
 	0b11110110, // 9
 	0b00000000, // OFF empty
 	0b11101111, // REVERSE SPEED
+
+// ORIGINAL:
+  // dp-a-b-c-d-e-f-g
+//  0b00111111, // 0
+//  0b00000110, // 1
+//  0b01011011, // 2
+//  0b01001111, // 3
+//  0b01010110, // 4
+//  0b00000000, // 5
+//  0b00000000, // 6
+//  0b00000000, // 7
+//  0b01111111, // 8
+//  0b01101111, // 9
+//  0b00000000, // OFF empty
+//  0b10000001, // REVERSE SPEED
+  
 };
 byte g_6c595LEDarray; //computed order that will be sent to the LED display
 #endif

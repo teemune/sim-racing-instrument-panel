@@ -1,0 +1,21 @@
+Circuit: * C:\GitHubProjects\sim-racing-instrument-panel\gear-display\LTspice\555_osc.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Thu Jan 05 23:07:11 2023
+Total elapsed time: 0.054 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16985
+traniter = 16958
+tranpoints = 4221
+accept = 3460
+rejected = 761
+matrix size = 15
+fillins = 0
+solver = Normal
+Matrix Compiler1: 514 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 883 bytes object code size  0.1/0.1/[0.1]
+

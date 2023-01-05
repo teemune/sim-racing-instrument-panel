@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GitHubProjects\sim-racing-instrument-panel\gear-display\PCB\GDBM\GDBM.kicad_sch</source>
-    <date>17/08/2022 22.38.24</date>
+    <date>05/01/2023 22.57.55</date>
     <tool>Eeschema (6.0.0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -220,6 +220,24 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="13" name="/PWM Controller/" tstamps="/1314609d-bc5f-403f-91d9-21f00fb8a987/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pwm_controller.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="J1">
@@ -287,7 +305,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="" part="C_1206_10u_50V_1" description="Capacitor"/>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -339,7 +357,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="" part="C_1206_10u_50V_2" description="Capacitor"/>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -391,7 +409,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6807-1-ND</field>
       </fields>
-      <libsource lib="" part="C_0603_100n_X7R_100V_1" description="CAP CER 0.1UF 100V X7R 0603"/>
+      <libsource lib="KD_Capacitor" part="C_0603_100n_X7R_100V" description="CAP CER 0.1UF 100V X7R 0603"/>
       <property name="Code" value="100n"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL10B104KC8NNNC"/>
@@ -509,33 +527,85 @@
       <tstamps>833cc33d-d708-4177-a80b-04907eafe0b0</tstamps>
     </comp>
     <comp ref="J3">
-      <value>DC_2.5_5.5_PJ-090BH</value>
-      <footprint>KD_Connector_Circular:CON_DC_2.5_5.5_PJ-090BH</footprint>
-      <datasheet>https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</datasheet>
+      <value>DC_2.1_5.5_54-00286</value>
+      <footprint>KD_Connector_Circular:CON_DC_2.1_5.5_Tensility_54-00286</footprint>
+      <datasheet>http://www.tensility.com/pdffiles/54-00286.pdf</datasheet>
       <fields>
-        <field name="Code">2.5 mm DC</field>
+        <field name="Code">2.1 mm DC</field>
         <field name="DNP">F</field>
-        <field name="MFG_PartNo">PJ-090BH</field>
+        <field name="MFG_PartNo">54-00286</field>
         <field name="Manufacturer">CUI Devices</field>
-        <field name="Price">1.7</field>
+        <field name="Price">0.7</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">102-5562-1-ND</field>
+        <field name="Supplier_PartNo">839-54-00286-ND</field>
       </fields>
-      <libsource lib="KD_Connector_Circular" part="DC_2.5_5.5_PJ-090BH" description="DC Barrel connector 2.5mm"/>
-      <property name="Code" value="2.5 mm DC"/>
+      <libsource lib="KD_Connector_Circular" part="DC_2.1_5.5_54-00286" description="CONN JACK PWR 2.1MM PCB"/>
+      <property name="Code" value="2.1 mm DC"/>
       <property name="Manufacturer" value="CUI Devices"/>
-      <property name="MFG_PartNo" value="PJ-090BH"/>
+      <property name="MFG_PartNo" value="54-00286"/>
       <property name="Supplier" value="Digi-Key"/>
-      <property name="Supplier_PartNo" value="102-5562-1-ND"/>
+      <property name="Supplier_PartNo" value="839-54-00286-ND"/>
       <property name="DNP" value="F"/>
-      <property name="Price" value="1.7"/>
+      <property name="Price" value="0.7"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="psu.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
       <tstamps>c00bb95c-6be8-4d26-8857-0e54790d32a5</tstamps>
     </comp>
+    <comp ref="TP1">
+      <value>TestPoint_2.5mm_Round</value>
+      <footprint>KD_Connector_Pads:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>DNP</datasheet>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Connector_Pads" part="TestPoint_2.5mm_Round" description="Test point"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>931c61bf-2bf3-47e8-97a7-bc3e3f9c090d</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint_2.5mm_Round</value>
+      <footprint>KD_Connector_Pads:TestPoint_Pad_D2.5mm</footprint>
+      <datasheet>DNP</datasheet>
+      <fields>
+        <field name="Code">DNP</field>
+        <field name="DNP">T</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="Price">0.00</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+      </fields>
+      <libsource lib="KD_Connector_Pads" part="TestPoint_2.5mm_Round" description="Test point"/>
+      <property name="Code" value="DNP"/>
+      <property name="Manufacturer" value="DNP"/>
+      <property name="MFG_PartNo" value="DNP"/>
+      <property name="Supplier" value="DNP"/>
+      <property name="Supplier_PartNo" value="DNP"/>
+      <property name="DNP" value="T"/>
+      <property name="Price" value="0.00"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="psu.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/d2a51ab8-87f6-45a5-af73-2506f338456e/"/>
+      <tstamps>ef535116-2a8d-4f09-9e81-6f8d70d5ba44</tstamps>
+    </comp>
     <comp ref="U1">
-      <value>DC_DC_5V_0A5_K78U05-500R3</value>
+      <value>DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H</value>
       <footprint>KD_IC_DCDC_Converter:DC_DC_GAPTEC_OKI-78SR-5_H</footprint>
       <datasheet>https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf</datasheet>
       <fields>
@@ -599,7 +669,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1066-1-ND</field>
       </fields>
-      <libsource lib="" part="C_0805_1u_X7R_25V_1" description="CAP CER 1UF 25V X7R 0805"/>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
       <property name="Code" value="1u"/>
       <property name="Manufacturer" value="Kemet"/>
       <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
@@ -625,7 +695,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
       </fields>
-      <libsource lib="" part="C_0603_33p_NP0_5%_100V_1" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
+      <libsource lib="KD_Capacitor" part="C_0603_33p_NP0_5%_100V" description="33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"/>
       <property name="Code" value="33p"/>
       <property name="Manufacturer" value="KEMET"/>
       <property name="MFG_PartNo" value="C0603C330J1GAC7867"/>
@@ -651,7 +721,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-1066-1-ND</field>
       </fields>
-      <libsource lib="" part="C_0805_1u_X7R_25V_2" description="CAP CER 1UF 25V X7R 0805"/>
+      <libsource lib="KD_Capacitor" part="C_0805_1u_X7R_25V" description="CAP CER 1UF 25V X7R 0805"/>
       <property name="Code" value="1u"/>
       <property name="Manufacturer" value="Kemet"/>
       <property name="MFG_PartNo" value="CL21B105KAFNNNE"/>
@@ -718,7 +788,7 @@
     </comp>
     <comp ref="D3">
       <value>0603_Green_Clear_LTST-C190KGKT</value>
-      <footprint>KD_Diode:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <footprint>KD_Diode:DIOC1608X70</footprint>
       <datasheet>https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</datasheet>
       <fields>
         <field name="Code">Green Clear</field>
@@ -1258,6 +1328,83 @@
       <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
       <tstamps>d0a64585-7546-4530-b7cc-66090b75bfb9</tstamps>
     </comp>
+    <comp ref="C23">
+      <value>C_0603_10n_X7R_100V</value>
+      <footprint>KD_Capacitor:CAPC1608X90N</footprint>
+      <fields>
+        <field name="Code">10n</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">C1608X7R2A103K080AA</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="Price">0.05</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">445-1304-1-ND</field>
+      </fields>
+      <libsource lib="KD_Capacitor" part="C_0603_10n_X7R_100V" description="CAP CER 10000PF 100V X7R 0603"/>
+      <property name="Code" value="10n"/>
+      <property name="Manufacturer" value="TDK Corporation"/>
+      <property name="MFG_PartNo" value="C1608X7R2A103K080AA"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="445-1304-1-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.05"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>48ecc3fc-81ae-4a4e-a538-08184f08b5bd</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>Schottky_30V_1A_Toshiba_CUS10S30</value>
+      <footprint>KD_Diode:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Code">CUS10S30,H3F</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CUS10S30,H3F</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Price">0.2</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CUS10S30H3FCT-ND</field>
+      </fields>
+      <libsource lib="KD_Diode" part="Schottky_30V_1A_Toshiba_CUS10S30" description="DIODE SCHOTTKY 30V 1A USC"/>
+      <property name="Code" value="CUS10S30,H3F"/>
+      <property name="Manufacturer" value="Toshiba Semiconductor and Storage"/>
+      <property name="MFG_PartNo" value="CUS10S30,H3F"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CUS10S30H3FCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.2"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>87a863e6-31f8-4309-b3f1-59a9047c251a</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>Schottky_30V_1A_Toshiba_CUS10S30</value>
+      <footprint>KD_Diode:D_SOD-323</footprint>
+      <datasheet>https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&amp;prodName=CUS10S30</datasheet>
+      <fields>
+        <field name="Code">CUS10S30,H3F</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">CUS10S30,H3F</field>
+        <field name="Manufacturer">Toshiba Semiconductor and Storage</field>
+        <field name="Price">0.2</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">CUS10S30H3FCT-ND</field>
+      </fields>
+      <libsource lib="KD_Diode" part="Schottky_30V_1A_Toshiba_CUS10S30" description="DIODE SCHOTTKY 30V 1A USC"/>
+      <property name="Code" value="CUS10S30,H3F"/>
+      <property name="Manufacturer" value="Toshiba Semiconductor and Storage"/>
+      <property name="MFG_PartNo" value="CUS10S30,H3F"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="CUS10S30H3FCT-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.2"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>a8cb2f62-4a11-4982-8f2b-36f0e50f4a69</tstamps>
+    </comp>
     <comp ref="M1">
       <value>Knob_6mm_BL_RED_CLIFF_CL170842CR</value>
       <footprint>KD_Mechanical:Knob_CLIFF_CL170842CR</footprint>
@@ -1333,6 +1480,32 @@
       <property name="Sheetfile" value="buttonui.kicad_sch"/>
       <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
       <tstamps>67805566-d788-4955-ba47-e42381fbab8e</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>Timer_Oscillator_TLC555CDG4</value>
+      <footprint>KD_Package_SO:SOIC127P600X175-8</footprint>
+      <datasheet>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555</datasheet>
+      <fields>
+        <field name="Code">TLC555CDG4</field>
+        <field name="DNP">F</field>
+        <field name="MFG_PartNo">TLC555CDG4</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Price">0.9</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">296-52992-ND</field>
+      </fields>
+      <libsource lib="KD_IC_Other" part="Timer_Oscillator_TLC555CDG4" description="IC OSC SGL TIMER 2.1MHZ 8-SOIC"/>
+      <property name="Code" value="TLC555CDG4"/>
+      <property name="Manufacturer" value="Texas Instruments"/>
+      <property name="MFG_PartNo" value="TLC555CDG4"/>
+      <property name="Supplier" value="Digi-Key"/>
+      <property name="Supplier_PartNo" value="296-52992-ND"/>
+      <property name="DNP" value="F"/>
+      <property name="Price" value="0.9"/>
+      <property name="Sheetname" value="Brightness Control"/>
+      <property name="Sheetfile" value="buttonui.kicad_sch"/>
+      <sheetpath names="/Brightness Control/" tstamps="/cf1cdf27-6546-4af7-9073-7f8b56965781/"/>
+      <tstamps>5940b3be-78dc-4295-9b5c-9265459e0d70</tstamps>
     </comp>
     <comp ref="J6">
       <value>Con_Screw_1x04_691313510004</value>
@@ -1944,7 +2117,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="" part="C_1206_10u_50V_2" description="Capacitor"/>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -1996,7 +2169,7 @@
         <field name="Supplier">Digi-Key</field>
         <field name="Supplier_PartNo">1276-6767-1-ND</field>
       </fields>
-      <libsource lib="" part="C_1206_10u_50V_1" description="Capacitor"/>
+      <libsource lib="KD_Capacitor" part="C_1206_10u_50V" description="Capacitor"/>
       <property name="Code" value="10 uF"/>
       <property name="Manufacturer" value="Samsung Electro-Mechanics"/>
       <property name="MFG_PartNo" value="CL31B106KBHNNNE"/>
@@ -2372,7 +2545,7 @@
       <value>CON_GND_Probe_Hook</value>
       <footprint>KD_Connector_Pads:GND_HOOK_M</footprint>
       <fields>
-        <field name="Code">1x01 DNP</field>
+        <field name="Code">DNP</field>
         <field name="DNP">T</field>
         <field name="MFG_PartNo">DNP</field>
         <field name="Manufacturer">DNP</field>
@@ -2381,7 +2554,7 @@
         <field name="Supplier_PartNo">DNP</field>
       </fields>
       <libsource lib="KD_Connector_Pads" part="CON_GND_Probe_Hook" description="Oscilloscope probe GND hook"/>
-      <property name="Code" value="1x01 DNP"/>
+      <property name="Code" value="DNP"/>
       <property name="Manufacturer" value="DNP"/>
       <property name="MFG_PartNo" value="DNP"/>
       <property name="Supplier" value="DNP"/>
@@ -2395,156 +2568,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="" part="C_0603_100n_X7R_100V_1">
-      <description>CAP CER 0.1UF 100V X7R 0603</description>
-      <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</docs>
-      <footprints>
-        <fp>0603</fp>
-        <fp>CAPC1608*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0603_100n_X7R_100V_1</field>
-        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
-        <field name="Datasheet">https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</field>
-        <field name="Code">100n</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="MFG_PartNo">CL10B104KC8NNNC</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">1276-6807-1-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="C_0603_33p_NP0_5%_100V_1">
-      <description>33 pF ±5% 100V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)</description>
-      <docs>http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</docs>
-      <footprints>
-        <fp>*0603*</fp>
-        <fp>CAPC1608*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0603_33p_NP0_5%_100V_1</field>
-        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
-        <field name="Datasheet">http://www.passivecomponent.com/wp-content/uploads/datasheet/WTC_MLCC_General_Purpose.pdf</field>
-        <field name="Code">33p</field>
-        <field name="Manufacturer">KEMET</field>
-        <field name="MFG_PartNo">C0603C330J1GAC7867</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">399-C0603C330J1GAC7867CT-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.05</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="C_0805_1u_X7R_25V_1">
-      <description>CAP CER 1UF 25V X7R 0805</description>
-      <docs>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</docs>
-      <footprints>
-        <fp>0805</fp>
-        <fp>CAPC2012*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0805_1u_X7R_25V_1</field>
-        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
-        <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
-        <field name="Code">1u</field>
-        <field name="Manufacturer">Kemet</field>
-        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">1276-1066-1-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="C_0805_1u_X7R_25V_2">
-      <description>CAP CER 1UF 25V X7R 0805</description>
-      <docs>https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</docs>
-      <footprints>
-        <fp>0805</fp>
-        <fp>CAPC2012*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_0805_1u_X7R_25V_2</field>
-        <field name="Footprint">KD_Capacitor:CAPC2012X135N</field>
-        <field name="Datasheet">https://api.kemet.com/component-edge/download/datasheet/CBR08C279B5GAC.pdf</field>
-        <field name="Code">1u</field>
-        <field name="Manufacturer">Kemet</field>
-        <field name="MFG_PartNo">CL21B105KAFNNNE</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">1276-1066-1-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="C_1206_10u_50V_1">
-      <description>Capacitor</description>
-      <docs>datasheet</docs>
-      <footprints>
-        <fp>1206</fp>
-        <fp>CAPC3216*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_1206_10u_50V_1</field>
-        <field name="Footprint">KD_Capacitor:CAPC3216X150N</field>
-        <field name="Datasheet">datasheet</field>
-        <field name="Code">10 uF</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">1276-6767-1-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="" part="C_1206_10u_50V_2">
-      <description>Capacitor</description>
-      <docs>datasheet</docs>
-      <footprints>
-        <fp>1206</fp>
-        <fp>CAPC3216*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_1206_10u_50V_2</field>
-        <field name="Footprint">KD_Capacitor:CAPC3216X150N</field>
-        <field name="Datasheet">datasheet</field>
-        <field name="Code">10 uF</field>
-        <field name="Manufacturer">Samsung Electro-Mechanics</field>
-        <field name="MFG_PartNo">CL31B106KBHNNNE</field>
-        <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">1276-6767-1-ND</field>
-        <field name="DNP">F</field>
-        <field name="Price">0.10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="KD_Capacitor" part="C_0603_100n_X7R_100V">
       <description>CAP CER 0.1UF 100V X7R 0603</description>
       <docs>https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf</docs>
@@ -2564,6 +2587,29 @@
         <field name="Supplier_PartNo">1276-6807-1-ND</field>
         <field name="DNP">F</field>
         <field name="Price">0.03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Capacitor" part="C_0603_10n_X7R_100V">
+      <description>CAP CER 10000PF 100V X7R 0603</description>
+      <footprints>
+        <fp>0603</fp>
+        <fp>CAPC1608*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0603_10n_X7R_100V</field>
+        <field name="Footprint">KD_Capacitor:CAPC1608X90N</field>
+        <field name="Code">10n</field>
+        <field name="Manufacturer">TDK Corporation</field>
+        <field name="MFG_PartNo">C1608X7R2A103K080AA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">445-1304-1-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.05</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -2693,30 +2739,29 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="KD_Connector_Circular" part="DC_2.5_5.5_PJ-090BH">
-      <description>DC Barrel connector 2.5mm</description>
-      <docs>https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</docs>
+    <libpart lib="KD_Connector_Circular" part="DC_2.1_5.5_54-00286">
+      <description>CONN JACK PWR 2.1MM PCB</description>
+      <docs>http://www.tensility.com/pdffiles/54-00286.pdf</docs>
       <footprints>
-        <fp>*PJ-090BH*</fp>
+        <fp>*54-00286*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">DC_2.5_5.5_PJ-090BH</field>
-        <field name="Footprint">KD_Connector_Circular:CON_DC_2.5_5.5_PJ-090BH</field>
-        <field name="Datasheet">https://www.cuidevices.com/product/resource/digikeypdf/pj-102b.pdf</field>
-        <field name="Code">2.5 mm DC</field>
+        <field name="Value">DC_2.1_5.5_54-00286</field>
+        <field name="Footprint">KD_Connector_Circular:CON_DC_2.1_5.5_Tensility_54-00286</field>
+        <field name="Datasheet">http://www.tensility.com/pdffiles/54-00286.pdf</field>
+        <field name="Code">2.1 mm DC</field>
         <field name="Manufacturer">CUI Devices</field>
-        <field name="MFG_PartNo">PJ-090BH</field>
+        <field name="MFG_PartNo">54-00286</field>
         <field name="Supplier">Digi-Key</field>
-        <field name="Supplier_PartNo">102-5562-1-ND</field>
+        <field name="Supplier_PartNo">839-54-00286-ND</field>
         <field name="DNP">F</field>
-        <field name="Price">1.7</field>
+        <field name="Price">0.7</field>
       </fields>
       <pins>
-        <pin num="1" name="CENTER" type="power_out"/>
-        <pin num="2" name="SLEEVE" type="passive"/>
-        <pin num="3" name="NC" type="passive"/>
-        <pin num="4" name="CENTER" type="passive"/>
+        <pin num="A" name="CENTER" type="power_out"/>
+        <pin num="B" name="SLEEVE" type="passive"/>
+        <pin num="C" name="NC" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KD_Connector_Pads" part="CON_1x04_TH_staggered">
@@ -2749,10 +2794,10 @@
         <fp>1x01</fp>
       </footprints>
       <fields>
-        <field name="Reference">X</field>
+        <field name="Reference">J</field>
         <field name="Value">CON_GND_Probe_Hook</field>
         <field name="Footprint">KD_Connector_Pads:GND_HOOK_M</field>
-        <field name="Code">1x01 DNP</field>
+        <field name="Code">DNP</field>
         <field name="Manufacturer">DNP</field>
         <field name="MFG_PartNo">DNP</field>
         <field name="Supplier">DNP</field>
@@ -2763,6 +2808,26 @@
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
         <pin num="2" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KD_Connector_Pads" part="TestPoint_2.5mm_Round">
+      <description>Test point</description>
+      <docs>DNP</docs>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint_2.5mm_Round</field>
+        <field name="Footprint">KD_Connector_Pads:TestPoint_Pad_D2.5mm</field>
+        <field name="Datasheet">DNP</field>
+        <field name="Code">DNP</field>
+        <field name="Manufacturer">DNP</field>
+        <field name="MFG_PartNo">DNP</field>
+        <field name="Supplier">DNP</field>
+        <field name="Supplier_PartNo">DNP</field>
+        <field name="DNP">T</field>
+        <field name="Price">0.00</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="KD_Connector_Screw" part="Con_Screw_1x04_691313510004">
@@ -3121,6 +3186,38 @@
         <pin num="44" name="AVCC1" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="KD_IC_Other" part="Timer_Oscillator_TLC555CDG4">
+      <description>IC OSC SGL TIMER 2.1MHZ 8-SOIC</description>
+      <docs>https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555</docs>
+      <footprints>
+        <fp>SOIC127P600X*</fp>
+        <fp>8-SOIC</fp>
+        <fp>SO-8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Timer_Oscillator_TLC555CDG4</field>
+        <field name="Footprint">KD_Package_SO:SOIC127P600X175-8</field>
+        <field name="Datasheet">https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555</field>
+        <field name="Code">TLC555CDG4</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="MFG_PartNo">TLC555CDG4</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier_PartNo">296-52992-ND</field>
+        <field name="DNP">F</field>
+        <field name="Price">0.9</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
     <libpart lib="KD_IC_Regulator_DC_Converter" part="DC_DC_5V_2A0_GAPTEC_OKI-78SR-5_H">
       <description>Non-Isolated PoL Module DC DC Converter 1 Output 5V - - - 2A 8V - 36V Input</description>
       <docs>https://gaptec-electronic.com/datenblaetter/LMS78_2.0R.pdf</docs>
@@ -3183,7 +3280,7 @@
       <fields>
         <field name="Reference">D</field>
         <field name="Value">0603_Green_Clear_LTST-C190KGKT</field>
-        <field name="Footprint">KD_Diode:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Footprint">KD_Diode:DIOC1608X70</field>
         <field name="Datasheet">https://optoelectronics.liteon.com/upload/download/DS22-2000-074/LTST-C190KGKT.PDF</field>
         <field name="Code">Green Clear</field>
         <field name="Manufacturer">Lite-On Inc.</field>
@@ -3595,6 +3692,9 @@
     <library logical="KD_IC_MCU">
       <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_MCU.kicad_sym</uri>
     </library>
+    <library logical="KD_IC_Other">
+      <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_Other.kicad_sym</uri>
+    </library>
     <library logical="KD_IC_Regulator_DC_Converter">
       <uri>C:/GitHubProjects/kicad/lib/symbol/KD_IC_Regulator_DC_Converter.kicad_sym</uri>
     </library>
@@ -3682,65 +3782,60 @@
     </net>
     <net code="6" name="/7-Segment Display/a">
       <node ref="R11" pin="1" pintype="passive"/>
-      <node ref="U4" pin="14" pinfunction="DRAIN7" pintype="open_collector"/>
+      <node ref="U4" pin="3" pinfunction="DRAIN0" pintype="open_collector"/>
     </net>
     <net code="7" name="/7-Segment Display/b">
       <node ref="R16" pin="1" pintype="passive"/>
-      <node ref="U4" pin="13" pinfunction="DRAIN6" pintype="open_collector"/>
+      <node ref="U4" pin="4" pinfunction="DRAIN1" pintype="open_collector"/>
     </net>
     <net code="8" name="/7-Segment Display/c">
       <node ref="R12" pin="1" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="DRAIN5" pintype="open_collector"/>
+      <node ref="U4" pin="5" pinfunction="DRAIN2" pintype="open_collector"/>
     </net>
     <net code="9" name="/7-Segment Display/d">
       <node ref="R17" pin="1" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="DRAIN4" pintype="open_collector"/>
+      <node ref="U4" pin="6" pinfunction="DRAIN3" pintype="open_collector"/>
     </net>
     <net code="10" name="/7-Segment Display/dp">
       <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U4" pin="3" pinfunction="DRAIN0" pintype="open_collector"/>
+      <node ref="U4" pin="14" pinfunction="DRAIN7" pintype="open_collector"/>
     </net>
     <net code="11" name="/7-Segment Display/e">
       <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="DRAIN3" pintype="open_collector"/>
+      <node ref="U4" pin="11" pinfunction="DRAIN4" pintype="open_collector"/>
     </net>
     <net code="12" name="/7-Segment Display/f">
       <node ref="R18" pin="1" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="DRAIN2" pintype="open_collector"/>
+      <node ref="U4" pin="12" pinfunction="DRAIN5" pintype="open_collector"/>
     </net>
     <net code="13" name="/7-Segment Display/g">
       <node ref="R14" pin="1" pintype="passive"/>
-      <node ref="U4" pin="4" pinfunction="DRAIN1" pintype="open_collector"/>
+      <node ref="U4" pin="13" pinfunction="DRAIN6" pintype="open_collector"/>
     </net>
     <net code="14" name="/Brightness Control/POT_W">
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="R29" pin="2" pintype="passive"/>
       <node ref="U2" pin="41" pinfunction="PF0(ADC0)" pintype="tri_state"/>
     </net>
-    <net code="15" name="/Interfaces/SCL">
+    <net code="15" name="/Brightness Control/PWM_drive">
+      <node ref="U2" pin="40" pinfunction="PF1(ADC1)" pintype="tri_state"/>
+    </net>
+    <net code="17" name="/Interfaces/SCL">
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R31" pin="2" pintype="passive"/>
       <node ref="U2" pin="18" pinfunction="PD0(INT0/OC0B/SCL)" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/Interfaces/SDA">
+    <net code="18" name="/Interfaces/SDA">
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R32" pin="2" pintype="passive"/>
       <node ref="U2" pin="19" pinfunction="PD1(INT1/SDA)" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/LED Driver 3/RCK">
+    <net code="20" name="/LED Driver 3/RCK">
       <node ref="U2" pin="30" pinfunction="PB6(OC1B/OC4B/ADC13)" pintype="bidirectional"/>
       <node ref="U4" pin="10" pinfunction="RCK" pintype="input"/>
     </net>
-    <net code="19" name="/LED Driver 3/SER_IN">
-      <node ref="U2" pin="12" pinfunction="PB7(OC0A/OC1C/RTS)" pintype="bidirectional"/>
-      <node ref="U4" pin="2" pinfunction="SER_IN" pintype="input"/>
-    </net>
-    <net code="20" name="/LED Driver 3/SER_OUT">
+    <net code="21" name="/LED Driver 3/SER_OUT">
       <node ref="U4" pin="9" pinfunction="SER_OUT" pintype="output"/>
-    </net>
-    <net code="21" name="/LED Driver 3/SRCK">
-      <node ref="U2" pin="32" pinfunction="PC7(ICP3/CLK0/OC4A)" pintype="bidirectional"/>
-      <node ref="U4" pin="15" pinfunction="SRCK" pintype="input"/>
     </net>
     <net code="22" name="/LED Driver 3/~{CLR}">
       <node ref="R26" pin="2" pintype="passive"/>
@@ -3766,91 +3861,96 @@
       <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="39" pinfunction="PF4(ADC4/TCK)" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/MCU/A4(D22)">
-      <node ref="U2" pin="40" pinfunction="PF1(ADC1)" pintype="tri_state"/>
-    </net>
-    <net code="29" name="/MCU/A_REF">
+    <net code="28" name="/MCU/A_REF">
       <node ref="U2" pin="42" pinfunction="AREF" pintype="input"/>
     </net>
-    <net code="30" name="/MCU/CS">
+    <net code="29" name="/MCU/CS">
       <node ref="U2" pin="8" pinfunction="PB0(SS)" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/MCU/D0(RX)">
+    <net code="30" name="/MCU/D0(RX)">
       <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U2" pin="20" pinfunction="PD2(INT2/RXD1)" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/MCU/D1(TX)">
+    <net code="31" name="/MCU/D1(TX)">
       <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="21" pinfunction="PD3(INT3/TXD1)" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/MCU/D4">
+    <net code="32" name="/MCU/D4">
       <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="U2" pin="25" pinfunction="PD4(ICP1/ADC8)" pintype="bidirectional"/>
     </net>
-    <net code="34" name="/MCU/D6">
+    <net code="33" name="/MCU/D6">
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U2" pin="27" pinfunction="PD7(OC4D/ADC10/T0)" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/MCU/D7">
+    <net code="34" name="/MCU/D7">
       <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="PE6(INT.6/AIN0)" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/MCU/D8">
+    <net code="35" name="/MCU/D8">
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="U2" pin="28" pinfunction="PB4(ADC11)" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/MCU/D9">
+    <net code="36" name="/MCU/D9">
       <node ref="R24" pin="2" pintype="passive"/>
       <node ref="U2" pin="29" pinfunction="PB5(OC1A/ADC12/~{OC4B})" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/MCU/D11">
+      <node ref="U2" pin="12" pinfunction="PB7(OC0A/OC1C/RTS)" pintype="bidirectional"/>
     </net>
     <net code="38" name="/MCU/D12">
       <node ref="R23" pin="2" pintype="passive"/>
       <node ref="U2" pin="26" pinfunction="PD6(T1/ADC9/~{OC4D})" pintype="bidirectional"/>
     </net>
-    <net code="39" name="/MCU/MISO">
+    <net code="39" name="/MCU/D13">
+      <node ref="U2" pin="32" pinfunction="PC7(ICP3/CLK0/OC4A)" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/MCU/MISO">
       <node ref="U2" pin="11" pinfunction="PB3(PDO/MISO)" pintype="bidirectional"/>
       <node ref="X1" pin="1" pinfunction="MISO" pintype="input"/>
     </net>
-    <net code="40" name="/MCU/MOSI">
+    <net code="41" name="/MCU/MOSI">
       <node ref="U2" pin="10" pinfunction="PB2(PDI/MOSI)" pintype="bidirectional"/>
+      <node ref="U4" pin="2" pinfunction="SER_IN" pintype="input"/>
       <node ref="X1" pin="4" pinfunction="MOSI" pintype="output"/>
     </net>
-    <net code="41" name="/MCU/SCLK">
+    <net code="42" name="/MCU/SCLK">
       <node ref="U2" pin="9" pinfunction="PB1(SCK)" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="SRCK" pintype="input"/>
       <node ref="X1" pin="3" pinfunction="SCK" pintype="output"/>
     </net>
-    <net code="42" name="/MCU/USB_D_N">
+    <net code="43" name="/MCU/USB_D_N">
       <node ref="R10" pin="2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="D-" pintype="bidirectional"/>
     </net>
-    <net code="43" name="/MCU/USB_D_P">
+    <net code="44" name="/MCU/USB_D_P">
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="D+" pintype="bidirectional"/>
     </net>
-    <net code="44" name="/MCU/USB_VBUS">
+    <net code="45" name="/MCU/USB_VBUS">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
       <node ref="U2" pin="7" pinfunction="VBUS" pintype="input"/>
     </net>
-    <net code="45" name="/MCU/X4_RXD">
+    <net code="46" name="/MCU/X4_RXD">
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="X2" pin="2" pinfunction="Pin_2" pintype="passive"/>
     </net>
-    <net code="46" name="/MCU/X4_TXD">
+    <net code="47" name="/MCU/X4_TXD">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="X2" pin="3" pinfunction="Pin_3" pintype="passive"/>
     </net>
-    <net code="48" name="/MCU/~{RESET}">
+    <net code="49" name="/MCU/~{RESET}">
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U2" pin="13" pinfunction="~{RESET}" pintype="input"/>
       <node ref="X1" pin="5" pinfunction="RST" pintype="output"/>
       <node ref="X2" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="49" name="/RPM Bar/LED_PWR">
+    <net code="52" name="/RPM Bar/LED_PWR">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C18" pin="1" pintype="passive"/>
@@ -3858,21 +3958,21 @@
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R22" pin="2" pintype="passive"/>
     </net>
-    <net code="50" name="/RPM Bar/LED_STRIP_B">
+    <net code="53" name="/RPM Bar/LED_STRIP_B">
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="/USB/USB_CON_D_N">
+    <net code="54" name="/USB/USB_CON_D_N">
       <node ref="D4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="J8" pin="2" pinfunction="D-" pintype="bidirectional"/>
       <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="52" name="/USB/USB_CON_D_P">
+    <net code="55" name="/USB/USB_CON_D_P">
       <node ref="D4" pin="6" pinfunction="6" pintype="input"/>
       <node ref="J8" pin="3" pinfunction="D+" pintype="bidirectional"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="53" name="Earth">
+    <net code="56" name="Earth">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="1" pintype="passive"/>
@@ -3888,6 +3988,7 @@
       <node ref="C20" pin="2" pintype="passive"/>
       <node ref="C21" pin="2" pintype="passive"/>
       <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
@@ -3898,8 +3999,7 @@
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="V-" pintype="input"/>
-      <node ref="J3" pin="2" pinfunction="SLEEVE" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="CENTER" pintype="passive"/>
+      <node ref="J3" pin="B" pinfunction="SLEEVE" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
@@ -3912,6 +4012,7 @@
       <node ref="R30" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="passive"/>
       <node ref="U2" pin="15" pinfunction="GND" pintype="power_in"/>
       <node ref="U2" pin="23" pinfunction="GND1" pintype="power_in"/>
@@ -3921,116 +4022,152 @@
       <node ref="U3" pin="1" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U3" pin="4" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U4" pin="16" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
       <node ref="X1" pin="6" pinfunction="GND" pintype="input"/>
       <node ref="X2" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="X3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="X3" pin="2" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="54" name="Net-(C8-Pad1)">
+    <net code="57" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="U2" pin="17" pinfunction="XTAL1" pintype="bidirectional"/>
       <node ref="Y1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(C10-Pad1)">
+    <net code="58" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U2" pin="16" pinfunction="XTAL2" pintype="bidirectional"/>
       <node ref="Y1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(C11-Pad2)">
+    <net code="59" name="Net-(C11-Pad2)">
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="UCAP" pintype="bidirectional"/>
     </net>
-    <net code="57" name="Net-(D1-Pad2)">
+    <net code="60" name="Net-(C23-Pad1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="CV" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="F1" pin="2" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D3-Pad2)">
+    <net code="62" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(D4-Pad5)">
+    <net code="63" name="Net-(D4-Pad5)">
       <node ref="D4" pin="5" pinfunction="V+" pintype="input"/>
       <node ref="FB1" pin="1" pintype="passive"/>
       <node ref="J8" pin="1" pinfunction="VBUS" pintype="power_out"/>
     </net>
-    <net code="60" name="Net-(D5-Pad2)">
+    <net code="64" name="Net-(D5-Pad2)">
       <node ref="D5" pin="2" pinfunction="Ae" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(D5-Pad3)">
+    <net code="65" name="Net-(D5-Pad3)">
       <node ref="D5" pin="3" pinfunction="Ad" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(D5-Pad4)">
+    <net code="66" name="Net-(D5-Pad4)">
       <node ref="D5" pin="4" pinfunction="Ac" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(D5-Pad6)">
+    <net code="67" name="Net-(D5-Pad6)">
       <node ref="D5" pin="6" pinfunction="Ab" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(D5-Pad7)">
+    <net code="68" name="Net-(D5-Pad7)">
       <node ref="D5" pin="7" pinfunction="Aa" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D5-Pad8)">
+    <net code="69" name="Net-(D5-Pad8)">
       <node ref="D5" pin="8" pinfunction="Adp" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
     </net>
-    <net code="66" name="Net-(D5-Pad9)">
+    <net code="70" name="Net-(D5-Pad9)">
       <node ref="D5" pin="9" pinfunction="Af" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(D5-Pad10)">
+    <net code="71" name="Net-(D5-Pad10)">
       <node ref="D5" pin="10" pinfunction="Ag" pintype="passive"/>
       <node ref="R14" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(F1-Pad1)">
+    <net code="72" name="Net-(F1-Pad1)">
       <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="CENTER" pintype="power_out"/>
+      <node ref="J3" pin="A" pinfunction="CENTER" pintype="power_out"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
-    </net>
-    <net code="70" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="U2" pin="22" pinfunction="PD5(XCK/CTS)" pintype="bidirectional"/>
-    </net>
-    <net code="71" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="U2" pin="33" pinfunction="PE2(~{HWB})" pintype="bidirectional"/>
-    </net>
-    <net code="72" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="X1" pin="2" pinfunction="VCC" pintype="input"/>
-    </net>
-    <net code="73" name="Net-(R23-Pad1)">
-      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
-    </net>
-    <net code="74" name="Net-(R24-Pad1)">
-      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
-    </net>
-    <net code="75" name="Net-(R25-Pad1)">
+    <net code="73" name="Net-(J5-Pad1)">
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(R28-Pad2)">
+    <net code="74" name="Net-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="77" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="22" pinfunction="PD5(XCK/CTS)" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="33" pinfunction="PE2(~{HWB})" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="X1" pin="2" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(R28-Pad2)">
       <node ref="R28" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R29" pin="1" pintype="passive"/>
     </net>
-    <net code="77" name="unconnected-(D4-Pad3)">
+    <net code="81" name="unconnected-(D4-Pad3)">
       <node ref="D4" pin="3" pinfunction="3" pintype="input+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(D4-Pad4)">
+    <net code="82" name="unconnected-(D4-Pad4)">
       <node ref="D4" pin="4" pinfunction="4" pintype="input+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(J3-Pad3)">
-      <node ref="J3" pin="3" pinfunction="NC" pintype="passive+no_connect"/>
+    <net code="83" name="unconnected-(D6-Pad1)">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="84" name="unconnected-(D6-Pad2)">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="85" name="unconnected-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="87" name="unconnected-(J3-PadC)">
+      <node ref="J3" pin="C" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="TR" pintype="input"/>
+    </net>
+    <net code="89" name="unconnected-(U5-Pad3)">
+      <node ref="U5" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="90" name="unconnected-(U5-Pad4)">
+      <node ref="U5" pin="4" pinfunction="R" pintype="input"/>
+    </net>
+    <net code="91" name="unconnected-(U5-Pad6)">
+      <node ref="U5" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="92" name="unconnected-(U5-Pad7)">
+      <node ref="U5" pin="7" pinfunction="DIS" pintype="input"/>
+    </net>
+    <net code="93" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="VCC" pintype="power_in"/>
     </net>
   </nets>
 </export>

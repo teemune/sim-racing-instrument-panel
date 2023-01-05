@@ -2,4 +2,8 @@
 - U4 footprint too big********************************************(fixed, TL 10.09.2022)
 - 1.27 mm offset needed on both sides of the 7-seg display********(fixed, TL 10.09.2022)
 - PSU footprint rotated 180***************************************(fixed, TL 06.09.2022)
-- DC input connector pin is the thicker version
+- DC input connector pin is the thicker version*******************(fixed, TL 02.01.2023)
+- Possibility to route V+ and GND on pads*************************(fixed, TL 02.01.2023)
+- Change 7-seg connections to match SimHub************************(fixed, TL 02.01.2023)
+- 7-seg driver needs to be connected to SPI pins due to library***(fixed, TL 02.01.2023)
+- PWM should be driven by external circuit, not the MCU
