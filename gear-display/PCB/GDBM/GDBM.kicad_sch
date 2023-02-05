@@ -1235,6 +1235,9 @@
     (path "/124ce659-22a5-4a84-b30d-e5ec849b4e60/105fdfcd-8c11-4755-9504-552389cbbfc0"
       (reference "FB1") (unit 1) (value "Ferrite_250mA_Murata_BLM15HG102SN1D") (footprint "KD_Inductor:INDC1005X55N")
     )
+    (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/2ae08eab-35dc-463a-8221-42a62bdbb52f"
+      (reference "FB?") (unit 1) (value "Ferrite_250mA_Murata_BLM15HG102SN1D") (footprint "KD_Inductor:INDC1005X55N")
+    )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/fa036ac9-0e2a-4987-b929-d6ff4d7f8bf5"
       (reference "FD1") (unit 1) (value "Fiducial_0.5mm") (footprint "KD_Mechanical:Fiducial_0.5mm_Mask1mm")
     )
