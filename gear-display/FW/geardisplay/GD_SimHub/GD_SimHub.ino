@@ -16,7 +16,7 @@
 
 //#define INCLUDE_TM1638                      //{"Name":"INCLUDE_TM1638","Type":"autodefine","Condition":"[TM1638_ENABLEDMODULES]>0"}
 //#define INCLUDE_WS2801                      //{"Name":"INCLUDE_WS2801","Type":"autodefine","Condition":"[WS2801_RGBLEDCOUNT]>0"}
-//#define INCLUDE_WS2812B                     //{"Name":"INCLUDE_WS2812B","Type":"autodefine","Condition":"[WS2812B_RGBLEDCOUNT]>0"}
+#define INCLUDE_WS2812B                     //{"Name":"INCLUDE_WS2812B","Type":"autodefine","Condition":"[WS2812B_RGBLEDCOUNT]>0"}
 //#define INCLUDE_PL9823                      //{"Name":"INCLUDE_PL9823","Type":"autodefine","Condition":"[PL9823_RGBLEDCOUNT]>0"}
 //#define INCLUDE_WS2812B_MATRIX              //{"Name":"INCLUDE_WS2812B_MATRIX","Type":"autodefine","Condition":"[WS2812B_MATRIX_ENABLED]>0"}
 //#define INCLUDE_LEDBACKPACK                 //{"Name":"INCLUDE_LEDBACKPACK","Type":"autodefine","Condition":"[ENABLE_ADA_HT16K33_7SEGMENTS]>0 || [ENABLE_ADA_HT16K33_BiColorMatrix]>0"}
@@ -75,7 +75,7 @@
 
 // ----------------------------------------------------- HW SETTINGS, PLEASE REVIEW ALL -------------------------------------------
 #define DEVICE_NAME "SimHub Dash" //{"Group":"General","Name":"DEVICE_NAME","Title":"Device name,\r\n make sure to use a unique name when using multiple arduinos","DefaultValue":"SimHub Dash","Type":"string","Template":"#define DEVICE_NAME \"{0}\""}
-#define DEVICE_UNIQUE_ID "1b096afe-cb29-4c99-b7ae-2d46c389080b" //{"UniqueId":"1b096afe-cb29-4c99-b7ae-2d46c389080b","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
+#define DEVICE_UNIQUE_ID "6b0f5764-128a-4808-aadc-f4c13091495b" //{"UniqueId":"6b0f5764-128a-4808-aadc-f4c13091495b","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
 
 #define ENABLE_MICRO_GAMEPAD 0           //{"Group":"GAMEPAD","Name":"ENABLE_MICRO_GAMEPAD","Title":"Enable arduino micro gamepad output for all the activated buttons/encoders","DefaultValue":"0","Type":"bool"}
 #define MICRO_GAMEPAD_ENCODERPRESSTIME 50 //{"Name":"MICRO_GAMEPAD_ENCODERPRESSTIME","Title":"Define how long (in milliseconds) the encoder related button will be hold after an encoder movement","DefaultValue":"50","Type":"int","Condition":"ENABLE_MICRO_GAMEPAD>0","Max":100}
@@ -222,13 +222,13 @@ SHMatrixHT16H33SingleColor shMatrixHT16H33SingleColor;
 // -------------------------------------------------------------------------------------------------------
 // WS2812b chained RGBLEDS count
 // 0 disabled, > 0 enabled
-#define WS2812B_RGBLEDCOUNT 0        //{"Group":"WS2812B RGB Leds","Name":"WS2812B_RGBLEDCOUNT","Title":"WS2812B RGB leds count","DefaultValue":"0","Type":"int","Max":150}
+#define WS2812B_RGBLEDCOUNT 17       //{"Group":"WS2812B RGB Leds","Name":"WS2812B_RGBLEDCOUNT","Title":"WS2812B RGB leds count","DefaultValue":"0","Type":"int","Max":150}
 #ifdef INCLUDE_WS2812B
 
 #define WS2812B_DATAPIN 6            //{"Name":"WS2812B_DATAPIN","Title":"Data (DIN) digital pin number","DefaultValue":"6","Type":"pin;WS2812B LEDS DATA","Condition":"WS2812B_RGBLEDCOUNT>0"}
 #define WS2812B_RGBENCODING 0        //{"Name":"WS2812B_RGBENCODING","Title":"WS2812B RGB encoding\r\nSet to 0 for GRB, 1 for RGB encoding, 2 for BRG encoding","DefaultValue":"0","Type":"list","Condition":"WS2812B_RGBLEDCOUNT>0","ListValues":"0,GRB encoding;1,RGB encoding;2,BRG encoding"}
 #define WS2812B_RIGHTTOLEFT 0        //{"Name":"WS2812B_RIGHTTOLEFT","Title":"Reverse led order ","DefaultValue":"0","Type":"bool","Condition":"WS2812B_RGBLEDCOUNT>0"}
-#define WS2812B_TESTMODE 0           //{"Name":"WS2812B_TESTMODE","Title":"TESTING MODE : Light up all configured leds (in red color) at arduino startup\r\nIt will clear after simhub connection","DefaultValue":"0","Type":"bool","Condition":"WS2812B_RGBLEDCOUNT>0"}
+#define WS2812B_TESTMODE 1           //{"Name":"WS2812B_TESTMODE","Title":"TESTING MODE : Light up all configured leds (in red color) at arduino startup\r\nIt will clear after simhub connection","DefaultValue":"0","Type":"bool","Condition":"WS2812B_RGBLEDCOUNT>0"}
 #define WS2812B_USEADAFRUITLIBRARY 0 //{"Name":"WS2812B_USEADAFRUITLIBRARY","Title":"ADVANCED : Use legacy adafruit library (only enable if you have sketch size issues)","DefaultValue":"0","Type":"bool","Condition":"WS2812B_RGBLEDCOUNT>0"}
 
 #if(WS2812B_USEADAFRUITLIBRARY == 0)
@@ -837,8 +837,8 @@ byte RS_74HC595_NeutralDigit = 0b11101100;
 #define RS_6c595_DATAPIN 11         //{"Name":"RS_6c595_DATAPIN","Title":"DATA digital pin number, can't be changed !","DefaultValue":"11","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 #define RS_6c595_LATCHPIN 13        //{"Name":"RS_6c595_LATCHPIN","Title":"LATCH digital pin number, can't be changed !","DefaultValue":"13","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 #define RS_6c595_SLAVEPIN 10        //{"Name":"RS_6c595_SLAVEPIN","Title":"SLAVE digital pin number","DefaultValue":"10","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
-byte g_6c595fontArray[] = {
-	// a-b-c-d-e-f-g-dp
+byte g_6c595fontArray[] = { // a-b-c-d-e-f-g-dp 0b11111100, // 0
+  // a-b-c-d-e-f-g-dp
   0b11111100, // 0        
   0b01100000, // 1            
   0b11011010, // 2
@@ -847,26 +847,10 @@ byte g_6c595fontArray[] = {
   0b10110110, // 5
   0b10111110, // 6
   0b11100000, // 7
-	0b11111100, // 8
-	0b11110110, // 9
-	0b00000000, // OFF empty
-	0b11101111, // REVERSE SPEED
-
-// ORIGINAL:
-  // dp-a-b-c-d-e-f-g
-//  0b00111111, // 0
-//  0b00000110, // 1
-//  0b01011011, // 2
-//  0b01001111, // 3
-//  0b01010110, // 4
-//  0b00000000, // 5
-//  0b00000000, // 6
-//  0b00000000, // 7
-//  0b01111111, // 8
-//  0b01101111, // 9
-//  0b00000000, // OFF empty
-//  0b10000001, // REVERSE SPEED
-  
+  0b11111100, // 8
+  0b11110110, // 9
+  0b00000000, // OFF empty
+  0b11101111, // REVERSE SPEED
 };
 byte g_6c595LEDarray; //computed order that will be sent to the LED display
 #endif
