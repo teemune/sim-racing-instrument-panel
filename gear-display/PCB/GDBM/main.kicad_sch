@@ -2488,7 +2488,7 @@
   (symbol (lib_id "KD_Inductor:Ferrite_250mA_Murata_BLM15HG102SN1D") (at 48.26 30.48 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2ae08eab-35dc-463a-8221-42a62bdbb52f)
-    (property "Reference" "FB?" (id 0) (at 48.26 24.13 90))
+    (property "Reference" "FB2" (id 0) (at 48.26 24.13 90))
     (property "Value" "Ferrite_250mA_Murata_BLM15HG102SN1D" (id 1) (at 16.51 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )

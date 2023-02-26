@@ -7,3 +7,4 @@
 - Change 7-seg connections to match SimHub************************(fixed, TL 02.01.2023)
 - 7-seg driver needs to be connected to SPI pins due to library***(fixed, TL 02.01.2023)
 - PWM should be driven by external circuit, not the MCU
+- Longer shaft for the potentiometer
