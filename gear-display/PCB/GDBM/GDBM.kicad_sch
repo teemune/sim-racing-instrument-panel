@@ -992,11 +992,23 @@
   )
 
   (symbol_instances
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/f75c97c2-c792-438e-9d4b-d812e3a86595"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cf1cdf27-6546-4af7-9073-7f8b56965781/5752e892-fa33-4805-b2cd-9b3a27b07ee2"
       (reference "#PWR02") (unit 1) (value "GND") (footprint "")
     )
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/9e8b1b14-eb23-41a4-898d-8492169bc8f4"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
     (path "/cf1cdf27-6546-4af7-9073-7f8b56965781/13e9d830-263e-4a7e-9599-c2a4c2fd52dc"
       (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/e81fe2bc-9c34-433a-b7d2-76aed37ac478"
+      (reference "#PWR05") (unit 1) (value "+5V") (footprint "")
+    )
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/6f4b13ba-a86f-45c6-91da-eea54cd82fa3"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
     )
     (path "/d2a51ab8-87f6-45a5-af73-2506f338456e/b43e1a4e-06b4-4831-9158-bc4c61af1950"
       (reference "#PWR0101") (unit 1) (value "+12V") (footprint "")
@@ -1187,8 +1199,8 @@
     (path "/049e3529-b599-416f-9297-34a8c6367a59/ec8db1b2-0758-455a-86da-8589405c319e"
       (reference "C17") (unit 1) (value "C_1206_10u_X5R_50V_automotive") (footprint "KD_Capacitor:CAPC3216X150N")
     )
-    (path "/049e3529-b599-416f-9297-34a8c6367a59/3e42dc77-fa00-4855-a483-76721000f4c8"
-      (reference "C18") (unit 1) (value "C_1206_10u_X5R_50V_automotive") (footprint "KD_Capacitor:CAPC3216X150N")
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/7e55d482-a951-484f-9c39-6a5e4be07065"
+      (reference "C18") (unit 1) (value "C_0603_100n_X7R_100V") (footprint "KD_Capacitor:CAPC1608X90N")
     )
     (path "/a409feb3-82e7-4e71-a86a-338ee5c1b1cc/95c82c7d-c9d5-43a4-8f49-88c917586d23"
       (reference "C19") (unit 1) (value "C_0603_100n_X7R_100V") (footprint "KD_Capacitor:CAPC1608X90N")
@@ -1207,6 +1219,9 @@
     )
     (path "/cf1cdf27-6546-4af7-9073-7f8b56965781/10751d0a-eb2d-492f-858a-9b50bf978bd1"
       (reference "C24") (unit 1) (value "C_0603_10n_X7R_100V") (footprint "KD_Capacitor:CAPC1608X90N")
+    )
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/6ba2d95d-4571-4a92-a603-3b5bf5452d71"
+      (reference "C25") (unit 1) (value "C_1206_10u_X5R_50V_automotive") (footprint "KD_Capacitor:CAPC3216X150N")
     )
     (path "/d2a51ab8-87f6-45a5-af73-2506f338456e/af5a4141-fe46-49c1-9c31-e552f8e4acd5"
       (reference "D1") (unit 1) (value "Schottky_30V_1A_Toshiba_CUS10S30") (footprint "KD_Diode:D_SOD-323")
@@ -1234,9 +1249,6 @@
     )
     (path "/124ce659-22a5-4a84-b30d-e5ec849b4e60/105fdfcd-8c11-4755-9504-552389cbbfc0"
       (reference "FB1") (unit 1) (value "Ferrite_250mA_Murata_BLM15HG102SN1D") (footprint "KD_Inductor:INDC1005X55N")
-    )
-    (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/2ae08eab-35dc-463a-8221-42a62bdbb52f"
-      (reference "FB2") (unit 1) (value "Ferrite_250mA_Murata_BLM15HG102SN1D") (footprint "KD_Inductor:INDC1005X55N")
     )
     (path "/8f5ee264-ab78-438d-b8d5-1e547e5afc7c/fa036ac9-0e2a-4987-b929-d6ff4d7f8bf5"
       (reference "FD1") (unit 1) (value "Fiducial_0.5mm") (footprint "KD_Mechanical:Fiducial_0.5mm_Mask1mm")
@@ -1420,6 +1432,9 @@
     )
     (path "/cf1cdf27-6546-4af7-9073-7f8b56965781/5940b3be-78dc-4295-9b5c-9265459e0d70"
       (reference "U5") (unit 1) (value "Timer_Oscillator_TLC555CDG4") (footprint "KD_Package_SO:SOIC127P600X175-8")
+    )
+    (path "/049e3529-b599-416f-9297-34a8c6367a59/67cc891e-33e5-4f6a-ab23-b54a250d1ec7"
+      (reference "U8") (unit 1) (value "Buffer_74LVC125AS14-13_DIODES") (footprint "KD_Package_SO:SOIC127P600X175-14N")
     )
     (path "/2eb44e1a-4042-4ea6-aca2-4836a6ec84e9/59b87873-f12a-4c6e-870e-4feaa92fe1ae"
       (reference "X1") (unit 1) (value "Programming_AVR_ISP_Staggered_Holes") (footprint "KD_Connector_Pads:CON_PINHD_1X06_TH_OFFSET")
