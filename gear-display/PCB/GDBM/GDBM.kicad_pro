@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.15,
@@ -56,19 +57,18 @@
         }
       ],
       "drc_exclusions": [
-        "silk_over_copper|164300000|129150000|6b52c9e8-9a62-4da1-9af3-2229dd721180|375fb0e4-801c-4d69-a5d2-50c5b1699807",
-        "silk_over_copper|179000000|101160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|cc88c52a-1f39-4e4c-b6cf-9f0f37cac162",
-        "silk_over_copper|179000000|102340000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|2c6cb2d7-5f16-47e0-a74f-2af92afff58d",
-        "silk_over_copper|179000000|124660000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|a5ea7530-e258-4c85-8803-b901cc4d59fc",
-        "silk_over_copper|179000000|125840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|94fcca88-a1f0-401a-95f0-a86d12a58a47",
-        "silk_over_copper|179000000|148160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|bed7c9d3-eb6c-4625-b140-27ee26e0de08",
-        "silk_over_copper|179000000|78840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|355c41d9-6bcd-42d5-a7d7-d551aa3ec13a",
-        "silk_over_copper|83000000|101160000|61996362-1384-4305-8201-169b5e9dbeff|0c39ce5d-ab2c-45ae-b514-ea95c203dd0d",
-        "silk_over_copper|83000000|102340000|61996362-1384-4305-8201-169b5e9dbeff|eae5b1b2-4a82-4c2c-b657-499d40021952",
-        "silk_over_copper|83000000|124660000|61996362-1384-4305-8201-169b5e9dbeff|9c874b6e-83d7-4931-abe0-335408880256",
-        "silk_over_copper|83000000|125840000|61996362-1384-4305-8201-169b5e9dbeff|29c28e74-513e-4abb-bebe-ce4d6d156196",
-        "silk_over_copper|83000000|148160000|61996362-1384-4305-8201-169b5e9dbeff|39a8cd39-294a-4c8a-99d7-71b35feea45f",
-        "silk_over_copper|83000000|78840000|61996362-1384-4305-8201-169b5e9dbeff|06face08-dd2c-4947-af42-03533d8bc53c"
+        "silk_edge_clearance|179000000|101160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|060aac51-ff0f-4f56-a2fd-6023435e3992",
+        "silk_edge_clearance|179000000|102340000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|09516f5a-2e10-4b32-b7f0-9c9c6b7b5b7d",
+        "silk_edge_clearance|179000000|124660000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|b0963f8b-c878-4d21-8800-fa0a44d4838a",
+        "silk_edge_clearance|179000000|125840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|f40882a1-c412-49a8-928d-705c71fd0d77",
+        "silk_edge_clearance|179000000|148160000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|97b03a5b-187d-43b5-9abe-77f8103132e8",
+        "silk_edge_clearance|179000000|78840000|7f0c4212-29bc-482f-a7e8-2407ca3a05a4|c2ae2688-944a-4da0-94ad-7c2694b8890a",
+        "silk_edge_clearance|83000000|101160000|61996362-1384-4305-8201-169b5e9dbeff|50241d4a-0578-41db-a952-140fc92ee026",
+        "silk_edge_clearance|83000000|102340000|61996362-1384-4305-8201-169b5e9dbeff|09a8f7e9-2372-418c-a4dc-edc11dce44bd",
+        "silk_edge_clearance|83000000|124660000|61996362-1384-4305-8201-169b5e9dbeff|4bfd1af6-7c3d-47cc-8a74-e43a29068e16",
+        "silk_edge_clearance|83000000|125840000|61996362-1384-4305-8201-169b5e9dbeff|f392bb80-10a5-49ba-8b91-593c3e787026",
+        "silk_edge_clearance|83000000|148160000|61996362-1384-4305-8201-169b5e9dbeff|7c194a31-5385-4c2b-b02e-b8a99dc068d1",
+        "silk_edge_clearance|83000000|78840000|61996362-1384-4305-8201-169b5e9dbeff|0f0637da-f2e4-48cc-9ccf-66b8df11265d"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -77,20 +77,26 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
+        "connection_width": "warning",
         "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
+        "footprint": "error",
         "footprint_type_mismatch": "error",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "invalid_outline": "error",
+        "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "missing_courtyard": "ignore",
@@ -100,9 +106,14 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
+        "silk_edge_clearance": "warning",
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -111,7 +122,6 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
-        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
@@ -119,18 +129,63 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
+        "min_connection": 0.0,
         "min_copper_edge_clearance": 0.075,
         "min_hole_clearance": 0.0,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
+        "min_text_height": 0.7999999999999999,
+        "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.39999999999999997,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
+      "teardrop_options": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 5,
+          "td_on_pad_in_zone": false,
+          "td_onpadsmd": true,
+          "td_onroundshapesonly": false,
+          "td_ontrackend": false,
+          "td_onviapad": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
       "track_widths": [
         0.0,
         0.1,
@@ -175,14 +230,29 @@
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
-    "layer_presets": []
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
   "cvpcb": {
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "label_dangling|1447800|965200|274d1d10-acb1-4179-b393-62df0f8cc769|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1625600|1295400|8e055997-1a42-4090-a2ad-e143f7dbc9f9|46c3ead6-86f1-4750-af83-c1c1cab7b144|||",
+      "multiple_net_names|1625600|1320800|03b9ebed-2c84-4b81-b101-6382c762a424|cb56854e-dfbe-4615-96c7-21681c01dcc6|||",
+      "multiple_net_names|1676400|1143000|314b9948-c8b5-49c5-82f0-23bd469f9ae8|19646297-1511-4bc3-83f3-cb3c5ed6f5dd|||",
+      "no_connect_connected|1028700|939800|a64f4074-1811-43e0-aad4-16c68ace7582|00000000-0000-0000-0000-000000000000|||",
+      "no_connect_connected|1295400|1346200|bc4d4c86-dc79-49b7-b0ea-7d6b863bb490|00000000-0000-0000-0000-000000000000|||",
+      "no_connect_connected|1295400|1371600|bc4d4c86-dc79-49b7-b0ea-7d6b863bb491|00000000-0000-0000-0000-000000000000|||",
+      "no_connect_connected|1828800|1016000|b23d2bcb-6c59-48f9-8118-d8453c7eaef2|00000000-0000-0000-0000-000000000000|||",
+      "no_connect_connected|1828800|1041400|b23d2bcb-6c59-48f9-8118-d8453c7eaef1|00000000-0000-0000-0000-000000000000|||",
+      "no_connect_connected|2146300|1244600|283a9652-3889-4ebc-b273-1cd7b1978bce|00000000-0000-0000-0000-000000000000|||",
+      "pin_to_pin|1600200|977900|418b1fb3-284c-4a93-8cd3-d7b9fab33287|14258ba3-2cdb-48e9-92bb-57e9d9e06dac|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d2a51ab8-87f6-45a5-af73-2506f338456e|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d2a51ab8-87f6-45a5-af73-2506f338456e|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/049e3529-b599-416f-9297-34a8c6367a59",
+      "power_pin_not_driven|1282700|952500|cfb70f22-fecb-4e5a-bf35-999a6590c56f|00000000-0000-0000-0000-000000000000|||",
+      "power_pin_not_driven|939800|1193800|52fc910c-3e35-4687-ac11-0d45da9f6241|00000000-0000-0000-0000-000000000000|||"
+    ],
     "meta": {
       "version": 0
     },
@@ -359,18 +429,23 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
-      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
       "different_unit_footprint": "error",
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
       "extra_units": "error",
       "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
@@ -380,6 +455,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
+      "simulation_model_issue": "error",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
@@ -397,7 +473,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -411,10 +487,10 @@
         "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -423,26 +499,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "150mA_50V",
-        "nets": [
-          "+12V",
-          "/7-Segment Display/a",
-          "/7-Segment Display/b",
-          "/7-Segment Display/c",
-          "/7-Segment Display/d",
-          "/7-Segment Display/dp",
-          "/7-Segment Display/e",
-          "/7-Segment Display/f",
-          "/7-Segment Display/g"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.9,
         "via_drill": 0.5,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -451,19 +516,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "1A",
-        "nets": [
-          "+5V",
-          "/7-Segment Display/12V_PWM"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 1.4,
         "via_drill": 1.0,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -472,16 +533,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "230V",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -490,16 +550,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "2A",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.6,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -508,16 +567,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "3A",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 2.4,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -526,18 +584,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "50mA_50V",
-        "nets": [
-          "/7-Segment Display/PWM"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -546,16 +601,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -564,16 +618,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GPIO",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -582,19 +635,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "nets": [
-          "/MCU/USB_D_N",
-          "/MCU/USB_D_P"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -603,22 +652,15 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "analog",
-        "nets": [
-          "/MCU/A0(D18)",
-          "/MCU/A1(D19)",
-          "/MCU/A2(D20)",
-          "/MCU/A3(D21)",
-          "/MCU/A_REF"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -627,32 +669,145 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "bus",
-        "nets": [
-          "/Interfaces/SCL",
-          "/Interfaces/SDA",
-          "/LED Driver 3/RCK",
-          "/LED Driver 3/SER_OUT",
-          "/LED Driver 3/~{CLR}",
-          "/MCU/D0(RX)",
-          "/MCU/D1(TX)",
-          "/MCU/MISO",
-          "/MCU/MOSI",
-          "/MCU/SCLK",
-          "/MCU/X4_RXD",
-          "/MCU/X4_TXD"
-        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.8,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
-    "net_colors": null
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": [
+      {
+        "netclass": "150mA_50V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/a"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/b"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/c"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/d"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/dp"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/e"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/f"
+      },
+      {
+        "netclass": "150mA_50V",
+        "pattern": "/7-Segment Display/g"
+      },
+      {
+        "netclass": "1A",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "1A",
+        "pattern": "/7-Segment Display/12V_PWM"
+      },
+      {
+        "netclass": "50mA_50V",
+        "pattern": "/7-Segment Display/PWM"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/USB_D_N"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/MCU/USB_D_P"
+      },
+      {
+        "netclass": "analog",
+        "pattern": "/MCU/A0(D18)"
+      },
+      {
+        "netclass": "analog",
+        "pattern": "/MCU/A1(D19)"
+      },
+      {
+        "netclass": "analog",
+        "pattern": "/MCU/A2(D20)"
+      },
+      {
+        "netclass": "analog",
+        "pattern": "/MCU/A3(D21)"
+      },
+      {
+        "netclass": "analog",
+        "pattern": "/MCU/A_REF"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/Interfaces/SCL"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/Interfaces/SDA"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/LED Driver 3/RCK"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/LED Driver 3/SER_OUT"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/LED Driver 3/~{CLR}"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/D0(RX)"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/D1(TX)"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/MISO"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/MOSI"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/SCLK"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/X4_RXD"
+      },
+      {
+        "netclass": "bus",
+        "pattern": "/MCU/X4_TXD"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -668,6 +823,8 @@
   "schematic": {
     "annotate_start_num": 0,
     "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
       "default_bus_thickness": 12.0,
       "default_junction_size": 40.0,
       "default_line_thickness": 6.0,
@@ -702,7 +859,11 @@
     "page_layout_descr_file": "C:\\GitHubProjects\\kicad\\schematic_templates\\A4_sheet.kicad_wks",
     "plot_directory": "./Schematic.pdf",
     "spice_adjust_passive_values": false,
+    "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
