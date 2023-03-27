@@ -16,9 +16,6 @@ byte g_6c595fontArray[] = {
 	0b11101111, // REVERSE SPEED
 };
 
-It's actually:
-// g-f-e-d-c-b-a-dp, unlike the comment suggests
-
 to
 
 #### Rev1 PCB:
@@ -40,17 +37,17 @@ byte g_6c595fontArray[] = {
 
 #### Rev2 PCB:
 byte g_6c595fontArray[] = {
-	// a-b-c-d-e-f-g-dp
-  0b01111110, // 0        
-  0b00110000, // 1            
-  0b01101101, // 2
-  0b01111001, // 3
-  0b00110101, // 4
-  0b01011011, // 5
-  0b01011111, // 6
-  0b01110000, // 7
-  0b01111110, // 8
-  0b01111011, // 9
+  // dp-g-f-e-d-c-b-a
+  0b00111111, // 0        
+  0b00000110, // 1            
+  0b01011011, // 2
+  0b01001111, // 3
+  0b01110010, // 4
+  0b01101101, // 5
+  0b01111101, // 6
+  0b00000111, // 7
+  0b00111111, // 8
+  0b01101111, // 9
   0b00000000, // OFF empty
-  0b11110111, // REVERSE SPEED
+  0b11101111, // REVERSE SPEED
 };
