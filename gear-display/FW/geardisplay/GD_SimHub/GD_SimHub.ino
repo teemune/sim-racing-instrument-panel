@@ -75,7 +75,7 @@
 
 // ----------------------------------------------------- HW SETTINGS, PLEASE REVIEW ALL -------------------------------------------
 #define DEVICE_NAME "SimHub Dash" //{"Group":"General","Name":"DEVICE_NAME","Title":"Device name,\r\n make sure to use a unique name when using multiple arduinos","DefaultValue":"SimHub Dash","Type":"string","Template":"#define DEVICE_NAME \"{0}\""}
-#define DEVICE_UNIQUE_ID "6b0f5764-128a-4808-aadc-f4c13091495b" //{"UniqueId":"6b0f5764-128a-4808-aadc-f4c13091495b","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
+#define DEVICE_UNIQUE_ID "9b3ba899-ddc9-4e9d-94e9-1ad03e9ee848" //{"UniqueId":"9b3ba899-ddc9-4e9d-94e9-1ad03e9ee848","Name":"DEVICE_UNIQUE_ID","Type":"uniqueid"}
 
 #define ENABLE_MICRO_GAMEPAD 0           //{"Group":"GAMEPAD","Name":"ENABLE_MICRO_GAMEPAD","Title":"Enable arduino micro gamepad output for all the activated buttons/encoders","DefaultValue":"0","Type":"bool"}
 #define MICRO_GAMEPAD_ENCODERPRESSTIME 50 //{"Name":"MICRO_GAMEPAD_ENCODERPRESSTIME","Title":"Define how long (in milliseconds) the encoder related button will be hold after an encoder movement","DefaultValue":"50","Type":"int","Condition":"ENABLE_MICRO_GAMEPAD>0","Max":100}
@@ -222,7 +222,7 @@ SHMatrixHT16H33SingleColor shMatrixHT16H33SingleColor;
 // -------------------------------------------------------------------------------------------------------
 // WS2812b chained RGBLEDS count
 // 0 disabled, > 0 enabled
-#define WS2812B_RGBLEDCOUNT 8        //{"Group":"WS2812B RGB Leds","Name":"WS2812B_RGBLEDCOUNT","Title":"WS2812B RGB leds count","DefaultValue":"0","Type":"int","Max":150}
+#define WS2812B_RGBLEDCOUNT 30       //{"Group":"WS2812B RGB Leds","Name":"WS2812B_RGBLEDCOUNT","Title":"WS2812B RGB leds count","DefaultValue":"0","Type":"int","Max":150}
 #ifdef INCLUDE_WS2812B
 
 #define WS2812B_DATAPIN 6            //{"Name":"WS2812B_DATAPIN","Title":"Data (DIN) digital pin number","DefaultValue":"6","Type":"pin;WS2812B LEDS DATA","Condition":"WS2812B_RGBLEDCOUNT>0"}
@@ -839,8 +839,8 @@ byte RS_74HC595_NeutralDigit = 0b11101100;
 #define RS_6c595_SLAVEPIN 10        //{"Name":"RS_6c595_SLAVEPIN","Title":"SLAVE digital pin number","DefaultValue":"10","Type":"pin","Condition":"ENABLE_6C595_GEAR_DISPLAY>0"}
 byte g_6c595fontArray[] = {
   // dp-a-b-c-d-e-f-g
-  0b00111111, // 0        
-  0b00000110, // 1            
+  0b00111111, // 0
+  0b00000110, // 1
   0b01011011, // 2
   0b01001111, // 3
   0b01110010, // 4
