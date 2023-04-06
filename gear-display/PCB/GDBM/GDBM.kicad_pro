@@ -690,7 +690,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "3D/GDBM.step",
       "vrml": ""
     },
     "page_layout_descr_file": "C:/GitHubProjects/kicad/schematic_templates/pcb_template.kicad_wks"
