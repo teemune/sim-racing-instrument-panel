@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 1133.8583 944.8819"
+   width="300mm"
+   height="250mm"
+   version="1.1"
+   id="svg230"
+   sodipodi:docname="RGB diffuser.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview232"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.28997265"
+     inkscape:cx="1248.3936"
+     inkscape:cy="944.9167"
+     inkscape:window-width="1600"
+     inkscape:window-height="837"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g228"
+     units="mm"
+     inkscape:document-units="mm" />
+  <desc
+     id="desc210">RGB diffuser.dxf - scale = 1.0, origin = (0.0, 0.0), method = manual</desc>
+  <defs
+     id="defs224">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path212" />
+    </marker>
+    <pattern
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       height="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path215" />
+      <path
+         d="M6 2 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path217" />
+      <path
+         d="M4 0 l-4,4"
+         stroke="#000000"
+         stroke-width="0.25"
+         linecap="square"
+         id="path219" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g228">
+    <path
+       d="M 864.23228,70.5315 A 11.338583,11.338583 0 0 0 875.57087,59.1929 V 13.8385 A 11.338583,11.338583 0 0 0 864.23228,2.5 H 13.838583 A 11.338583,11.338583 0 0 0 2.5,13.8385 v 45.3544 a 11.338583,11.338583 0 0 0 11.338583,11.3386 z"
+       style="fill:none;stroke:#fe0000;stroke-opacity:1"
+       id="path226" />
+  </g>
+</svg>
