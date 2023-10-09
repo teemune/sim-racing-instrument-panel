@@ -6,8 +6,8 @@
 
   (title_block
     (title "Gear Display Board")
-    (date "2023-04-06")
-    (rev "3.0")
+    (date "2023-09-22")
+    (rev "4.0")
     (company "Kallio Designs Oy")
     (comment 1 "Teemu Latonen")
     (comment 2 "000064")
@@ -158,7 +158,6 @@
       )
     )
   )
-
 
   (junction (at 214.63 59.69) (diameter 0) (color 0 0 0 0)
     (uuid 066f9442-b9bb-4b3c-a17c-ae867d75f2d5)
@@ -808,14 +807,14 @@
     )
   )
 
-  (sheet (at 39.37 74.93) (size 25.4 12.7) (fields_autoplaced)
+  (sheet (at 39.37 83.82) (size 25.4 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 2c2083b9-dec5-498d-a410-8da724f3bacc)
-    (property "Sheetname" "Revision History" (at 39.37 74.2184 0)
+    (property "Sheetname" "Revision History" (at 39.37 83.1084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "rev_history.kicad_sch" (at 39.37 88.2146 0)
+    (property "Sheetfile" "rev_history.kicad_sch" (at 39.37 97.1046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -1007,14 +1006,14 @@
     )
   )
 
-  (sheet (at 39.37 54.61) (size 25.4 12.7) (fields_autoplaced)
+  (sheet (at 39.37 63.5) (size 25.4 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 8f5ee264-ab78-438d-b8d5-1e547e5afc7c)
-    (property "Sheetname" "Mechanical" (at 39.37 53.8984 0)
+    (property "Sheetname" "Mechanical" (at 39.37 62.7884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "mechanical.kicad_sch" (at 39.37 67.8946 0)
+    (property "Sheetfile" "mechanical.kicad_sch" (at 39.37 76.7846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -1122,14 +1121,14 @@
     )
   )
 
-  (sheet (at 39.37 34.29) (size 25.4 12.7) (fields_autoplaced)
+  (sheet (at 39.37 43.18) (size 25.4 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d2a51ab8-87f6-45a5-af73-2506f338456e)
-    (property "Sheetname" "Power Supply" (at 39.37 33.5784 0)
+    (property "Sheetname" "Power Supply" (at 39.37 42.4684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "psu.kicad_sch" (at 39.37 47.5746 0)
+    (property "Sheetfile" "psu.kicad_sch" (at 39.37 56.4646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
