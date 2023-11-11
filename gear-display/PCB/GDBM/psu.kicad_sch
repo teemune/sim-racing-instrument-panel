@@ -19,7 +19,7 @@
       (property "Reference" "C" (at 2.54 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "C_0603_100n_X7R_100V" (at -12.7 31.75 0)
+      (property "Value" "100n" (at -12.7 31.75 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at -12.7 13.97 0)
@@ -61,18 +61,34 @@
       (symbol "C_0603_100n_X7R_100V_0_1"
         (polyline
           (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
+            (xy -2.286 -0.508)
+            (xy 2.286 -0.508)
           )
-          (stroke (width 0.508) (type default))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
+            (xy -2.286 0.508)
+            (xy 2.286 0.508)
           )
-          (stroke (width 0.508) (type default))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.508)
+            (xy 0 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.508)
+            (xy 0 1.016)
+          )
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
@@ -91,7 +107,7 @@
       (property "Reference" "C" (at 2.54 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "C_1206_10u_X5R_50V_automotive" (at -12.7 31.75 0)
+      (property "Value" "10u" (at -12.7 31.75 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at -12.7 13.97 0)
@@ -133,18 +149,34 @@
       (symbol "C_1206_10u_X5R_50V_automotive_0_1"
         (polyline
           (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
+            (xy -2.286 -0.508)
+            (xy 2.286 -0.508)
           )
-          (stroke (width 0.508) (type default))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
+            (xy -2.286 0.508)
+            (xy 2.286 0.508)
           )
-          (stroke (width 0.508) (type default))
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 -0.508)
+            (xy 0 -1.016)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0.508)
+            (xy 0 1.016)
+          )
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
@@ -160,7 +192,7 @@
       )
     )
     (symbol "KD_Connector_Circular:DC_2.1_5.5_54-00286" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -13.716 7.366 0)
+      (property "Reference" "J" (at -13.716 7.366 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Value" "DC_2.1_5.5_54-00286" (at -12.7 31.75 0)
@@ -172,7 +204,7 @@
       (property "Datasheet" "http://www.tensility.com/pdffiles/54-00286.pdf" (at -12.7 11.43 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
-      (property "Code" "2.1 mm DC" (at -13.716 4.826 0)
+      (property "Code" "2.1 mm DC" (at -13.716 4.826 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Manufacturer" "CUI Devices" (at -12.7 29.21 0)
@@ -294,7 +326,7 @@
       )
     )
     (symbol "KD_Connector_Pads:TestPoint_2.5mm_Round" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "TP" (at 0 5.08 0)
+      (property "Reference" "TP" (at 0 5.08 0) (do_not_autoplace)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "TestPoint_2.5mm_Round" (at -12.7 31.75 0)
@@ -387,10 +419,6 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "Fuse_1A_C1F_1_0_1"
-        (rectangle (start -0.762 -2.54) (end 0.762 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
         (polyline
           (pts
             (xy 0 2.54)
@@ -401,6 +429,10 @@
         )
       )
       (symbol "Fuse_1A_C1F_1_1_1"
+        (rectangle (start -0.762 2.54) (end 0.762 -2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
         (pin passive line (at 0 3.81 270) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -457,24 +489,6 @@
       (symbol "Schottky_30V_1A_Toshiba_CUS10S30_0_1"
         (polyline
           (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy -1.905 0.635)
             (xy -1.905 1.27)
             (xy -1.27 1.27)
@@ -487,6 +501,16 @@
         )
       )
       (symbol "Schottky_30V_1A_Toshiba_CUS10S30_1_1"
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -543,14 +567,6 @@
       (symbol "TVS_12V_LF_SMAJ12CA_0_1"
         (polyline
           (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
             (xy -0.762 1.27)
             (xy -1.27 1.27)
             (xy -1.27 -1.27)
@@ -558,6 +574,8 @@
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
+      )
+      (symbol "TVS_12V_LF_SMAJ12CA_1_1"
         (polyline
           (pts
             (xy 1.27 1.27)
@@ -566,10 +584,8 @@
             (xy 1.27 1.27)
           )
           (stroke (width 0.254) (type default))
-          (fill (type none))
+          (fill (type background))
         )
-      )
-      (symbol "TVS_12V_LF_SMAJ12CA_1_1"
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1082,7 +1098,7 @@
     (property "Reference" "C4" (at 199.39 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_0603_100n_X7R_100V" (at 182.88 22.86 0)
+    (property "Value" "100n" (at 182.88 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 182.88 40.64 0)
@@ -1177,7 +1193,7 @@
     (property "Reference" "C1" (at 167.64 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_1206_10u_X5R_50V_automotive" (at 151.13 71.12 0)
+    (property "Value" "10u" (at 151.13 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 151.13 88.9 0)
@@ -1399,7 +1415,7 @@
     (property "Reference" "C2" (at 181.61 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_1206_10u_X5R_50V_automotive" (at 165.1 22.86 0)
+    (property "Value" "10u" (at 165.1 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 165.1 40.64 0)
@@ -1493,7 +1509,7 @@
     (property "Reference" "C22" (at 121.92 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_1206_10u_X5R_50V_automotive" (at 105.41 71.12 0)
+    (property "Value" "10u" (at 105.41 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 105.41 88.9 0)
@@ -1611,7 +1627,7 @@
     (property "Reference" "C5" (at 195.58 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_0603_100n_X7R_100V" (at 179.07 71.12 0)
+    (property "Value" "100n" (at 179.07 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 179.07 88.9 0)
@@ -1730,7 +1746,7 @@
     (property "Reference" "C3" (at 181.61 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_1206_10u_X5R_50V_automotive" (at 165.1 71.12 0)
+    (property "Value" "10u" (at 165.1 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 165.1 88.9 0)
@@ -1922,7 +1938,7 @@
     (property "Reference" "C26" (at 135.89 101.5999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "C_1206_10u_X5R_50V_automotive" (at 119.38 71.12 0)
+    (property "Value" "10u" (at 119.38 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 119.38 88.9 0)

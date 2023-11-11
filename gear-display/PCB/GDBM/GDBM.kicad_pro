@@ -240,6 +240,7 @@
   "erc": {
     "erc_exclusions": [
       "label_dangling|1447800|965200|274d1d10-acb1-4179-b393-62df0f8cc769|00000000-0000-0000-0000-000000000000|||",
+      "multiple_net_names|1320800|1092200|314b9948-c8b5-49c5-82f0-23bd469f9ae8|1ea1167b-af5a-4e19-b251-a4e2e0fc0c53|||",
       "multiple_net_names|1625600|1295400|8e055997-1a42-4090-a2ad-e143f7dbc9f9|46c3ead6-86f1-4750-af83-c1c1cab7b144|||",
       "multiple_net_names|1625600|1320800|03b9ebed-2c84-4b81-b101-6382c762a424|cb56854e-dfbe-4615-96c7-21681c01dcc6|||",
       "multiple_net_names|1676400|1143000|314b9948-c8b5-49c5-82f0-23bd469f9ae8|19646297-1511-4bc3-83f3-cb3c5ed6f5dd|||",
@@ -250,6 +251,7 @@
       "no_connect_connected|1828800|1041400|b23d2bcb-6c59-48f9-8118-d8453c7eaef1|00000000-0000-0000-0000-000000000000|||",
       "no_connect_connected|2146300|1244600|283a9652-3889-4ebc-b273-1cd7b1978bce|00000000-0000-0000-0000-000000000000|||",
       "pin_to_pin|1600200|977900|418b1fb3-284c-4a93-8cd3-d7b9fab33287|14258ba3-2cdb-48e9-92bb-57e9d9e06dac|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d2a51ab8-87f6-45a5-af73-2506f338456e|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/d2a51ab8-87f6-45a5-af73-2506f338456e|/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/049e3529-b599-416f-9297-34a8c6367a59",
+      "power_pin_not_driven|1181100|952500|fc45273f-6ba3-4753-b6b6-2071500b5736|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|1282700|952500|cfb70f22-fecb-4e5a-bf35-999a6590c56f|00000000-0000-0000-0000-000000000000|||",
       "power_pin_not_driven|939800|1193800|52fc910c-3e35-4687-ac11-0d45da9f6241|00000000-0000-0000-0000-000000000000|||"
     ],
@@ -455,7 +457,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
