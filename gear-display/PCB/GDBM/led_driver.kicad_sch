@@ -461,8 +461,8 @@
     )
   )
 
-  (bus_alias "I2C" (members "SDA" "SCL"))
   (bus_alias "SPI" (members "MISO" "MOSI" "SCLK" "CS"))
+  (bus_alias "I2C" (members "SDA" "SCL"))
   (junction (at 163.83 63.5) (diameter 0) (color 0 0 0 0)
     (uuid 01878a9e-7603-4ef9-b33b-eaad2de91e1f)
   )
