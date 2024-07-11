@@ -1,243 +1,632 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 0ee60cc2-a296-4641-9a41-5b953829b1bb)
-
-  (paper "A4")
-
-  (title_block
-    (title "Gear Display Board")
-    (date "2023-09-22")
-    (rev "4.0")
-    (company "Kallio Designs Oy")
-    (comment 1 "Teemu Latonen")
-    (comment 2 "000064")
-    (comment 3 "000065")
-  )
-
-  (lib_symbols
-  )
-
-
-  (polyline (pts (xy 57.15 72.39) (xy 243.84 72.39))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 0a8ce9a6-4f28-47ef-9a29-5a15000508d7)
-  )
-  (polyline (pts (xy 57.15 66.04) (xy 243.84 66.04))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 0acdda29-62b0-44b4-b746-8627e88be5f6)
-  )
-  (polyline (pts (xy 57.15 48.26) (xy 57.15 53.34))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 255c4a6d-3a18-43e6-891a-672d4a760771)
-  )
-  (polyline (pts (xy 57.15 91.44) (xy 243.84 91.44))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 2f9b3a58-d36d-448a-b355-929ca49abb60)
-  )
-  (polyline (pts (xy 57.15 78.74) (xy 243.84 78.74))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 3405850b-b512-4658-a8b7-43ac819f5f35)
-  )
-  (polyline (pts (xy 57.15 48.26) (xy 57.15 148.59))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 42a0dd2f-213e-4ba5-9282-5f1a2486f4da)
-  )
-  (polyline (pts (xy 57.15 99.06) (xy 243.84 99.06))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 49cf3995-fbd8-4a73-a8b5-945722fc7ab4)
-  )
-  (polyline (pts (xy 207.01 148.59) (xy 207.01 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 4e0b1a72-af2b-42fa-a487-2f5532aaa348)
-  )
-  (polyline (pts (xy 243.84 48.26) (xy 243.84 40.64))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 560c67fc-804e-42bb-860d-e5b13d72fa30)
-  )
-  (polyline (pts (xy 207.01 48.26) (xy 207.01 40.64))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 5995677d-d438-490f-bd75-33fbc961aaae)
-  )
-  (polyline (pts (xy 57.15 59.69) (xy 243.84 59.69))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 674ed521-5ec7-4bd5-9ff2-8a5c1e3528f3)
-  )
-  (polyline (pts (xy 243.84 148.59) (xy 243.84 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 7203af48-2e47-4b48-b490-e3d8d6b7e467)
-  )
-  (polyline (pts (xy 57.15 53.34) (xy 243.84 53.34))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 81fede4c-229d-4492-8191-6374aec28c26)
-  )
-  (polyline (pts (xy 57.15 85.09) (xy 243.84 85.09))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 975cf821-61aa-498a-9a7b-fd416bd15522)
-  )
-  (polyline (pts (xy 57.15 48.26) (xy 243.84 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid 9e4f7c48-0214-4834-9776-28fe5f168bb2)
-  )
-  (polyline (pts (xy 57.15 40.64) (xy 243.84 40.64))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid a8d55e6f-9a4d-4783-9902-bd6d183f723c)
-  )
-  (polyline (pts (xy 88.9 148.59) (xy 88.9 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid b5133529-ae99-45dc-97d7-e72eeae26eda)
-  )
-  (polyline (pts (xy 57.15 148.59) (xy 243.84 148.59))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid c23a006f-46af-4d13-b89e-ff6253c4c7c4)
-  )
-  (polyline (pts (xy 57.15 48.26) (xy 243.84 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid c31967e0-60c7-412b-9598-be6fa9dcb693)
-  )
-  (polyline (pts (xy 57.15 106.68) (xy 243.84 106.68))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid c5d51d20-73c4-4580-9717-ab82e5b43571)
-  )
-  (polyline (pts (xy 57.15 40.64) (xy 57.15 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid d5651b11-b1b9-4107-af71-9babf712cb78)
-  )
-  (polyline (pts (xy 57.15 114.3) (xy 243.84 114.3))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid de8eaed7-4487-4559-91a5-846aa10fae8a)
-  )
-  (polyline (pts (xy 57.15 48.26) (xy 243.84 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid e5201cb1-2372-4d92-b784-2a3154ff0be3)
-  )
-  (polyline (pts (xy 68.58 148.59) (xy 68.58 48.26))
-    (stroke (width 0) (type solid) (color 0 0 0 1))
-    (uuid f19adedd-7f02-4279-baf0-350299edf23d)
-  )
-
-  (text "3.0" (at 58.42 83.82 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 090b45cd-6e49-41ad-b3fb-954fbad9f381)
-  )
-  (text "2.0" (at 58.42 64.77 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 1b9443a3-51ba-4b98-961a-84902a38a4f3)
-  )
-  (text "13.08.2022" (at 69.85 58.42 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 1bb15cbe-55b4-48a2-aa49-520eda844716)
-  )
-  (text "Resistor added to PWM feedback for safety" (at 90.17 83.82 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 2af38ce8-0fe1-4ed0-9777-bf18ed819254)
-  )
-  (text "REV" (at 58.42 53.34 0)
-    (effects (font (size 2 2) (thickness 1) bold) (justify left bottom))
-    (uuid 2de886e7-ad93-4426-82af-d546706ddb51)
-  )
-  (text "DESCRIPTION" (at 90.17 53.34 0)
-    (effects (font (size 2 2) (thickness 1) bold) (justify left bottom))
-    (uuid 328b991e-7db7-4d7a-a132-531c9ce6d077)
-  )
-  (text "External dimmer circuit added" (at 90.17 77.47 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 346c2da1-fa74-4063-a125-1b41b64f4088)
-  )
-  (text "01.03.2023" (at 69.85 64.77 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 38e07639-5ff2-44db-a21b-d4d188f7a3cd)
-  )
-  (text "Teemu Latonen" (at 208.28 64.77 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 3b6785ba-b0db-4d17-919c-b9daca6dc284)
-  )
-  (text "Teemu Latonen" (at 208.28 96.52 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 44262d7b-cad3-4aed-b906-3bc09559759a)
-  )
-  (text "REVISION HISTORY" (at 58.42 48.26 0)
-    (effects (font (size 3 3) (thickness 1) bold) (justify left bottom))
-    (uuid 47f85bfb-0077-4714-a665-9ef9622304b6)
-  )
-  (text "Reversed R28 potentiometer action" (at 90.17 105.41 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 481c33c3-e6ff-4847-884a-f4577f0a7fa7)
-  )
-  (text "Teemu Latonen" (at 208.28 111.76 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 48c26052-8036-4745-b5e3-0f68202595f6)
-  )
-  (text "R33 changed to 110 ohm for brightness scaling" (at 90.17 97.79 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 56bd8987-725a-4910-a780-657577998db6)
-  )
-  (text "DESIGNER" (at 208.28 53.34 0)
-    (effects (font (size 2 2) (thickness 1) bold) (justify left bottom))
-    (uuid 638edc8f-cf47-4444-9a12-ef6dff6cd11a)
-  )
-  (text "Teemu Latonen" (at 208.28 90.17 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 6ceddfca-bff3-407b-a836-cb3eb8f4bffa)
-  )
-  (text "Teemu Latonen" (at 208.28 71.12 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 7334a971-e872-4672-b264-e80bff17def0)
-  )
-  (text "Teemu Latonen" (at 208.28 77.47 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 7aae4b67-21ca-4b3c-86f5-7cbffac0dcd9)
-  )
-  (text "DATE" (at 69.85 53.34 0)
-    (effects (font (size 2 2) (thickness 1) bold) (justify left bottom))
-    (uuid 936540ca-e78c-4af3-ae9c-b810a613ee0e)
-  )
-  (text "7-segment display configuration changed" (at 90.17 71.12 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 968a706c-2651-4780-a2f9-d0c5e5081c37)
-  )
-  (text "1.0" (at 58.42 58.42 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 96d800c9-c5e6-4ec0-86f6-f41a725493a7)
-  )
-  (text "Teemu Latonen" (at 208.28 83.82 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 9cf1bf6f-254f-476e-890b-d5bb2865ab30)
-  )
-  (text "Teemu Latonen" (at 208.28 104.14 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid 9fe5e263-0e86-48d7-9740-68a7da05926b)
-  )
-  (text "Initial" (at 90.17 58.42 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid a752f49e-fffe-4d23-abe7-ce3161e4fd71)
-  )
-  (text "Teemu Latonen" (at 208.28 58.42 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid bddb689b-f545-4d49-9c68-ecb9e543125b)
-  )
-  (text "Q1 circuit changed for PWM control on 7-segment display"
-    (at 90.17 90.17 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid d8a46cd8-2866-4748-a1d8-1e6190e3842e)
-  )
-  (text "Buffer U8 added for LED strip" (at 90.17 64.77 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid dd04668a-5239-4bd2-ae67-038a463e12dc)
-  )
-  (text "27.03.2023" (at 69.85 111.76 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid e36da4d5-1a11-401f-834d-e9f31c526e54)
-  )
-  (text "C22 Updated" (at 90.17 111.76 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid ea7c5a6e-10ee-4702-bcbf-5064cf2f9877)
-  )
-  (text "4.00" (at 59.69 111.76 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid eeeb262d-5fb3-47ec-92b6-321f7e35d79c)
-  )
-  (text "27.03.2023" (at 69.85 83.82 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid fd5277dd-a055-46ff-b28d-66e06b05e1cf)
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "0ee60cc2-a296-4641-9a41-5b953829b1bb")
+	(paper "A4")
+	(title_block
+		(title "Gear Display Board")
+		(date "2023-09-22")
+		(rev "4.0")
+		(company "Kallio Designs Oy")
+		(comment 1 "Teemu Latonen")
+		(comment 2 "000064")
+		(comment 3 "000065")
+	)
+	(lib_symbols)
+	(polyline
+		(pts
+			(xy 57.15 72.39) (xy 243.84 72.39)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0a8ce9a6-4f28-47ef-9a29-5a15000508d7")
+	)
+	(polyline
+		(pts
+			(xy 57.15 66.04) (xy 243.84 66.04)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0acdda29-62b0-44b4-b746-8627e88be5f6")
+	)
+	(polyline
+		(pts
+			(xy 57.15 48.26) (xy 57.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "255c4a6d-3a18-43e6-891a-672d4a760771")
+	)
+	(polyline
+		(pts
+			(xy 57.15 91.44) (xy 243.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2f9b3a58-d36d-448a-b355-929ca49abb60")
+	)
+	(polyline
+		(pts
+			(xy 57.15 78.74) (xy 243.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "3405850b-b512-4658-a8b7-43ac819f5f35")
+	)
+	(polyline
+		(pts
+			(xy 57.15 48.26) (xy 57.15 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "42a0dd2f-213e-4ba5-9282-5f1a2486f4da")
+	)
+	(polyline
+		(pts
+			(xy 57.15 99.06) (xy 243.84 99.06)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "49cf3995-fbd8-4a73-a8b5-945722fc7ab4")
+	)
+	(polyline
+		(pts
+			(xy 207.01 148.59) (xy 207.01 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "4e0b1a72-af2b-42fa-a487-2f5532aaa348")
+	)
+	(polyline
+		(pts
+			(xy 243.84 48.26) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "560c67fc-804e-42bb-860d-e5b13d72fa30")
+	)
+	(polyline
+		(pts
+			(xy 207.01 48.26) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "5995677d-d438-490f-bd75-33fbc961aaae")
+	)
+	(polyline
+		(pts
+			(xy 57.15 59.69) (xy 243.84 59.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "674ed521-5ec7-4bd5-9ff2-8a5c1e3528f3")
+	)
+	(polyline
+		(pts
+			(xy 243.84 148.59) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7203af48-2e47-4b48-b490-e3d8d6b7e467")
+	)
+	(polyline
+		(pts
+			(xy 57.15 53.34) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "81fede4c-229d-4492-8191-6374aec28c26")
+	)
+	(polyline
+		(pts
+			(xy 57.15 85.09) (xy 243.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "975cf821-61aa-498a-9a7b-fd416bd15522")
+	)
+	(polyline
+		(pts
+			(xy 57.15 48.26) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "9e4f7c48-0214-4834-9776-28fe5f168bb2")
+	)
+	(polyline
+		(pts
+			(xy 57.15 40.64) (xy 243.84 40.64)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "a8d55e6f-9a4d-4783-9902-bd6d183f723c")
+	)
+	(polyline
+		(pts
+			(xy 88.9 148.59) (xy 88.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "b5133529-ae99-45dc-97d7-e72eeae26eda")
+	)
+	(polyline
+		(pts
+			(xy 57.15 148.59) (xy 243.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c23a006f-46af-4d13-b89e-ff6253c4c7c4")
+	)
+	(polyline
+		(pts
+			(xy 57.15 48.26) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c31967e0-60c7-412b-9598-be6fa9dcb693")
+	)
+	(polyline
+		(pts
+			(xy 57.15 106.68) (xy 243.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c5d51d20-73c4-4580-9717-ab82e5b43571")
+	)
+	(polyline
+		(pts
+			(xy 57.15 40.64) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d5651b11-b1b9-4107-af71-9babf712cb78")
+	)
+	(polyline
+		(pts
+			(xy 57.15 114.3) (xy 243.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "de8eaed7-4487-4559-91a5-846aa10fae8a")
+	)
+	(polyline
+		(pts
+			(xy 57.15 48.26) (xy 243.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "e5201cb1-2372-4d92-b784-2a3154ff0be3")
+	)
+	(polyline
+		(pts
+			(xy 68.58 148.59) (xy 68.58 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f19adedd-7f02-4279-baf0-350299edf23d")
+	)
+	(text "3.0"
+		(exclude_from_sim no)
+		(at 58.42 83.82 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "090b45cd-6e49-41ad-b3fb-954fbad9f381")
+	)
+	(text "2.0"
+		(exclude_from_sim no)
+		(at 58.42 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b9443a3-51ba-4b98-961a-84902a38a4f3")
+	)
+	(text "13.08.2022"
+		(exclude_from_sim no)
+		(at 69.85 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "1bb15cbe-55b4-48a2-aa49-520eda844716")
+	)
+	(text "Resistor added to PWM feedback for safety"
+		(exclude_from_sim no)
+		(at 90.17 83.82 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "2af38ce8-0fe1-4ed0-9777-bf18ed819254")
+	)
+	(text "REV"
+		(exclude_from_sim no)
+		(at 58.42 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "2de886e7-ad93-4426-82af-d546706ddb51")
+	)
+	(text "DESCRIPTION"
+		(exclude_from_sim no)
+		(at 90.17 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "328b991e-7db7-4d7a-a132-531c9ce6d077")
+	)
+	(text "External dimmer circuit added"
+		(exclude_from_sim no)
+		(at 90.17 77.47 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "346c2da1-fa74-4063-a125-1b41b64f4088")
+	)
+	(text "01.03.2023"
+		(exclude_from_sim no)
+		(at 69.85 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "38e07639-5ff2-44db-a21b-d4d188f7a3cd")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b6785ba-b0db-4d17-919c-b9daca6dc284")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 96.52 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "44262d7b-cad3-4aed-b906-3bc09559759a")
+	)
+	(text "REVISION HISTORY"
+		(exclude_from_sim no)
+		(at 58.42 48.26 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "47f85bfb-0077-4714-a665-9ef9622304b6")
+	)
+	(text "Reversed R28 potentiometer action"
+		(exclude_from_sim no)
+		(at 90.17 105.41 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "481c33c3-e6ff-4847-884a-f4577f0a7fa7")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 111.76 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "48c26052-8036-4745-b5e3-0f68202595f6")
+	)
+	(text "R33 changed to 110 ohm for brightness scaling"
+		(exclude_from_sim no)
+		(at 90.17 97.79 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "56bd8987-725a-4910-a780-657577998db6")
+	)
+	(text "DESIGNER"
+		(exclude_from_sim no)
+		(at 208.28 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "638edc8f-cf47-4444-9a12-ef6dff6cd11a")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 90.17 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "6ceddfca-bff3-407b-a836-cb3eb8f4bffa")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 71.12 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7334a971-e872-4672-b264-e80bff17def0")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 77.47 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aae4b67-21ca-4b3c-86f5-7cbffac0dcd9")
+	)
+	(text "DATE"
+		(exclude_from_sim no)
+		(at 69.85 53.34 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "936540ca-e78c-4af3-ae9c-b810a613ee0e")
+	)
+	(text "7-segment display configuration changed"
+		(exclude_from_sim no)
+		(at 90.17 71.12 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "968a706c-2651-4780-a2f9-d0c5e5081c37")
+	)
+	(text "1.0"
+		(exclude_from_sim no)
+		(at 58.42 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "96d800c9-c5e6-4ec0-86f6-f41a725493a7")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 83.82 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9cf1bf6f-254f-476e-890b-d5bb2865ab30")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 104.14 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fe5e263-0e86-48d7-9740-68a7da05926b")
+	)
+	(text "Initial"
+		(exclude_from_sim no)
+		(at 90.17 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a752f49e-fffe-4d23-abe7-ce3161e4fd71")
+	)
+	(text "Teemu Latonen"
+		(exclude_from_sim no)
+		(at 208.28 58.42 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "bddb689b-f545-4d49-9c68-ecb9e543125b")
+	)
+	(text "Q1 circuit changed for PWM control on 7-segment display"
+		(exclude_from_sim no)
+		(at 90.17 90.17 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8a46cd8-2866-4748-a1d8-1e6190e3842e")
+	)
+	(text "Buffer U8 added for LED strip"
+		(exclude_from_sim no)
+		(at 90.17 64.77 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd04668a-5239-4bd2-ae67-038a463e12dc")
+	)
+	(text "27.03.2023"
+		(exclude_from_sim no)
+		(at 69.85 111.76 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "e36da4d5-1a11-401f-834d-e9f31c526e54")
+	)
+	(text "C22 Updated"
+		(exclude_from_sim no)
+		(at 90.17 111.76 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea7c5a6e-10ee-4702-bcbf-5064cf2f9877")
+	)
+	(text "4.00"
+		(exclude_from_sim no)
+		(at 59.69 111.76 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "eeeb262d-5fb3-47ec-92b6-321f7e35d79c")
+	)
+	(text "27.03.2023"
+		(exclude_from_sim no)
+		(at 69.85 83.82 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd5277dd-a055-46ff-b28d-66e06b05e1cf")
+	)
 )

@@ -1,2114 +1,4803 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 242be75c-3a1d-4a09-8ac5-3dd7928ea876)
-
-  (paper "A4")
-
-  (title_block
-    (title "Gear Display Board")
-    (date "2023-09-22")
-    (rev "4.0")
-    (company "Kallio Designs Oy")
-    (comment 1 "Teemu Latonen")
-    (comment 2 "000064")
-    (comment 3 "000065")
-  )
-
-  (lib_symbols
-    (symbol "KD_Capacitor:C_0603_100n_X7R_100V" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "100n" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "100n" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Samsung Electro-Mechanics" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CL10B104KC8NNNC" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "1276-6807-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.03" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 0.1UF 100V X7R 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0603 CAPC1608*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0603_100n_X7R_100V_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_0603_100n_X7R_100V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Capacitor:C_1206_10u_X5R_50V_automotive" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "10u" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "10u" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Murata Electronics" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "GRT31CR61H106ME01L" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "490-12457-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.30" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 10UF 50V X5R 1206" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "1206 CAPC3216*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_1206_10u_X5R_50V_automotive_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1206_10u_X5R_50V_automotive_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Connector_USB_HDMI_Etc:USB_B_V_Adam_USB-B-S-VT" (pin_numbers hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at -7.62 11.43 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "USB Mini B" (at -7.874 9.144 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT" (at -7.62 17.78 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf" (at -7.62 15.24 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Manufacturer" "Adam Tech" (at -7.62 33.02 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "USB-B-S-VT" (at -7.62 30.48 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -7.62 27.94 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "2057-USB-B-S-VT-ND" (at -7.62 25.4 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -7.62 22.86 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "1" (at -7.62 20.32 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "USB Mini Vertical Connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "USB Mini Vertical Connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*USB*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "USB_B_V_Adam_USB-B-S-VT_0_1"
-        (rectangle (start -7.62 7.62) (end 7.62 -10.16)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (circle (center -4.318 -0.254) (radius 0.635)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (circle (center -1.143 1.016) (radius 0.381)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start -0.254 -1.143) (end -1.016 -1.905)
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -2.413 -0.254)
-            (xy 0.127 -0.254)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.683 -0.254)
-            (xy -3.048 -0.254)
-            (xy -1.778 1.016)
-            (xy -1.143 1.016)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -0.254)
-            (xy -2.413 -0.254)
-            (xy -1.778 -1.524)
-            (xy -0.508 -1.524)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.127 0.381)
-            (xy 0.127 -0.889)
-            (xy 1.397 -0.254)
-            (xy 0.127 0.381)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -4.445 5.207)
-            (xy -1.905 5.207)
-            (xy -2.159 4.445)
-            (xy -4.191 4.445)
-            (xy -4.445 5.207)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy -4.826 5.461)
-            (xy -4.826 5.207)
-            (xy -4.572 4.445)
-            (xy -4.572 4.191)
-            (xy -1.778 4.191)
-            (xy -1.778 4.445)
-            (xy -1.524 5.207)
-            (xy -1.524 5.461)
-            (xy -4.826 5.461)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "USB_B_V_Adam_USB-B-S-VT_1_1"
-        (pin power_out line (at 10.16 5.08 180) (length 2.54)
-          (name "VBUS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 -2.54 180) (length 2.54)
-          (name "D-" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 0 180) (length 2.54)
-          (name "D+" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -12.7 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -5.08 -12.7 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "H1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -2.54 -12.7 90) (length 2.54)
-          (name "Shield" (effects (font (size 1.27 1.27))))
-          (number "H2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M" (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "TVS_5V5_DRTR5V0U4S-7-M" (at -15.24 44.45 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6" (at -15.24 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf" (at -15.24 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "DRTR5V0U4S-7" (at 0 -10.16 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Manufacturer" "Diodes Incorporated" (at -15.24 41.91 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "DRTR5V0U4S-7" (at -15.24 39.37 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -15.24 36.83 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "DRTR5V0U4S-7DICT-ND" (at -15.24 34.29 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -15.24 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.30" (at -15.24 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Diode TVS" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "TVS DIODE 5.5VWM SOT363" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "6-TSSOP SOT-363 SC-88" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TVS_5V5_DRTR5V0U4S-7-M_0_1"
-        (rectangle (start -5.08 8.89) (end 5.08 -8.89)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "TVS_5V5_DRTR5V0U4S-7-M_1_0"
-        (polyline
-          (pts
-            (xy -5.08 -7.62)
-            (xy -4.318 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 0)
-            (xy -3.302 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 7.62)
-            (xy -4.318 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -7.62)
-            (xy -4.318 -3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 -3.81)
-            (xy 0 -3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 3.81)
-            (xy 0 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.318 7.62)
-            (xy -4.318 3.81)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 -7.62)
-            (xy -2.54 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 -5.08)
-            (xy -3.302 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 0)
-            (xy -3.302 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 0)
-            (xy -3.302 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 0)
-            (xy -0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 5.08)
-            (xy -3.302 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.302 7.62)
-            (xy -2.54 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -7.62)
-            (xy -2.54 -8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -7.62)
-            (xy -1.778 -8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -6.858)
-            (xy -2.54 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -3.302 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -2.54 -5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -1.778 -5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 -4.318)
-            (xy -2.54 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 4.318)
-            (xy -2.54 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -3.302 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -2.54 5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -1.778 5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 6.858)
-            (xy -2.54 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 7.62)
-            (xy -2.54 8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.54 7.62)
-            (xy -1.778 8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -8.382)
-            (xy -1.778 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -7.62)
-            (xy -1.778 -6.858)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -6.858)
-            (xy -2.54 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -5.842)
-            (xy -1.778 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -5.08)
-            (xy -1.778 -4.318)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -5.08)
-            (xy 1.778 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -4.318)
-            (xy -2.54 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 4.318)
-            (xy -2.54 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 5.08)
-            (xy -1.778 4.318)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 5.08)
-            (xy 1.778 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 5.842)
-            (xy -1.778 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 6.858)
-            (xy -2.54 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 7.62)
-            (xy -1.778 6.858)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 8.382)
-            (xy -1.778 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 -1.016)
-            (xy -0.254 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 0)
-            (xy -0.762 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 0)
-            (xy -0.762 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 1.016)
-            (xy -1.27 1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -7.62)
-            (xy 0 -6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -6.35)
-            (xy 4.318 -6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -3.81)
-            (xy 0 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.81)
-            (xy 0 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 6.35)
-            (xy 4.318 6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 7.62)
-            (xy 0 6.35)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 3.556 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy -0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -7.62)
-            (xy -1.778 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -7.62)
-            (xy 1.778 -8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -7.62)
-            (xy 2.54 -8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -6.858)
-            (xy 1.778 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -5.08)
-            (xy 1.778 -5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -5.08)
-            (xy 2.54 -5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 -4.318)
-            (xy 1.778 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 4.318)
-            (xy 1.778 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 5.08)
-            (xy 1.778 5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 5.08)
-            (xy 2.54 5.842)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 6.858)
-            (xy 1.778 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 7.62)
-            (xy -1.778 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 7.62)
-            (xy 1.778 8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.778 7.62)
-            (xy 2.54 8.382)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -8.382)
-            (xy 2.54 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -7.62)
-            (xy 2.54 -6.858)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -7.62)
-            (xy 3.556 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.858)
-            (xy 1.778 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -5.842)
-            (xy 2.54 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -5.08)
-            (xy 2.54 -4.318)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -5.08)
-            (xy 3.556 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -4.318)
-            (xy 1.778 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 4.318)
-            (xy 1.778 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 5.08)
-            (xy 2.54 4.318)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 5.08)
-            (xy 3.556 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 5.842)
-            (xy 2.54 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 6.858)
-            (xy 1.778 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 7.62)
-            (xy 2.54 6.858)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 7.62)
-            (xy 3.556 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 8.382)
-            (xy 2.54 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 -7.62)
-            (xy 3.556 -5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 -5.08)
-            (xy 3.556 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 0)
-            (xy 5.08 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 5.08)
-            (xy 3.556 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.556 7.62)
-            (xy 3.556 5.08)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.318 -7.62)
-            (xy 5.08 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.318 -6.35)
-            (xy 4.318 -7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.318 6.35)
-            (xy 4.318 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.318 7.62)
-            (xy 5.08 7.62)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "TVS_5V5_DRTR5V0U4S-7-M_1_1"
-        (circle (center -3.302 -5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -3.302 0) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center -3.302 5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 -7.62) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 -5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 0 7.62) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 3.556 -5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 3.556 0) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 3.556 5.08) (radius 0.127)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (pin input line (at -7.62 7.62 0) (length 2.54)
-          (name "1" (effects (font (size 1.016 1.016))))
-          (number "1" (effects (font (size 1.016 1.016))))
-        )
-        (pin input line (at 7.62 0 180) (length 2.54)
-          (name "V-" (effects (font (size 1.016 1.016))))
-          (number "2" (effects (font (size 1.016 1.016))))
-        )
-        (pin input line (at -7.62 -7.62 0) (length 2.54)
-          (name "3" (effects (font (size 1.016 1.016))))
-          (number "3" (effects (font (size 1.016 1.016))))
-        )
-        (pin input line (at 7.62 -7.62 180) (length 2.54)
-          (name "4" (effects (font (size 1.016 1.016))))
-          (number "4" (effects (font (size 1.016 1.016))))
-        )
-        (pin input line (at -7.62 0 0) (length 2.54)
-          (name "V+" (effects (font (size 1.016 1.016))))
-          (number "5" (effects (font (size 1.016 1.016))))
-        )
-        (pin input line (at 7.62 7.62 180) (length 2.54)
-          (name "6" (effects (font (size 1.016 1.016))))
-          (number "6" (effects (font (size 1.016 1.016))))
-        )
-      )
-    )
-    (symbol "KD_Inductor:Ferrite_250mA_Murata_BLM15HG102SN1D" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "FB" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Ferrite_250mA_Murata_BLM15HG102SN1D" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Inductor:INDC1005X55N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "datasheet" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "BLM15HG102SN1D" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Murata Electronics" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "BLM15HG102SN1D" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "490-3999-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.10" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "ferrite" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "FERRITE BEAD 1 KOHM 0402 1LN" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*0402* *1005* 0402 1005" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Ferrite_250mA_Murata_BLM15HG102SN1D_0_1"
-        (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Ferrite_250mA_Murata_BLM15HG102SN1D_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Resistor:R_0603_10_5%" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_0603_10_5%" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Resistor:RESC1608X55N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "10" (at 1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Walsin Technology Corporation" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "WR06X100 JTL" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "1292-WR06X100JTLCT-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.01" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Resistor res" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "RES 10 OHM 5% 1/10W 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "RESC1608* *0603*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0603_10_5%_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "R_0603_10_5%_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:Earth" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "Earth" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global ground gnd" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"Earth\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Earth_0_1"
-        (polyline
-          (pts
-            (xy -0.635 -1.905)
-            (xy 0.635 -1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.127 -2.54)
-            (xy 0.127 -2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -1.27)
-            (xy 0 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy -1.27 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Earth_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "Earth" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (bus_alias "USB" (members "USB_CON_D_P" "USB_CON_D_N"))
-  (junction (at 91.44 99.06) (diameter 0) (color 0 0 0 0)
-    (uuid 24726590-072b-4541-932a-85d72510d8c2)
-  )
-  (junction (at 110.49 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid 688fbe0c-f62d-48ad-9d3a-21f8fd510dc1)
-  )
-  (junction (at 109.22 96.52) (diameter 0) (color 0 0 0 0)
-    (uuid 6eec0534-2e3c-4210-a883-3721863be8c6)
-  )
-  (junction (at 71.12 110.49) (diameter 0) (color 0 0 0 0)
-    (uuid aed18aec-3125-4705-b95a-2c0535a9e69e)
-  )
-  (junction (at 127 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid c2c3ddb5-1d65-415a-85f0-ea4a9a029f48)
-  )
-  (junction (at 88.9 91.44) (diameter 0) (color 0 0 0 0)
-    (uuid f6c6e238-7b28-4a82-bffd-2fe3aab6c596)
-  )
-
-  (no_connect (at 92.71 144.78) (uuid 98196af0-f4ba-4a25-baf5-c077371df5b6))
-  (no_connect (at 107.95 144.78) (uuid 98196af0-f4ba-4a25-baf5-c077371df5b7))
-
-  (wire (pts (xy 110.49 62.23) (xy 110.49 64.77))
-    (stroke (width 0) (type default))
-    (uuid 10a84464-fbfd-4ecd-ba82-ae84e5c0f92f)
-  )
-  (wire (pts (xy 127 102.87) (xy 127 99.06))
-    (stroke (width 0) (type default))
-    (uuid 14677d28-b7c3-4137-a689-30ecd647669e)
-  )
-  (wire (pts (xy 88.9 62.23) (xy 88.9 91.44))
-    (stroke (width 0) (type default))
-    (uuid 26db30c7-4c05-4a53-ae3a-c443433c9693)
-  )
-  (wire (pts (xy 116.84 92.71) (xy 114.3 92.71))
-    (stroke (width 0) (type default))
-    (uuid 2fcda7a3-080e-40c4-bbbf-b92f40d35413)
-  )
-  (wire (pts (xy 107.95 137.16) (xy 121.92 137.16))
-    (stroke (width 0) (type default))
-    (uuid 303420f9-c1b5-43fc-a352-013ededb4970)
-  )
-  (wire (pts (xy 109.22 96.52) (xy 109.22 129.54))
-    (stroke (width 0) (type default))
-    (uuid 307d458e-7bd3-40b1-a8b2-ebaa9fc3a12a)
-  )
-  (wire (pts (xy 110.49 72.39) (xy 110.49 74.93))
-    (stroke (width 0) (type default))
-    (uuid 332cdf0d-aa49-4763-b367-f73d18ae9bf3)
-  )
-  (wire (pts (xy 71.12 110.49) (xy 71.12 115.57))
-    (stroke (width 0) (type default))
-    (uuid 5379d09a-8493-4cec-bb2e-f2aa2a0c64f5)
-  )
-  (wire (pts (xy 121.92 137.16) (xy 121.92 140.97))
-    (stroke (width 0) (type default))
-    (uuid 54116283-8ae9-4725-91de-eeb496c1c19a)
-  )
-  (wire (pts (xy 109.22 96.52) (xy 114.3 96.52))
-    (stroke (width 0) (type default))
-    (uuid 58ee75ea-454c-4770-8830-3a5b2faf6eb9)
-  )
-  (wire (pts (xy 110.49 62.23) (xy 127 62.23))
-    (stroke (width 0) (type default))
-    (uuid 5f2e7228-27a4-4b5b-8d62-dec99cb8d5aa)
-  )
-  (wire (pts (xy 127 64.77) (xy 127 62.23))
-    (stroke (width 0) (type default))
-    (uuid 670617fa-0a8f-4853-8c0a-aba6b379eefb)
-  )
-  (wire (pts (xy 92.71 137.16) (xy 88.9 137.16))
-    (stroke (width 0) (type default))
-    (uuid 6832875c-24d3-4f9a-a5dc-b4276a0c84ba)
-  )
-  (wire (pts (xy 127 96.52) (xy 152.4 96.52))
-    (stroke (width 0) (type default))
-    (uuid 6bdf92ac-44c6-43dc-9d8a-a9c0fc93db30)
-  )
-  (wire (pts (xy 76.2 109.22) (xy 76.2 115.57))
-    (stroke (width 0) (type default))
-    (uuid 7f413358-1303-4e55-ad63-ed4a422fbaab)
-  )
-  (wire (pts (xy 114.3 102.87) (xy 116.84 102.87))
-    (stroke (width 0) (type default))
-    (uuid 7fb28828-1796-492a-8fa6-9d7c2a0fd5a5)
-  )
-  (wire (pts (xy 106.68 62.23) (xy 110.49 62.23))
-    (stroke (width 0) (type default))
-    (uuid 850b54b2-a1ff-4e3d-b6bd-91c4cfe678af)
-  )
-  (wire (pts (xy 127 72.39) (xy 127 74.93))
-    (stroke (width 0) (type default))
-    (uuid 88971d4b-9c7c-4c05-9e53-06140727e0cc)
-  )
-  (wire (pts (xy 88.9 137.16) (xy 88.9 91.44))
-    (stroke (width 0) (type default))
-    (uuid 8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a)
-  )
-  (wire (pts (xy 107.95 129.54) (xy 109.22 129.54))
-    (stroke (width 0) (type default))
-    (uuid 96490115-f056-4dd2-8b17-e8b6618ac9fb)
-  )
-  (wire (pts (xy 92.71 129.54) (xy 91.44 129.54))
-    (stroke (width 0) (type default))
-    (uuid 9b339a28-1ec0-4d94-93df-12cb557f2de9)
-  )
-  (wire (pts (xy 127 99.06) (xy 152.4 99.06))
-    (stroke (width 0) (type default))
-    (uuid 9c85bd5e-7f2b-44a7-9dab-86559ede1b6f)
-  )
-  (wire (pts (xy 71.12 110.49) (xy 73.66 110.49))
-    (stroke (width 0) (type default))
-    (uuid ad092ed0-250c-43f4-9cd2-5ca071071a5c)
-  )
-  (wire (pts (xy 114.3 99.06) (xy 114.3 102.87))
-    (stroke (width 0) (type default))
-    (uuid b27406da-be43-48f6-8f33-6751590d2621)
-  )
-  (wire (pts (xy 124.46 102.87) (xy 127 102.87))
-    (stroke (width 0) (type default))
-    (uuid b2e70a57-e425-43f3-bb90-006b47c475af)
-  )
-  (wire (pts (xy 71.12 109.22) (xy 71.12 110.49))
-    (stroke (width 0) (type default))
-    (uuid bf2d2ee3-5994-4754-b896-0a14806195c5)
-  )
-  (wire (pts (xy 99.06 62.23) (xy 88.9 62.23))
-    (stroke (width 0) (type default))
-    (uuid c4f151ff-4229-4674-a83e-2ac6c12d3333)
-  )
-  (wire (pts (xy 91.44 99.06) (xy 91.44 129.54))
-    (stroke (width 0) (type default))
-    (uuid cd6a4453-280a-4952-86fd-aa2796c9341e)
-  )
-  (wire (pts (xy 73.66 109.22) (xy 73.66 110.49))
-    (stroke (width 0) (type default))
-    (uuid d0323e58-bb2b-4092-b367-3fd868e7073c)
-  )
-  (wire (pts (xy 86.36 91.44) (xy 88.9 91.44))
-    (stroke (width 0) (type default))
-    (uuid d4b3ee0b-e1e3-47ed-bd85-685a9753dac2)
-  )
-  (wire (pts (xy 127 62.23) (xy 152.4 62.23))
-    (stroke (width 0) (type default))
-    (uuid d602d338-7a2d-49cf-9f5b-d6ef6f568ec6)
-  )
-  (wire (pts (xy 124.46 92.71) (xy 127 92.71))
-    (stroke (width 0) (type default))
-    (uuid da184542-e14d-4ae2-b080-aa8a098abaa4)
-  )
-  (wire (pts (xy 86.36 96.52) (xy 109.22 96.52))
-    (stroke (width 0) (type default))
-    (uuid e7105db4-446d-4d7e-bd58-3b287d49366b)
-  )
-  (wire (pts (xy 86.36 99.06) (xy 91.44 99.06))
-    (stroke (width 0) (type default))
-    (uuid eb27bb1d-1174-448a-8ca7-24212f21d382)
-  )
-  (wire (pts (xy 127 92.71) (xy 127 96.52))
-    (stroke (width 0) (type default))
-    (uuid f193425d-015e-43cc-a102-4c6869261bab)
-  )
-  (wire (pts (xy 114.3 92.71) (xy 114.3 96.52))
-    (stroke (width 0) (type default))
-    (uuid fd5bb8eb-4d9f-4b0e-9d50-cff73c1a2da4)
-  )
-  (wire (pts (xy 91.44 99.06) (xy 114.3 99.06))
-    (stroke (width 0) (type default))
-    (uuid fe9cdf06-3dd4-4634-ad12-c1f17b92c23d)
-  )
-
-  (label "USB_CON_D_N" (at 105.41 99.06 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 868587d3-6450-48df-a594-c86ef4379bf7)
-  )
-  (label "USB_CON_D_P" (at 105.41 96.52 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid b8cdd2f1-0a4d-4130-b0a3-ecece604f84e)
-  )
-
-  (hierarchical_label "USB_D_N" (shape bidirectional) (at 152.4 99.06 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 76fe0d67-4a1f-419c-a3cd-42d0e66fd62b)
-  )
-  (hierarchical_label "USB_VBUS" (shape output) (at 152.4 62.23 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid aad78777-1720-4551-a58b-6af236ae2b20)
-  )
-  (hierarchical_label "USB_D_P" (shape bidirectional) (at 152.4 96.52 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bb281823-6ac6-40b6-a834-04bf78b1385a)
-  )
-
-  (symbol (lib_id "power:GND") (at 110.49 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0fb40420-b809-4894-bb5e-9dcaa552e3fa)
-    (property "Reference" "#PWR0115" (at 110.49 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 110.49 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 110.49 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 110.49 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8bce15f7-9680-4fe7-8db9-e42479e4a67e))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "#PWR0115") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Inductor:Ferrite_250mA_Murata_BLM15HG102SN1D") (at 102.87 62.23 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 105fdfcd-8c11-4755-9504-552389cbbfc0)
-    (property "Reference" "FB1" (at 102.87 55.88 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Ferrite_250mA_Murata_BLM15HG102SN1D" (at 71.12 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Inductor:INDC1005X55N" (at 88.9 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "datasheet" (at 91.44 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "BLM15HG102SN1D" (at 102.87 58.42 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Murata Electronics" (at 73.66 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "BLM15HG102SN1D" (at 76.2 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 78.74 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "490-3999-1-ND" (at 81.28 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 83.82 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.10" (at 86.36 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 5e32bc26-ae72-4870-b22f-980daa0fa97e))
-    (pin "2" (uuid 544321ed-1894-4c9d-919d-cbb11fc68405))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "FB1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:R_0603_10_5%") (at 120.65 102.87 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 22a126e7-68c5-4b78-bc99-ea3a9a954e61)
-    (property "Reference" "R10" (at 120.65 96.52 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R_0603_10_5%" (at 88.9 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:RESC1608X55N" (at 106.68 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 109.22 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10" (at 120.65 99.06 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Walsin Technology Corporation" (at 91.44 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "WR06X100 JTL" (at 93.98 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 96.52 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1292-WR06X100JTLCT-ND" (at 99.06 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 101.6 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.01" (at 104.14 115.57 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 8631c2c4-4944-4418-9372-796d5b875810))
-    (pin "2" (uuid 33d5f5cf-8087-4c48-8da2-506a08a38cdd))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "R10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Connector_USB_HDMI_Etc:USB_B_V_Adam_USB-B-S-VT") (at 76.2 96.52 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2a748db8-1f9d-43bb-a225-2baa11a20704)
-    (property "Reference" "J8" (at 76.2 83.82 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "USB Mini B" (at 68.58 60.96 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT" (at 68.58 78.74 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf" (at 68.58 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "USB Mini B" (at 76.2 86.36 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Adam Tech" (at 68.58 63.5 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "USB-B-S-VT" (at 68.58 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 68.58 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "2057-USB-B-S-VT-ND" (at 68.58 71.12 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 68.58 73.66 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "1" (at 68.58 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 3623e1d2-f1c5-4fe2-98b8-e5c58d0fd579))
-    (pin "2" (uuid 0dee068f-df5f-4bff-a22e-5f2be767fbae))
-    (pin "3" (uuid 4f2b537e-9068-426a-b3b5-695d71aac22a))
-    (pin "4" (uuid 6171c090-d60c-4115-a98b-9c7aeac13ff4))
-    (pin "H1" (uuid f43deacc-f5ba-4457-93ae-3f996da7d9fe))
-    (pin "H2" (uuid ab4bdf6a-4b9b-4b1d-b43a-17895e629206))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "J8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_1206_10u_X5R_50V_automotive") (at 110.49 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2b1e367c-434c-4727-8f77-fd7888722bcc)
-    (property "Reference" "C12" (at 114.3 67.3099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "10u" (at 97.79 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC3216X150N" (at 97.79 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf" (at 97.79 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10u" (at 114.3 69.8499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Murata Electronics" (at 97.79 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "GRT31CR61H106ME01L" (at 97.79 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 97.79 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "490-12457-1-ND" (at 97.79 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 97.79 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.30" (at 97.79 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 4a314538-323a-476e-919f-0e900b663d50))
-    (pin "2" (uuid 37acb77a-4142-4275-bc77-22ae33700deb))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 121.92 140.97 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2f8968a7-1e5e-4c60-b233-cd1bc5a9eb76)
-    (property "Reference" "#PWR0114" (at 121.92 147.32 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 121.92 144.78 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 121.92 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 121.92 140.97 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e0c5048-4020-4778-b289-41dfd428fdd4))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "#PWR0114") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0603_100n_X7R_100V") (at 127 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5a8d1292-890e-4b1a-90ab-366335376809)
-    (property "Reference" "C13" (at 130.81 67.3099 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100n" (at 114.3 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 114.3 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf" (at 114.3 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "100n" (at 130.81 69.8499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 114.3 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CL10B104KC8NNNC" (at 114.3 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 114.3 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1276-6807-1-ND" (at 114.3 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 114.3 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.03" (at 114.3 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 52488162-1de2-4570-96fd-5a179bdea531))
-    (pin "2" (uuid 6171174b-381e-497c-be54-521621f5967a))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "C13") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:Earth") (at 71.12 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8b2c0e4d-4d64-48a0-a822-8010e0df6a06)
-    (property "Reference" "#PWR0112" (at 71.12 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "Earth" (at 71.12 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 71.12 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 71.12 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3c677131-83b9-4b32-aa33-a502f613a3ae))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "#PWR0112") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M") (at 100.33 137.16 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 99d469d2-4e6f-45a5-8c64-c4903c2788e9)
-    (property "Reference" "D4" (at 100.33 123.19 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TVS_5V5_DRTR5V0U4S-7-M" (at 85.09 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 85.09 110.49 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf" (at 85.09 113.03 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "DRTR5V0U4S-7" (at 100.33 125.73 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Diodes Incorporated" (at 85.09 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "DRTR5V0U4S-7" (at 85.09 97.79 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 85.09 100.33 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "DRTR5V0U4S-7DICT-ND" (at 85.09 102.87 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 85.09 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.30" (at 85.09 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 353379dd-15fa-4c0f-be2d-1bef1f59ffd4))
-    (pin "2" (uuid b78d3570-907a-4c20-b2da-56948e780d06))
-    (pin "3" (uuid 5704ee8b-bd2e-4be4-80c0-dfbe15032897))
-    (pin "4" (uuid 5624568f-dc5a-433c-86fa-7b26b8f7124f))
-    (pin "5" (uuid a50c58c6-c375-4b3f-b02e-ffbe80007280))
-    (pin "6" (uuid a600ab2d-35f6-4ba3-95dc-cdba19d13cea))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "D4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 127 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9dc0a20f-f443-4350-b69b-024cd6f74375)
-    (property "Reference" "#PWR0116" (at 127 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 127 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 127 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 127 74.93 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 74f30fce-0eec-4bf4-83bc-c52d1da88e91))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "#PWR0116") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:R_0603_10_5%") (at 120.65 92.71 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c633414d-a37d-469a-87c2-3f264b8d33e4)
-    (property "Reference" "R9" (at 120.65 86.36 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R_0603_10_5%" (at 88.9 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:RESC1608X55N" (at 106.68 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English" (at 109.22 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10" (at 120.65 88.9 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Walsin Technology Corporation" (at 91.44 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "WR06X100 JTL" (at 93.98 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 96.52 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1292-WR06X100JTLCT-ND" (at 99.06 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 101.6 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.01" (at 104.14 105.41 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid abd39ba0-3e4f-4ac0-acbb-f2bb71847157))
-    (pin "2" (uuid fecec094-fa92-4fd5-b24c-7e0e9b0869ef))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "R9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 76.2 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d8233b7e-a080-46f2-acd5-2ca5317d4f49)
-    (property "Reference" "#PWR0113" (at 76.2 121.92 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 76.2 119.38 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 76.2 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 115.57 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4ab493fe-fdf7-47a4-87f7-1dac0aa42252))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
-          (reference "#PWR0113") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "242be75c-3a1d-4a09-8ac5-3dd7928ea876")
+	(paper "A4")
+	(title_block
+		(title "Gear Display Board")
+		(date "2023-09-22")
+		(rev "4.0")
+		(company "Kallio Designs Oy")
+		(comment 1 "Teemu Latonen")
+		(comment 2 "000064")
+		(comment 3 "000065")
+	)
+	(lib_symbols
+		(symbol "KD_Capacitor:C_0603_100n_X7R_100V"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100n"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 0.1UF 100V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "100n"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CL10B104KC8NNNC"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "1276-6807-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.03"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0603 CAPC1608*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_100n_X7R_100V_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_100n_X7R_100V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Capacitor:C_1206_10u_X5R_50V_automotive"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10u"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC3216X150N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10UF 50V X5R 1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "10u"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "GRT31CR61H106ME01L"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "490-12457-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.30"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "1206 CAPC3216*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_1206_10u_X5R_50V_automotive_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1206_10u_X5R_50V_automotive_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Connector_USB_HDMI_Etc:USB_B_V_Adam_USB-B-S-VT"
+			(pin_numbers hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 11.43 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB Mini B"
+				(at -7.874 9.144 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT"
+				(at -7.62 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf"
+				(at -7.62 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Mini Vertical Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Adam Tech"
+				(at -7.62 33.02 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "USB-B-S-VT"
+				(at -7.62 30.48 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -7.62 27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "2057-USB-B-S-VT-ND"
+				(at -7.62 25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -7.62 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "1"
+				(at -7.62 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB Mini Vertical Connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_B_V_Adam_USB-B-S-VT_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -4.318 -0.254)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.143 1.016)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 -1.143)
+					(end -1.016 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 -0.254) (xy 0.127 -0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.683 -0.254) (xy -3.048 -0.254) (xy -1.778 1.016) (xy -1.143 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.254) (xy -2.413 -0.254) (xy -1.778 -1.524) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.127 0.381) (xy 0.127 -0.889) (xy 1.397 -0.254) (xy 0.127 0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 5.207) (xy -1.905 5.207) (xy -2.159 4.445) (xy -4.191 4.445) (xy -4.445 5.207)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.826 5.461) (xy -4.826 5.207) (xy -4.572 4.445) (xy -4.572 4.191) (xy -1.778 4.191) (xy -1.778 4.445)
+						(xy -1.524 5.207) (xy -1.524 5.461) (xy -4.826 5.461)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_B_V_Adam_USB-B-S-VT_1_1"
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "H2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TVS_5V5_DRTR5V0U4S-7-M"
+				(at -15.24 44.45 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at -15.24 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf"
+				(at -15.24 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "TVS DIODE 5.5VWM SOT363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "DRTR5V0U4S-7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Diodes Incorporated"
+				(at -15.24 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "DRTR5V0U4S-7"
+				(at -15.24 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -15.24 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "DRTR5V0U4S-7DICT-ND"
+				(at -15.24 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -15.24 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.30"
+				(at -15.24 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Diode TVS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "6-TSSOP SOT-363 SC-88"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TVS_5V5_DRTR5V0U4S-7-M_0_1"
+				(rectangle
+					(start -5.08 8.89)
+					(end 5.08 -8.89)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TVS_5V5_DRTR5V0U4S-7-M_1_0"
+				(polyline
+					(pts
+						(xy -5.08 -7.62) (xy -4.318 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.302 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 7.62) (xy -4.318 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -7.62) (xy -4.318 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -3.81) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 3.81) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 7.62) (xy -4.318 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -7.62) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -5.08) (xy -3.302 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0) (xy -3.302 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0) (xy -3.302 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 5.08) (xy -3.302 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 7.62) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -2.54 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -7.62) (xy -1.778 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -6.858) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -3.302 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -2.54 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -1.778 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -4.318) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 4.318) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -3.302 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -2.54 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -1.778 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 6.858) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -2.54 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 7.62) (xy -1.778 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -8.382) (xy -1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -7.62) (xy -1.778 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -6.858) (xy -2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.842) (xy -1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.08) (xy -1.778 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -5.08) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -4.318) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 4.318) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.08) (xy -1.778 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.08) (xy 1.778 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 5.842) (xy -1.778 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 6.858) (xy -2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 7.62) (xy -1.778 6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 8.382) (xy -1.778 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.254 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 1.016) (xy -1.27 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 4.318 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 4.318 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 0 6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -7.62) (xy -1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -7.62) (xy 1.778 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -7.62) (xy 2.54 -8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -6.858) (xy 1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.08) (xy 1.778 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.08) (xy 2.54 -5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -4.318) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 4.318) (xy 1.778 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 5.08) (xy 1.778 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 5.08) (xy 2.54 5.842)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 6.858) (xy 1.778 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 7.62) (xy -1.778 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 7.62) (xy 1.778 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 7.62) (xy 2.54 8.382)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -8.382) (xy 2.54 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 2.54 -6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -7.62) (xy 3.556 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.858) (xy 1.778 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.842) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 -4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 3.556 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.318) (xy 1.778 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 4.318) (xy 1.778 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 4.318)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.842) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.858) (xy 1.778 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 2.54 6.858)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 7.62) (xy 3.556 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 8.382) (xy 2.54 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -7.62) (xy 3.556 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 -5.08) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 5.08) (xy 3.556 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.556 7.62) (xy 3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -6.35) (xy 4.318 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 6.35) (xy 4.318 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 7.62) (xy 5.08 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TVS_5V5_DRTR5V0U4S-7-M_1_1"
+				(circle
+					(center -3.302 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.302 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -3.302 5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.556 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.556 0)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.556 5.08)
+					(radius 0.127)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -7.62 7.62 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "V-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -7.62 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 7.62 180)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Inductor:Ferrite_250mA_Murata_BLM15HG102SN1D"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Ferrite_250mA_Murata_BLM15HG102SN1D"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Inductor:INDC1005X55N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "datasheet"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "FERRITE BEAD 1 KOHM 0402 1LN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "BLM15HG102SN1D"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Murata Electronics"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "BLM15HG102SN1D"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "490-3999-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.10"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "ferrite"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0402* *1005* 0402 1005"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Ferrite_250mA_Murata_BLM15HG102SN1D_0_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Ferrite_250mA_Murata_BLM15HG102SN1D_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Resistor:R_0603_10_5%"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603_10_5%"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Resistor:RESC1608X55N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "RES 10 OHM 5% 1/10W 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "10"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Walsin Technology Corporation"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "WR06X100 JTL"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.01"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RESC1608* *0603*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_10_5%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_0603_10_5%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:Earth"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "Earth"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"Earth\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global ground gnd"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Earth_0_1"
+				(polyline
+					(pts
+						(xy -0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 -2.54) (xy 0.127 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Earth_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "Earth"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(bus_alias "USB"
+		(members "USB_CON_D_P" "USB_CON_D_N")
+	)
+	(junction
+		(at 91.44 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24726590-072b-4541-932a-85d72510d8c2")
+	)
+	(junction
+		(at 110.49 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "688fbe0c-f62d-48ad-9d3a-21f8fd510dc1")
+	)
+	(junction
+		(at 109.22 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eec0534-2e3c-4210-a883-3721863be8c6")
+	)
+	(junction
+		(at 71.12 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aed18aec-3125-4705-b95a-2c0535a9e69e")
+	)
+	(junction
+		(at 127 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2c3ddb5-1d65-415a-85f0-ea4a9a029f48")
+	)
+	(junction
+		(at 88.9 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6c6e238-7b28-4a82-bffd-2fe3aab6c596")
+	)
+	(no_connect
+		(at 92.71 144.78)
+		(uuid "98196af0-f4ba-4a25-baf5-c077371df5b6")
+	)
+	(no_connect
+		(at 107.95 144.78)
+		(uuid "98196af0-f4ba-4a25-baf5-c077371df5b7")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 110.49 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10a84464-fbfd-4ecd-ba82-ae84e5c0f92f")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14677d28-b7c3-4137-a689-30ecd647669e")
+	)
+	(wire
+		(pts
+			(xy 88.9 62.23) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26db30c7-4c05-4a53-ae3a-c443433c9693")
+	)
+	(wire
+		(pts
+			(xy 116.84 92.71) (xy 114.3 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fcda7a3-080e-40c4-bbbf-b92f40d35413")
+	)
+	(wire
+		(pts
+			(xy 107.95 137.16) (xy 121.92 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "303420f9-c1b5-43fc-a352-013ededb4970")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307d458e-7bd3-40b1-a8b2-ebaa9fc3a12a")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332cdf0d-aa49-4763-b367-f73d18ae9bf3")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 71.12 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5379d09a-8493-4cec-bb2e-f2aa2a0c64f5")
+	)
+	(wire
+		(pts
+			(xy 121.92 137.16) (xy 121.92 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54116283-8ae9-4725-91de-eeb496c1c19a")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58ee75ea-454c-4770-8830-3a5b2faf6eb9")
+	)
+	(wire
+		(pts
+			(xy 110.49 62.23) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2e7228-27a4-4b5b-8d62-dec99cb8d5aa")
+	)
+	(wire
+		(pts
+			(xy 127 64.77) (xy 127 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "670617fa-0a8f-4853-8c0a-aba6b379eefb")
+	)
+	(wire
+		(pts
+			(xy 92.71 137.16) (xy 88.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6832875c-24d3-4f9a-a5dc-b4276a0c84ba")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 152.4 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bdf92ac-44c6-43dc-9d8a-a9c0fc93db30")
+	)
+	(wire
+		(pts
+			(xy 76.2 109.22) (xy 76.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f413358-1303-4e55-ad63-ed4a422fbaab")
+	)
+	(wire
+		(pts
+			(xy 114.3 102.87) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb28828-1796-492a-8fa6-9d7c2a0fd5a5")
+	)
+	(wire
+		(pts
+			(xy 106.68 62.23) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850b54b2-a1ff-4e3d-b6bd-91c4cfe678af")
+	)
+	(wire
+		(pts
+			(xy 127 72.39) (xy 127 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88971d4b-9c7c-4c05-9e53-06140727e0cc")
+	)
+	(wire
+		(pts
+			(xy 88.9 137.16) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc5218e-e3ef-4de7-bea4-c8f4c6a87c8a")
+	)
+	(wire
+		(pts
+			(xy 107.95 129.54) (xy 109.22 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96490115-f056-4dd2-8b17-e8b6618ac9fb")
+	)
+	(wire
+		(pts
+			(xy 92.71 129.54) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b339a28-1ec0-4d94-93df-12cb557f2de9")
+	)
+	(wire
+		(pts
+			(xy 127 99.06) (xy 152.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c85bd5e-7f2b-44a7-9dab-86559ede1b6f")
+	)
+	(wire
+		(pts
+			(xy 71.12 110.49) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad092ed0-250c-43f4-9cd2-5ca071071a5c")
+	)
+	(wire
+		(pts
+			(xy 114.3 99.06) (xy 114.3 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b27406da-be43-48f6-8f33-6751590d2621")
+	)
+	(wire
+		(pts
+			(xy 124.46 102.87) (xy 127 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e70a57-e425-43f3-bb90-006b47c475af")
+	)
+	(wire
+		(pts
+			(xy 71.12 109.22) (xy 71.12 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2d2ee3-5994-4754-b896-0a14806195c5")
+	)
+	(wire
+		(pts
+			(xy 99.06 62.23) (xy 88.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4f151ff-4229-4674-a83e-2ac6c12d3333")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 91.44 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6a4453-280a-4952-86fd-aa2796c9341e")
+	)
+	(wire
+		(pts
+			(xy 73.66 109.22) (xy 73.66 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0323e58-bb2b-4092-b367-3fd868e7073c")
+	)
+	(wire
+		(pts
+			(xy 86.36 91.44) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b3ee0b-e1e3-47ed-bd85-685a9753dac2")
+	)
+	(wire
+		(pts
+			(xy 127 62.23) (xy 152.4 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d602d338-7a2d-49cf-9f5b-d6ef6f568ec6")
+	)
+	(wire
+		(pts
+			(xy 124.46 92.71) (xy 127 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da184542-e14d-4ae2-b080-aa8a098abaa4")
+	)
+	(wire
+		(pts
+			(xy 86.36 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7105db4-446d-4d7e-bd58-3b287d49366b")
+	)
+	(wire
+		(pts
+			(xy 86.36 99.06) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb27bb1d-1174-448a-8ca7-24212f21d382")
+	)
+	(wire
+		(pts
+			(xy 127 92.71) (xy 127 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f193425d-015e-43cc-a102-4c6869261bab")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 114.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5bb8eb-4d9f-4b0e-9d50-cff73c1a2da4")
+	)
+	(wire
+		(pts
+			(xy 91.44 99.06) (xy 114.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9cdf06-3dd4-4634-ad12-c1f17b92c23d")
+	)
+	(label "USB_CON_D_N"
+		(at 105.41 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "868587d3-6450-48df-a594-c86ef4379bf7")
+	)
+	(label "USB_CON_D_P"
+		(at 105.41 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8cdd2f1-0a4d-4130-b0a3-ecece604f84e")
+	)
+	(hierarchical_label "USB_D_N"
+		(shape bidirectional)
+		(at 152.4 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "76fe0d67-4a1f-419c-a3cd-42d0e66fd62b")
+	)
+	(hierarchical_label "USB_VBUS"
+		(shape output)
+		(at 152.4 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aad78777-1720-4551-a58b-6af236ae2b20")
+	)
+	(hierarchical_label "USB_D_P"
+		(shape bidirectional)
+		(at 152.4 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bb281823-6ac6-40b6-a834-04bf78b1385a")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fb40420-b809-4894-bb5e-9dcaa552e3fa")
+		(property "Reference" "#PWR0115"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bce15f7-9680-4fe7-8db9-e42479e4a67e")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Inductor:Ferrite_250mA_Murata_BLM15HG102SN1D")
+		(at 102.87 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "105fdfcd-8c11-4755-9504-552389cbbfc0")
+		(property "Reference" "FB1"
+			(at 102.87 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Ferrite_250mA_Murata_BLM15HG102SN1D"
+			(at 71.12 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Inductor:INDC1005X55N"
+			(at 88.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheet"
+			(at 91.44 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "BLM15HG102SN1D"
+			(at 102.87 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 73.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "BLM15HG102SN1D"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 78.74 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "490-3999-1-ND"
+			(at 81.28 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 83.82 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.10"
+			(at 86.36 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e32bc26-ae72-4870-b22f-980daa0fa97e")
+		)
+		(pin "2"
+			(uuid "544321ed-1894-4c9d-919d-cbb11fc68405")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:R_0603_10_5%")
+		(at 120.65 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22a126e7-68c5-4b78-bc99-ea3a9a954e61")
+		(property "Reference" "R10"
+			(at 120.65 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0603_10_5%"
+			(at 88.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:RESC1608X55N"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10"
+			(at 120.65 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 91.44 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "WR06X100 JTL"
+			(at 93.98 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 96.52 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+			(at 99.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.01"
+			(at 104.14 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8631c2c4-4944-4418-9372-796d5b875810")
+		)
+		(pin "2"
+			(uuid "33d5f5cf-8087-4c48-8da2-506a08a38cdd")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Connector_USB_HDMI_Etc:USB_B_V_Adam_USB-B-S-VT")
+		(at 76.2 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a748db8-1f9d-43bb-a225-2baa11a20704")
+		(property "Reference" "J8"
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB Mini B"
+			(at 68.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Connector_USB_HDMI_Etc:USB_B_Vertical_Adam_USB-B-S-VT"
+			(at 68.58 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://app.adam-tech.com/products/download/data_sheet/195855/usb-b-s-vt-data-sheet.pdf"
+			(at 68.58 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "USB Mini B"
+			(at 76.2 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Adam Tech"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "USB-B-S-VT"
+			(at 68.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 68.58 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "2057-USB-B-S-VT-ND"
+			(at 68.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 68.58 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 68.58 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3623e1d2-f1c5-4fe2-98b8-e5c58d0fd579")
+		)
+		(pin "2"
+			(uuid "0dee068f-df5f-4bff-a22e-5f2be767fbae")
+		)
+		(pin "3"
+			(uuid "4f2b537e-9068-426a-b3b5-695d71aac22a")
+		)
+		(pin "4"
+			(uuid "6171c090-d60c-4115-a98b-9c7aeac13ff4")
+		)
+		(pin "H1"
+			(uuid "f43deacc-f5ba-4457-93ae-3f996da7d9fe")
+		)
+		(pin "H2"
+			(uuid "ab4bdf6a-4b9b-4b1d-b43a-17895e629206")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_1206_10u_X5R_50V_automotive")
+		(at 110.49 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b1e367c-434c-4727-8f77-fd7888722bcc")
+		(property "Reference" "C12"
+			(at 114.3 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 97.79 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC3216X150N"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT31CR61H106ME01-01.pdf"
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10u"
+			(at 114.3 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 97.79 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "GRT31CR61H106ME01L"
+			(at 97.79 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 97.79 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "490-12457-1-ND"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 97.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.30"
+			(at 97.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a314538-323a-476e-919f-0e900b663d50")
+		)
+		(pin "2"
+			(uuid "37acb77a-4142-4275-bc77-22ae33700deb")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 121.92 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2f8968a7-1e5e-4c60-b233-cd1bc5a9eb76")
+		(property "Reference" "#PWR0114"
+			(at 121.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 121.92 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e0c5048-4020-4778-b289-41dfd428fdd4")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0603_100n_X7R_100V")
+		(at 127 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a8d1292-890e-4b1a-90ab-366335376809")
+		(property "Reference" "C13"
+			(at 130.81 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 114.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104KC8NNNC_Spec.pdf"
+			(at 114.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "100n"
+			(at 130.81 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 114.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CL10B104KC8NNNC"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 114.3 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1276-6807-1-ND"
+			(at 114.3 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 114.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.03"
+			(at 114.3 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52488162-1de2-4570-96fd-5a179bdea531")
+		)
+		(pin "2"
+			(uuid "6171174b-381e-497c-be54-521621f5967a")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:Earth")
+		(at 71.12 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b2c0e4d-4d64-48a0-a822-8010e0df6a06")
+		(property "Reference" "#PWR0112"
+			(at 71.12 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Earth"
+			(at 71.12 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c677131-83b9-4b32-aa33-a502f613a3ae")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Diode:TVS_5V5_DRTR5V0U4S-7-M")
+		(at 100.33 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99d469d2-4e6f-45a5-8c64-c4903c2788e9")
+		(property "Reference" "D4"
+			(at 100.33 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TVS_5V5_DRTR5V0U4S-7-M"
+			(at 85.09 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 85.09 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DRTR5V0U4S.pdf"
+			(at 85.09 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "DRTR5V0U4S-7"
+			(at 100.33 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 85.09 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "DRTR5V0U4S-7"
+			(at 85.09 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "DRTR5V0U4S-7DICT-ND"
+			(at 85.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 85.09 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.30"
+			(at 85.09 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "353379dd-15fa-4c0f-be2d-1bef1f59ffd4")
+		)
+		(pin "2"
+			(uuid "b78d3570-907a-4c20-b2da-56948e780d06")
+		)
+		(pin "3"
+			(uuid "5704ee8b-bd2e-4be4-80c0-dfbe15032897")
+		)
+		(pin "4"
+			(uuid "5624568f-dc5a-433c-86fa-7b26b8f7124f")
+		)
+		(pin "5"
+			(uuid "a50c58c6-c375-4b3f-b02e-ffbe80007280")
+		)
+		(pin "6"
+			(uuid "a600ab2d-35f6-4ba3-95dc-cdba19d13cea")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dc0a20f-f443-4350-b69b-024cd6f74375")
+		(property "Reference" "#PWR0116"
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74f30fce-0eec-4bf4-83bc-c52d1da88e91")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:R_0603_10_5%")
+		(at 120.65 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c633414d-a37d-469a-87c2-3f264b8d33e4")
+		(property "Reference" "R9"
+			(at 120.65 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0603_10_5%"
+			(at 88.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:RESC1608X55N"
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773204-3&DocType=DS&DocLang=English"
+			(at 109.22 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10"
+			(at 120.65 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Walsin Technology Corporation"
+			(at 91.44 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "WR06X100 JTL"
+			(at 93.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 96.52 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1292-WR06X100JTLCT-ND"
+			(at 99.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 101.6 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.01"
+			(at 104.14 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abd39ba0-3e4f-4ac0-acbb-f2bb71847157")
+		)
+		(pin "2"
+			(uuid "fecec094-fa92-4fd5-b24c-7e0e9b0869ef")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 76.2 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8233b7e-a080-46f2-acd5-2ca5317d4f49")
+		(property "Reference" "#PWR0113"
+			(at 76.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 76.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ab493fe-fdf7-47a4-87f7-1dac0aa42252")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/124ce659-22a5-4a84-b30d-e5ec849b4e60"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
 )

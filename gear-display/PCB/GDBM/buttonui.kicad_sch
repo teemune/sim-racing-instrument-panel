@@ -1,1540 +1,4240 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 04c7401f-486a-44b3-8a9f-11c16c15f1f2)
-
-  (paper "A4")
-
-  (title_block
-    (title "Gear Display Board")
-    (date "2023-09-22")
-    (rev "4.0")
-    (company "Kallio Designs Oy")
-    (comment 1 "Teemu Latonen")
-    (comment 2 "000064")
-    (comment 3 "000065")
-  )
-
-  (lib_symbols
-    (symbol "KD_Capacitor:C_0603_10n_X7R_100V" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "10n" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "datasheet" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "10n" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "TDK Corporation" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "C1608X7R2A103K080AA" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "445-1304-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.05" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 10000PF 100V X7R 0603" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0603 CAPC1608*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0603_10n_X7R_100V_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_0603_10n_X7R_100V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Capacitor:C_0805_1u_X7R_25V" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 2.54 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "1u" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Capacitor:CAPC2012X135N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "1u" (at 2.54 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Samsung Electro-Mechanics" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CL21B105KAFNNNE" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "1276-1066-1-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.03" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Capacitor Cap" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "CAP CER 1UF 25V X7R 0805" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0805 CAPC2012*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0805_1u_X7R_25V_0_1"
-        (polyline
-          (pts
-            (xy -2.286 -0.508)
-            (xy 2.286 -0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.286 0.508)
-            (xy 2.286 0.508)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 -0.508)
-            (xy 0 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0.508)
-            (xy 0 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_0805_1u_X7R_25V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Schottky_30V_1A_Toshiba_CUS10S30" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Diode:D_SOD-323" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "CUS10S30,H3F" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Manufacturer" "Toshiba Semiconductor and Storage" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CUS10S30,H3F" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "CUS10S30H3FCT-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.2" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Diode Schottky" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "DIODE SCHOTTKY 30V 1A USC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SC-76 SOD-323" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Schottky_30V_1A_Toshiba_CUS10S30_0_1"
-        (polyline
-          (pts
-            (xy -1.905 0.635)
-            (xy -1.905 1.27)
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -0.635)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "Schottky_30V_1A_Toshiba_CUS10S30_1_1"
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_IC_Other:Timer_Oscillator_TLC555CDG4" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 3.81 11.176 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Timer_Oscillator_TLC555CDG4" (at -12.7 41.91 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Package_SO:SOIC127P600X175-8" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "TLC555CDG4" (at 3.81 8.89 0) (do_not_autoplace)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Texas Instruments" (at -12.7 39.37 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "TLC555CDG4" (at -12.7 36.83 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 34.29 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "296-52992-ND" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.9" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "timer oscillator" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "IC OSC SGL TIMER 2.1MHZ 8-SOIC" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOIC127P600X* 8-SOIC SO-8" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Timer_Oscillator_TLC555CDG4_0_0"
-        (pin power_in line (at 25.4 -12.7 180) (length 3.81)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 5.08 0) (length 3.81)
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "Timer_Oscillator_TLC555CDG4_0_1"
-        (rectangle (start 3.81 7.62) (end 21.59 -15.24)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "Timer_Oscillator_TLC555CDG4_1_1"
-        (pin input line (at 0 -12.7 0) (length 3.81)
-          (name "TR" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output line (at 25.4 5.08 180) (length 3.81)
-          (name "Q" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input inverted (at 0 2.54 0) (length 3.81)
-          (name "R" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 25.4 -7.62 180) (length 3.81)
-          (name "CV" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -7.62 0) (length 3.81)
-          (name "THR" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 0 -2.54 0) (length 3.81)
-          (name "DIS" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Mechanical:Knob_6mm_BL_RED_CLIFF_CL170842CR" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "M" (at 0 11.43 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Knob_6mm_BL_RED_CLIFF_CL170842CR" (at -13.97 41.91 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Mechanical:Knob_CLIFF_CL170842CR" (at -13.97 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "CL170842CR" (at 0 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Manufacturer" "CLIFF Electronic Components Ltd" (at -13.97 39.37 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "CL170842CR" (at -13.97 36.83 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -13.97 34.29 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "3185-CL170842CR-ND" (at -13.97 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -13.97 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "1" (at -13.97 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "knob 6mm" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Knurled, Straight Knob 0.236\" (6.00mm)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Knob_6mm_BL_RED_CLIFF_CL170842CR_0_1"
-        (polyline
-          (pts
-            (xy -5.715 -3.175)
-            (xy 5.715 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -1.905)
-            (xy 4.445 -1.905)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 7.62)
-            (xy 4.445 7.62)
-            (xy 5.08 -1.27)
-            (xy 5.715 -1.905)
-            (xy 5.715 -3.175)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 7.62)
-            (xy -3.81 7.62)
-            (xy -4.445 -1.905)
-            (xy -5.715 -3.175)
-            (xy -5.715 -4.445)
-            (xy 0 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 7.62)
-            (xy 3.81 7.62)
-            (xy 4.445 -1.905)
-            (xy 5.715 -3.175)
-            (xy 5.715 -4.445)
-            (xy 0 -4.445)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-    (symbol "KD_Resistor:Pot_V_50k_CUI_PT01-D225D-A503" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at -1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "PT01-D225D-A503" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.cuidevices.com/product/resource/pt01.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "50k" (at -1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Manufacturer" "CUI Devices" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "PT01-D225D-A503" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "2223-PT01-D225D-A503-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.77" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "pot vertical log reverse logarithmic" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "POT 50K OHM 1/20W CARBON R-LOG" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*PT01-D*25*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Pot_V_50k_CUI_PT01-D225D-A503_0_1"
-        (polyline
-          (pts
-            (xy 2.54 0)
-            (xy 1.524 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.143 0)
-            (xy 2.286 0.508)
-            (xy 2.286 -0.508)
-            (xy 1.143 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "Pot_V_50k_CUI_PT01-D225D-A503_1_1"
-        (rectangle (start -1.016 2.54) (end 1.016 -2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "3" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Resistor:R_0603_DNP" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_0603_DNP" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Resistor:RESC1608X55N_DNP" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "DNP" (at 1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "DNP" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "DNP" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "DNP" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "DNP" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "T" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.00" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Resistor res" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Do not populate" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*0603* *1608* RESC1608*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0603_DNP_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "R_0603_DNP_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "KD_Resistor:R_0805_110_5%" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 1.905 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "R_0805_110_5%" (at -12.7 31.75 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Footprint" "KD_Resistor:RESC2012X60N" (at -12.7 13.97 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at -12.7 11.43 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Code" "110" (at 1.905 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Manufacturer" "Stackpole Electronics Inc" (at -12.7 29.21 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "MFG_PartNo" "RMCF0805JT110R" (at -12.7 26.67 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier" "Digi-Key" (at -12.7 24.13 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Supplier_PartNo" "RMCF0805JT110RCT-ND" (at -12.7 21.59 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "DNP" "F" (at -12.7 19.05 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "Price" "0.005" (at -12.7 16.51 0)
-        (effects (font (size 1.27 1.27)) (justify left) hide)
-      )
-      (property "ki_keywords" "Resistor res" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "0805 2012" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0805_110_5%_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "R_0805_110_5%_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+5V" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+5V_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+5V_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+5V" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 160.02 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 05523e09-535d-48cf-917e-431e0c800150)
-  )
-  (junction (at 160.02 62.23) (diameter 0) (color 0 0 0 0)
-    (uuid 23c9054a-daa8-42f0-8640-1c2b99007030)
-  )
-  (junction (at 120.65 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 38dac5f6-92fc-4881-a99e-69da94e6d98f)
-  )
-  (junction (at 203.2 104.14) (diameter 0) (color 0 0 0 0)
-    (uuid 665740c9-b3f4-48f3-9605-12a9368f1061)
-  )
-  (junction (at 160.02 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid 66ff1d1a-ce4f-4173-b800-47c5619674af)
-  )
-  (junction (at 120.65 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 856560ff-5f2b-48e3-a07f-f5876b948b39)
-  )
-  (junction (at 160.02 86.36) (diameter 0) (color 0 0 0 0)
-    (uuid 86823fcc-f7fb-4848-b0e6-2830adec1682)
-  )
-  (junction (at 120.65 101.6) (diameter 0) (color 0 0 0 0)
-    (uuid cc2c13a1-60b2-4228-ac95-fa0d74d611ce)
-  )
-
-  (wire (pts (xy 120.65 97.79) (xy 120.65 101.6))
-    (stroke (width 0) (type default))
-    (uuid 034052ad-9a69-4061-843f-470a503822f1)
-  )
-  (wire (pts (xy 120.65 58.42) (xy 120.65 63.5))
-    (stroke (width 0) (type default))
-    (uuid 0e8d5065-965f-4fdd-add6-d2842fb8a44a)
-  )
-  (wire (pts (xy 115.57 74.93) (xy 120.65 74.93))
-    (stroke (width 0) (type default))
-    (uuid 1338b916-2b07-4ea8-b40e-f5f3c6b6289c)
-  )
-  (wire (pts (xy 160.02 123.19) (xy 160.02 104.14))
-    (stroke (width 0) (type default))
-    (uuid 1a9765bf-14af-42da-aff6-7f038473bb29)
-  )
-  (wire (pts (xy 167.64 62.23) (xy 167.64 64.77))
-    (stroke (width 0) (type default))
-    (uuid 1df6bbe0-783f-4ddc-978e-4b51291b6a56)
-  )
-  (wire (pts (xy 160.02 62.23) (xy 167.64 62.23))
-    (stroke (width 0) (type default))
-    (uuid 2201cb69-5629-4a77-a789-5605223bbf8b)
-  )
-  (wire (pts (xy 125.73 86.36) (xy 125.73 93.98))
-    (stroke (width 0) (type default))
-    (uuid 3897966b-8feb-493d-b60f-f10a9cfa7430)
-  )
-  (wire (pts (xy 120.65 72.39) (xy 120.65 71.12))
-    (stroke (width 0) (type default))
-    (uuid 38ae07e5-a77d-4102-8392-1927ce225e3a)
-  )
-  (wire (pts (xy 160.02 58.42) (xy 160.02 62.23))
-    (stroke (width 0) (type default))
-    (uuid 3e33223b-37ad-4128-8003-0a1f9e339a0c)
-  )
-  (wire (pts (xy 120.65 101.6) (xy 160.02 101.6))
-    (stroke (width 0) (type default))
-    (uuid 3eb57ae9-fadf-4da4-ac3b-459c9e4cae41)
-  )
-  (wire (pts (xy 147.32 72.39) (xy 120.65 72.39))
-    (stroke (width 0) (type default))
-    (uuid 4c9c2a49-bda6-4cd5-a3f4-f55777acf6e8)
-  )
-  (wire (pts (xy 160.02 101.6) (xy 160.02 104.14))
-    (stroke (width 0) (type default))
-    (uuid 57cb5a36-31e5-429e-8806-2441289d832a)
-  )
-  (wire (pts (xy 162.56 88.9) (xy 160.02 88.9))
-    (stroke (width 0) (type default))
-    (uuid 62bf539b-ee28-4c5e-b74a-1e56e60dbb40)
-  )
-  (wire (pts (xy 120.65 113.03) (xy 120.65 110.49))
-    (stroke (width 0) (type default))
-    (uuid 6518414d-c336-4978-a2dc-8693701a3341)
-  )
-  (wire (pts (xy 95.25 123.19) (xy 101.6 123.19))
-    (stroke (width 0) (type default))
-    (uuid 65488ca7-399f-4ad7-a888-74ee2f5ad8c3)
-  )
-  (wire (pts (xy 115.57 78.74) (xy 115.57 74.93))
-    (stroke (width 0) (type default))
-    (uuid 65cf255c-0475-4e93-9941-8b03b059c9c6)
-  )
-  (wire (pts (xy 160.02 104.14) (xy 162.56 104.14))
-    (stroke (width 0) (type default))
-    (uuid 674c9e60-955d-41d1-9de7-2731383eb85c)
-  )
-  (wire (pts (xy 162.56 99.06) (xy 160.02 99.06))
-    (stroke (width 0) (type default))
-    (uuid 6805706d-9b73-4d49-9257-3ffdc445bb20)
-  )
-  (wire (pts (xy 160.02 99.06) (xy 160.02 101.6))
-    (stroke (width 0) (type default))
-    (uuid 6b8b6a39-3586-4196-bfbb-875481e21afc)
-  )
-  (wire (pts (xy 160.02 86.36) (xy 162.56 86.36))
-    (stroke (width 0) (type default))
-    (uuid 72b595c0-08ae-44a3-aed7-49e71aef7eb2)
-  )
-  (wire (pts (xy 167.64 72.39) (xy 167.64 73.66))
-    (stroke (width 0) (type default))
-    (uuid 7dc07c58-4a23-491b-8243-6a791520e619)
-  )
-  (wire (pts (xy 162.56 93.98) (xy 147.32 93.98))
-    (stroke (width 0) (type default))
-    (uuid 8c824b52-294c-4d56-89f1-656e257ea4e6)
-  )
-  (wire (pts (xy 187.96 86.36) (xy 247.65 86.36))
-    (stroke (width 0) (type default))
-    (uuid 96a0a167-5b9e-41b5-8f73-334f5a3e4be3)
-  )
-  (wire (pts (xy 120.65 101.6) (xy 120.65 102.87))
-    (stroke (width 0) (type default))
-    (uuid 9a843c06-53fe-4aff-bc0a-2743a0d1a7c5)
-  )
-  (wire (pts (xy 160.02 62.23) (xy 160.02 86.36))
-    (stroke (width 0) (type default))
-    (uuid 9c9e7c26-3963-4d0b-aad3-1af22f9c1357)
-  )
-  (wire (pts (xy 115.57 93.98) (xy 116.84 93.98))
-    (stroke (width 0) (type default))
-    (uuid a0d7cc54-ce16-443b-950d-9dc583e319df)
-  )
-  (wire (pts (xy 115.57 86.36) (xy 115.57 93.98))
-    (stroke (width 0) (type default))
-    (uuid a28891fe-bed4-4c91-9cba-0307f543f06f)
-  )
-  (wire (pts (xy 125.73 78.74) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid a8d9071e-590c-47da-8c97-543bce43a41e)
-  )
-  (wire (pts (xy 160.02 88.9) (xy 160.02 86.36))
-    (stroke (width 0) (type default))
-    (uuid afe4c434-19a9-41b4-9751-cfd1df893c47)
-  )
-  (wire (pts (xy 187.96 104.14) (xy 203.2 104.14))
-    (stroke (width 0) (type default))
-    (uuid b351c1f6-f9b1-4130-9697-9bb8150f359a)
-  )
-  (wire (pts (xy 187.96 99.06) (xy 191.77 99.06))
-    (stroke (width 0) (type default))
-    (uuid b78aa801-6107-450d-a982-1cc896e521e7)
-  )
-  (wire (pts (xy 203.2 104.14) (xy 203.2 106.68))
-    (stroke (width 0) (type default))
-    (uuid c5f6103f-c988-4440-b020-256b92f80684)
-  )
-  (wire (pts (xy 109.22 123.19) (xy 160.02 123.19))
-    (stroke (width 0) (type default))
-    (uuid d74145c2-58a3-4b51-a97f-77f0ef7272ec)
-  )
-  (wire (pts (xy 199.39 99.06) (xy 203.2 99.06))
-    (stroke (width 0) (type default))
-    (uuid de626607-514d-4861-bc6f-f5584dcf25eb)
-  )
-  (wire (pts (xy 120.65 74.93) (xy 120.65 72.39))
-    (stroke (width 0) (type default))
-    (uuid e6061e24-0617-4e50-8a36-3e4caa142535)
-  )
-  (wire (pts (xy 203.2 99.06) (xy 203.2 104.14))
-    (stroke (width 0) (type default))
-    (uuid e7ff83ac-90c3-4d76-b80d-457b5d2286c1)
-  )
-  (wire (pts (xy 147.32 93.98) (xy 147.32 72.39))
-    (stroke (width 0) (type default))
-    (uuid f5265e53-9b10-4763-a54d-366a950e3c89)
-  )
-  (wire (pts (xy 120.65 74.93) (xy 125.73 74.93))
-    (stroke (width 0) (type default))
-    (uuid fb8da5f4-f8ea-4f92-a8ba-c4fa8dd50567)
-  )
-  (wire (pts (xy 124.46 93.98) (xy 125.73 93.98))
-    (stroke (width 0) (type default))
-    (uuid fdc557df-4a6f-4930-902c-80bbe37fe832)
-  )
-
-  (text "PT01-D225D-A503?" (at 60.96 101.6 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 713c704a-2b67-4a5b-acc2-7fab3a56c188)
-  )
-
-  (hierarchical_label "PWM_out" (shape input) (at 247.65 86.36 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 5e7d72b5-7dc8-4ce5-bebb-0db6b28c7e1f)
-  )
-  (hierarchical_label "PWM_drive" (shape input) (at 95.25 123.19 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b55a0580-ab68-478b-989b-889f813c124c)
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0603_10n_X7R_100V") (at 120.65 106.68 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 10751d0a-eb2d-492f-858a-9b50bf978bd1)
-    (property "Reference" "C24" (at 124.46 105.4099 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "10n" (at 133.35 138.43 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 133.35 120.65 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "datasheet" (at 133.35 118.11 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10n" (at 124.46 107.9499 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "TDK Corporation" (at 133.35 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "C1608X7R2A103K080AA" (at 133.35 133.35 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 133.35 130.81 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "445-1304-1-ND" (at 133.35 128.27 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 133.35 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.05" (at 133.35 123.19 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 8542795c-da46-4282-ae69-947016314f48))
-    (pin "2" (uuid bf94e675-77e8-4e2c-9036-5268b79a0896))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "C24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 167.64 73.66 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 13e9d830-263e-4a7e-9599-c2a4c2fd52dc)
-    (property "Reference" "#PWR04" (at 167.64 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 167.64 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 167.64 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 167.64 73.66 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b68af152-3497-40fe-8dd2-bb24ba4a19ed))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:R_0805_110_5%") (at 120.65 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1c56d96d-fa53-4d21-be8c-bacb08d2651b)
-    (property "Reference" "R33" (at 123.19 66.675 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "R_0805_110_5%" (at 107.95 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:RESC2012X60N" (at 107.95 53.34 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 107.95 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "110" (at 123.19 69.215 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Stackpole Electronics Inc" (at 107.95 38.1 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "RMCF0805JT110R" (at 107.95 40.64 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 107.95 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "RMCF0805JT110RCT-ND" (at 107.95 45.72 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 107.95 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.005" (at 107.95 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 36096e2b-7f21-4cf5-9966-c6029fc3bfd1))
-    (pin "2" (uuid a7512e35-06f2-4a95-8334-044463dbf068))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "R33") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:Pot_V_50k_CUI_PT01-D225D-A503") (at 120.65 93.98 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 297a6752-0c4e-4547-a03c-135a2886e8dd)
-    (property "Reference" "R28" (at 120.65 87.63 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "PT01-D225D-A503" (at 152.4 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX" (at 134.62 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.cuidevices.com/product/resource/pt01.pdf" (at 132.08 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "50k" (at 120.65 90.17 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "CUI Devices" (at 149.86 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "PT01-D225D-A503" (at 147.32 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 144.78 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "2223-PT01-D225D-A503-ND" (at 142.24 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 139.7 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.77" (at 137.16 81.28 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 33e1d336-b18e-4fbd-b502-ff9062111481))
-    (pin "2" (uuid 86d77a45-cd78-4e2f-833e-dcd592be21a9))
-    (pin "3" (uuid 4d3520a9-b638-4c7d-ac59-b9a502608bb5))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "R28") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0603_10n_X7R_100V") (at 195.58 99.06 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 48ecc3fc-81ae-4a4e-a538-08184f08b5bd)
-    (property "Reference" "C23" (at 195.58 91.44 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10n" (at 163.83 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC1608X90N" (at 181.61 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "datasheet" (at 184.15 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "10n" (at 195.58 93.98 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "TDK Corporation" (at 166.37 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "C1608X7R2A103K080AA" (at 168.91 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 171.45 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "445-1304-1-ND" (at 173.99 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 176.53 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.05" (at 179.07 111.76 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid dc3b9b6c-1d95-4950-95d9-1ae8572c8096))
-    (pin "2" (uuid 957d453f-df09-4026-a853-0bdd375aba6e))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "C23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 160.02 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 51175274-b79d-41e0-8391-3b58309ffae5)
-    (property "Reference" "#PWR0133" (at 160.02 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 160.02 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 160.02 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 160.02 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2a7b977b-1bce-42a4-8eb2-97fb3f6c57f9))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "#PWR0133") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Resistor:R_0603_DNP") (at 105.41 123.19 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 53107c39-6a40-458d-a6b9-ff1a7e9d1a29)
-    (property "Reference" "R29" (at 105.41 116.84 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "R_0603_DNP" (at 73.66 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Resistor:RESC1608X55N_DNP" (at 91.44 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "" (at 93.98 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "DNP" (at 105.41 119.38 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "DNP" (at 76.2 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "DNP" (at 78.74 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "DNP" (at 81.28 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "DNP" (at 83.82 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "T" (at 86.36 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.00" (at 88.9 135.89 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid e551173f-84ae-49fc-baf9-1870bb906489))
-    (pin "2" (uuid 69c892b1-b2c7-4716-8a90-86572ee7e516))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "R29") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30") (at 115.57 82.55 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 54b28f68-bdf5-4bf5-953c-e9faee0c1e34)
-    (property "Reference" "D6" (at 109.22 81.28 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "Schottky_30V_1A_Toshiba_CUS10S30" (at 83.82 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Diode:D_SOD-323" (at 101.6 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30" (at 104.14 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "CUS10S30,H3F" (at 97.79 83.82 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Manufacturer" "Toshiba Semiconductor and Storage" (at 86.36 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CUS10S30,H3F" (at 88.9 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 91.44 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "CUS10S30H3FCT-ND" (at 93.98 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 96.52 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.2" (at 99.06 95.25 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid d56931f1-17bd-4c77-a066-cf5b19dd3bf3))
-    (pin "2" (uuid bddb6330-386b-43dc-954f-a40e3807a83b))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "D6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 120.65 113.03 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5752e892-fa33-4805-b2cd-9b3a27b07ee2)
-    (property "Reference" "#PWR02" (at 120.65 119.38 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 120.65 116.84 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.65 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid dca6860c-25b4-41ed-a13d-a444f56889e4))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_IC_Other:Timer_Oscillator_TLC555CDG4") (at 162.56 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5940b3be-78dc-4295-9b5c-9265459e0d70)
-    (property "Reference" "U5" (at 175.26 78.74 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Timer_Oscillator_TLC555CDG4" (at 149.86 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Package_SO:SOIC127P600X175-8" (at 149.86 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "TLC555CDG4" (at 175.26 81.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Manufacturer" "Texas Instruments" (at 149.86 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "TLC555CDG4" (at 149.86 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 149.86 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "296-52992-ND" (at 149.86 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 149.86 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.9" (at 149.86 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid cf0878a2-eb6b-459d-95d2-8680bb7ceef0))
-    (pin "8" (uuid 2bbdd469-973e-47d4-9da4-3fc5d3119b48))
-    (pin "2" (uuid eef708b6-6bc6-492d-8a0e-e7a10d309922))
-    (pin "3" (uuid cd432ea2-21ac-4bd3-ac42-511b24a1e8c5))
-    (pin "4" (uuid be8d3ccd-bd30-4434-b0ac-377b671ab76d))
-    (pin "5" (uuid 044b8217-843d-47c9-ab45-b6ca4015db9c))
-    (pin "6" (uuid e15add6a-aaee-4888-90bd-91e2d1c8bdda))
-    (pin "7" (uuid f78afced-86f4-4454-bce5-9422209bfe77))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "U5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Mechanical:Knob_6mm_BL_RED_CLIFF_CL170842CR") (at 90.17 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5a7d554d-bfdc-4d22-803b-42dc71d4b4d0)
-    (property "Reference" "M1" (at 96.52 98.7424 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Knob_6mm_BL_RED_CLIFF_CL170842CR" (at 76.2 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Mechanical:Knob_CLIFF_CL170842CR" (at 76.2 77.47 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "" (at 77.47 90.17 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "CL170842CR" (at 96.52 101.2824 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "CLIFF Electronic Components Ltd" (at 76.2 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CL170842CR" (at 76.2 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 76.2 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "3185-CL170842CR-ND" (at 76.2 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 76.2 72.39 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "1" (at 76.2 74.93 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "M1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 203.2 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 990cd122-3301-46bc-9451-648181c8021f)
-    (property "Reference" "#PWR0146" (at 203.2 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 203.2 110.49 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 203.2 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 203.2 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7ef6d17d-d077-421f-b5cd-d2df8f1b9a18))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "#PWR0146") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30") (at 125.73 82.55 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c303e287-f3cd-4dcf-b43e-da5abc76ccab)
-    (property "Reference" "D7" (at 128.27 81.5975 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Schottky_30V_1A_Toshiba_CUS10S30" (at 157.48 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Diode:D_SOD-323" (at 139.7 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30" (at 137.16 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "CUS10S30,H3F" (at 128.27 84.1375 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Toshiba Semiconductor and Storage" (at 154.94 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CUS10S30,H3F" (at 152.4 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 149.86 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "CUS10S30H3FCT-ND" (at 147.32 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 144.78 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.2" (at 142.24 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 6587f0db-6d1a-43ee-80b7-03ab8fc0ad08))
-    (pin "2" (uuid 6edb1d92-6e8f-4d5e-aa7d-53bc272c6087))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "KD_Capacitor:C_0805_1u_X7R_25V") (at 167.64 68.58 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d0a64585-7546-4530-b7cc-66090b75bfb9)
-    (property "Reference" "C21" (at 170.18 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1u" (at 154.94 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "KD_Capacitor:CAPC2012X135N" (at 154.94 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf" (at 154.94 57.15 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Code" "1u" (at 170.18 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Manufacturer" "Samsung Electro-Mechanics" (at 154.94 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "MFG_PartNo" "CL21B105KAFNNNE" (at 154.94 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier" "Digi-Key" (at 154.94 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Supplier_PartNo" "1276-1066-1-ND" (at 154.94 46.99 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "DNP" "F" (at 154.94 49.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Price" "0.03" (at 154.94 52.07 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid c2394568-13cd-4b37-8425-532cfe202dd3))
-    (pin "2" (uuid 4068cb32-b60e-43e6-a31e-49899b657e2a))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "C21") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 120.65 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ff98045a-e87b-48cc-9b68-f0f7db295ab4)
-    (property "Reference" "#PWR0132" (at 120.65 62.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 120.65 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 120.65 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6625ea0e-8686-487a-a21b-f4470e7eb803))
-    (instances
-      (project "GDBM"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
-          (reference "#PWR0132") (unit 1)
-        )
-      )
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "04c7401f-486a-44b3-8a9f-11c16c15f1f2")
+	(paper "A4")
+	(title_block
+		(title "Gear Display Board")
+		(date "2023-09-22")
+		(rev "4.0")
+		(company "Kallio Designs Oy")
+		(comment 1 "Teemu Latonen")
+		(comment 2 "000064")
+		(comment 3 "000065")
+	)
+	(lib_symbols
+		(symbol "KD_Capacitor:C_0603_10n_X7R_100V"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10n"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "datasheet"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 10000PF 100V X7R 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "10n"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "TDK Corporation"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "C1608X7R2A103K080AA"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "445-1304-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.05"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0603 CAPC1608*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0603_10n_X7R_100V_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0603_10n_X7R_100V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Capacitor:C_0805_1u_X7R_25V"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1u"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Capacitor:CAPC2012X135N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAP CER 1UF 25V X7R 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "1u"
+				(at 2.54 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CL21B105KAFNNNE"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "1276-1066-1-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.03"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Capacitor Cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0805 CAPC2012*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0805_1u_X7R_25V_0_1"
+				(polyline
+					(pts
+						(xy -2.286 -0.508) (xy 2.286 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 0.508) (xy 2.286 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.508) (xy 0 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_0805_1u_X7R_25V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Schottky_30V_1A_Toshiba_CUS10S30"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Diode:D_SOD-323"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIODE SCHOTTKY 30V 1A USC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "CUS10S30,H3F"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Toshiba Semiconductor and Storage"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CUS10S30,H3F"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "CUS10S30H3FCT-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.2"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SC-76 SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Schottky_30V_1A_Toshiba_CUS10S30_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Schottky_30V_1A_Toshiba_CUS10S30_1_1"
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_IC_Other:Timer_Oscillator_TLC555CDG4"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 11.176 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Timer_Oscillator_TLC555CDG4"
+				(at -12.7 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Package_SO:SOIC127P600X175-8"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "IC OSC SGL TIMER 2.1MHZ 8-SOIC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "TLC555CDG4"
+				(at 3.81 8.89 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Texas Instruments"
+				(at -12.7 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "TLC555CDG4"
+				(at -12.7 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "296-52992-ND"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.9"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "timer oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC127P600X* 8-SOIC SO-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Timer_Oscillator_TLC555CDG4_0_0"
+				(pin power_in line
+					(at 25.4 -12.7 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 5.08 0)
+					(length 3.81)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Timer_Oscillator_TLC555CDG4_0_1"
+				(rectangle
+					(start 3.81 7.62)
+					(end 21.59 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Timer_Oscillator_TLC555CDG4_1_1"
+				(pin input line
+					(at 0 -12.7 0)
+					(length 3.81)
+					(name "TR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 25.4 5.08 180)
+					(length 3.81)
+					(name "Q"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input inverted
+					(at 0 2.54 0)
+					(length 3.81)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -7.62 180)
+					(length 3.81)
+					(name "CV"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 3.81)
+					(name "THR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 3.81)
+					(name "DIS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Mechanical:Knob_6mm_BL_RED_CLIFF_CL170842CR"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "M"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Knob_6mm_BL_RED_CLIFF_CL170842CR"
+				(at -13.97 41.91 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Mechanical:Knob_CLIFF_CL170842CR"
+				(at -13.97 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Knurled, Straight Knob 0.236\" (6.00mm)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "CL170842CR"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "CLIFF Electronic Components Ltd"
+				(at -13.97 39.37 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "CL170842CR"
+				(at -13.97 36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -13.97 34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "3185-CL170842CR-ND"
+				(at -13.97 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -13.97 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "1"
+				(at -13.97 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "knob 6mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Knob_6mm_BL_RED_CLIFF_CL170842CR_0_1"
+				(polyline
+					(pts
+						(xy -5.715 -3.175) (xy 5.715 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -1.905) (xy 4.445 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 7.62) (xy 4.445 7.62) (xy 5.08 -1.27) (xy 5.715 -1.905) (xy 5.715 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy -3.81 7.62) (xy -4.445 -1.905) (xy -5.715 -3.175) (xy -5.715 -4.445) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 7.62) (xy 3.81 7.62) (xy 4.445 -1.905) (xy 5.715 -3.175) (xy 5.715 -4.445) (xy 0 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "KD_Resistor:Pot_V_50k_CUI_PT01-D225D-A503"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "PT01-D225D-A503"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cuidevices.com/product/resource/pt01.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "POT 50K OHM 1/20W CARBON R-LOG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "50k"
+				(at -1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Manufacturer" "CUI Devices"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "PT01-D225D-A503"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "2223-PT01-D225D-A503-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.77"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "pot vertical log reverse logarithmic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*PT01-D*25*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pot_V_50k_CUI_PT01-D225D-A503_0_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Pot_V_50k_CUI_PT01-D225D-A503_1_1"
+				(rectangle
+					(start -1.016 2.54)
+					(end 1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Resistor:R_0603_DNP"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0603_DNP"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Resistor:RESC1608X55N_DNP"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Do not populate"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "DNP"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "DNP"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "DNP"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "DNP"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "DNP"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "T"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.00"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*0603* *1608* RESC1608*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0603_DNP_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_0603_DNP_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "KD_Resistor:R_0805_110_5%"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.905 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_0805_110_5%"
+				(at -12.7 31.75 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "KD_Resistor:RESC2012X60N"
+				(at -12.7 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+				(at -12.7 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Code" "110"
+				(at 1.905 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Manufacturer" "Stackpole Electronics Inc"
+				(at -12.7 29.21 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "MFG_PartNo" "RMCF0805JT110R"
+				(at -12.7 26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier" "Digi-Key"
+				(at -12.7 24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Supplier_PartNo" "RMCF0805JT110RCT-ND"
+				(at -12.7 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "DNP" "F"
+				(at -12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Price" "0.005"
+				(at -12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Resistor res"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "0805 2012"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0805_110_5%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "R_0805_110_5%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 160.02 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05523e09-535d-48cf-917e-431e0c800150")
+	)
+	(junction
+		(at 160.02 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23c9054a-daa8-42f0-8640-1c2b99007030")
+	)
+	(junction
+		(at 120.65 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38dac5f6-92fc-4881-a99e-69da94e6d98f")
+	)
+	(junction
+		(at 203.2 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "665740c9-b3f4-48f3-9605-12a9368f1061")
+	)
+	(junction
+		(at 160.02 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66ff1d1a-ce4f-4173-b800-47c5619674af")
+	)
+	(junction
+		(at 120.65 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "856560ff-5f2b-48e3-a07f-f5876b948b39")
+	)
+	(junction
+		(at 160.02 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86823fcc-f7fb-4848-b0e6-2830adec1682")
+	)
+	(junction
+		(at 120.65 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc2c13a1-60b2-4228-ac95-fa0d74d611ce")
+	)
+	(wire
+		(pts
+			(xy 120.65 97.79) (xy 120.65 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "034052ad-9a69-4061-843f-470a503822f1")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 120.65 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e8d5065-965f-4fdd-add6-d2842fb8a44a")
+	)
+	(wire
+		(pts
+			(xy 115.57 74.93) (xy 120.65 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1338b916-2b07-4ea8-b40e-f5f3c6b6289c")
+	)
+	(wire
+		(pts
+			(xy 160.02 123.19) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a9765bf-14af-42da-aff6-7f038473bb29")
+	)
+	(wire
+		(pts
+			(xy 167.64 62.23) (xy 167.64 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1df6bbe0-783f-4ddc-978e-4b51291b6a56")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 167.64 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2201cb69-5629-4a77-a789-5605223bbf8b")
+	)
+	(wire
+		(pts
+			(xy 125.73 86.36) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3897966b-8feb-493d-b60f-f10a9cfa7430")
+	)
+	(wire
+		(pts
+			(xy 120.65 72.39) (xy 120.65 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ae07e5-a77d-4102-8392-1927ce225e3a")
+	)
+	(wire
+		(pts
+			(xy 160.02 58.42) (xy 160.02 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e33223b-37ad-4128-8003-0a1f9e339a0c")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb57ae9-fadf-4da4-ac3b-459c9e4cae41")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c9c2a49-bda6-4cd5-a3f4-f55777acf6e8")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 160.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cb5a36-31e5-429e-8806-2441289d832a")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 160.02 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bf539b-ee28-4c5e-b74a-1e56e60dbb40")
+	)
+	(wire
+		(pts
+			(xy 120.65 113.03) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6518414d-c336-4978-a2dc-8693701a3341")
+	)
+	(wire
+		(pts
+			(xy 95.25 123.19) (xy 101.6 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65488ca7-399f-4ad7-a888-74ee2f5ad8c3")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 115.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65cf255c-0475-4e93-9941-8b03b059c9c6")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 162.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674c9e60-955d-41d1-9de7-2731383eb85c")
+	)
+	(wire
+		(pts
+			(xy 162.56 99.06) (xy 160.02 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6805706d-9b73-4d49-9257-3ffdc445bb20")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 160.02 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8b6a39-3586-4196-bfbb-875481e21afc")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b595c0-08ae-44a3-aed7-49e71aef7eb2")
+	)
+	(wire
+		(pts
+			(xy 167.64 72.39) (xy 167.64 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc07c58-4a23-491b-8243-6a791520e619")
+	)
+	(wire
+		(pts
+			(xy 162.56 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c824b52-294c-4d56-89f1-656e257ea4e6")
+	)
+	(wire
+		(pts
+			(xy 187.96 86.36) (xy 247.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a0a167-5b9e-41b5-8f73-334f5a3e4be3")
+	)
+	(wire
+		(pts
+			(xy 120.65 101.6) (xy 120.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a843c06-53fe-4aff-bc0a-2743a0d1a7c5")
+	)
+	(wire
+		(pts
+			(xy 160.02 62.23) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c9e7c26-3963-4d0b-aad3-1af22f9c1357")
+	)
+	(wire
+		(pts
+			(xy 115.57 93.98) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0d7cc54-ce16-443b-950d-9dc583e319df")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28891fe-bed4-4c91-9cba-0307f543f06f")
+	)
+	(wire
+		(pts
+			(xy 125.73 78.74) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8d9071e-590c-47da-8c97-543bce43a41e")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 160.02 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afe4c434-19a9-41b4-9751-cfd1df893c47")
+	)
+	(wire
+		(pts
+			(xy 187.96 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b351c1f6-f9b1-4130-9697-9bb8150f359a")
+	)
+	(wire
+		(pts
+			(xy 187.96 99.06) (xy 191.77 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78aa801-6107-450d-a982-1cc896e521e7")
+	)
+	(wire
+		(pts
+			(xy 203.2 104.14) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f6103f-c988-4440-b020-256b92f80684")
+	)
+	(wire
+		(pts
+			(xy 109.22 123.19) (xy 160.02 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d74145c2-58a3-4b51-a97f-77f0ef7272ec")
+	)
+	(wire
+		(pts
+			(xy 199.39 99.06) (xy 203.2 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de626607-514d-4861-bc6f-f5584dcf25eb")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6061e24-0617-4e50-8a36-3e4caa142535")
+	)
+	(wire
+		(pts
+			(xy 203.2 99.06) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ff83ac-90c3-4d76-b80d-457b5d2286c1")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5265e53-9b10-4763-a54d-366a950e3c89")
+	)
+	(wire
+		(pts
+			(xy 120.65 74.93) (xy 125.73 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8da5f4-f8ea-4f92-a8ba-c4fa8dd50567")
+	)
+	(wire
+		(pts
+			(xy 124.46 93.98) (xy 125.73 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc557df-4a6f-4930-902c-80bbe37fe832")
+	)
+	(text "PT01-D225D-A503?"
+		(exclude_from_sim no)
+		(at 60.96 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "713c704a-2b67-4a5b-acc2-7fab3a56c188")
+	)
+	(hierarchical_label "PWM_out"
+		(shape input)
+		(at 247.65 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5e7d72b5-7dc8-4ce5-bebb-0db6b28c7e1f")
+	)
+	(hierarchical_label "PWM_drive"
+		(shape input)
+		(at 95.25 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b55a0580-ab68-478b-989b-889f813c124c")
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0603_10n_X7R_100V")
+		(at 120.65 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10751d0a-eb2d-492f-858a-9b50bf978bd1")
+		(property "Reference" "C24"
+			(at 124.46 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10n"
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+			(at 133.35 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheet"
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10n"
+			(at 124.46 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 133.35 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "C1608X7R2A103K080AA"
+			(at 133.35 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 133.35 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "445-1304-1-ND"
+			(at 133.35 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 133.35 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8542795c-da46-4282-ae69-947016314f48")
+		)
+		(pin "2"
+			(uuid "bf94e675-77e8-4e2c-9036-5268b79a0896")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13e9d830-263e-4a7e-9599-c2a4c2fd52dc")
+		(property "Reference" "#PWR04"
+			(at 167.64 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b68af152-3497-40fe-8dd2-bb24ba4a19ed")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:R_0805_110_5%")
+		(at 120.65 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c56d96d-fa53-4d21-be8c-bacb08d2651b")
+		(property "Reference" "R33"
+			(at 123.19 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_0805_110_5%"
+			(at 107.95 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:RESC2012X60N"
+			(at 107.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
+			(at 107.95 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "110"
+			(at 123.19 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Stackpole Electronics Inc"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "RMCF0805JT110R"
+			(at 107.95 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 107.95 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "RMCF0805JT110RCT-ND"
+			(at 107.95 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 107.95 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.005"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36096e2b-7f21-4cf5-9966-c6029fc3bfd1")
+		)
+		(pin "2"
+			(uuid "a7512e35-06f2-4a95-8334-044463dbf068")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:Pot_V_50k_CUI_PT01-D225D-A503")
+		(at 120.65 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "297a6752-0c4e-4547-a03c-135a2886e8dd")
+		(property "Reference" "R28"
+			(at 120.65 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PT01-D225D-A503"
+			(at 152.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:Potentiometer_CUI_PT01-DX20K2-XXXX"
+			(at 134.62 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.cuidevices.com/product/resource/pt01.pdf"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "50k"
+			(at 120.65 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "CUI Devices"
+			(at 149.86 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "PT01-D225D-A503"
+			(at 147.32 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "2223-PT01-D225D-A503-ND"
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 139.7 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.77"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33e1d336-b18e-4fbd-b502-ff9062111481")
+		)
+		(pin "2"
+			(uuid "86d77a45-cd78-4e2f-833e-dcd592be21a9")
+		)
+		(pin "3"
+			(uuid "4d3520a9-b638-4c7d-ac59-b9a502608bb5")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0603_10n_X7R_100V")
+		(at 195.58 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48ecc3fc-81ae-4a4e-a538-08184f08b5bd")
+		(property "Reference" "C23"
+			(at 195.58 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 163.83 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC1608X90N"
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "datasheet"
+			(at 184.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "10n"
+			(at 195.58 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK Corporation"
+			(at 166.37 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "C1608X7R2A103K080AA"
+			(at 168.91 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 171.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "445-1304-1-ND"
+			(at 173.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.05"
+			(at 179.07 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc3b9b6c-1d95-4950-95d9-1ae8572c8096")
+		)
+		(pin "2"
+			(uuid "957d453f-df09-4026-a853-0bdd375aba6e")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 160.02 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51175274-b79d-41e0-8391-3b58309ffae5")
+		(property "Reference" "#PWR0133"
+			(at 160.02 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 160.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a7b977b-1bce-42a4-8eb2-97fb3f6c57f9")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Resistor:R_0603_DNP")
+		(at 105.41 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53107c39-6a40-458d-a6b9-ff1a7e9d1a29")
+		(property "Reference" "R29"
+			(at 105.41 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_0603_DNP"
+			(at 73.66 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Resistor:RESC1608X55N_DNP"
+			(at 91.44 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "DNP"
+			(at 105.41 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "DNP"
+			(at 76.2 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "DNP"
+			(at 78.74 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "DNP"
+			(at 81.28 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "DNP"
+			(at 83.82 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "T"
+			(at 86.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.00"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e551173f-84ae-49fc-baf9-1870bb906489")
+		)
+		(pin "2"
+			(uuid "69c892b1-b2c7-4716-8a90-86572ee7e516")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30")
+		(at 115.57 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54b28f68-bdf5-4bf5-953c-e9faee0c1e34")
+		(property "Reference" "D6"
+			(at 109.22 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Schottky_30V_1A_Toshiba_CUS10S30"
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Diode:D_SOD-323"
+			(at 101.6 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30"
+			(at 104.14 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "CUS10S30,H3F"
+			(at 97.79 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 86.36 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CUS10S30,H3F"
+			(at 88.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 91.44 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "CUS10S30H3FCT-ND"
+			(at 93.98 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 96.52 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.2"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56931f1-17bd-4c77-a066-cf5b19dd3bf3")
+		)
+		(pin "2"
+			(uuid "bddb6330-386b-43dc-954f-a40e3807a83b")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 120.65 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5752e892-fa33-4805-b2cd-9b3a27b07ee2")
+		(property "Reference" "#PWR02"
+			(at 120.65 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 120.65 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dca6860c-25b4-41ed-a13d-a444f56889e4")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_IC_Other:Timer_Oscillator_TLC555CDG4")
+		(at 162.56 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5940b3be-78dc-4295-9b5c-9265459e0d70")
+		(property "Reference" "U5"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Timer_Oscillator_TLC555CDG4"
+			(at 149.86 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Package_SO:SOIC127P600X175-8"
+			(at 149.86 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftlc555"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 162.56 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "TLC555CDG4"
+			(at 175.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 149.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "TLC555CDG4"
+			(at 149.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 149.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "296-52992-ND"
+			(at 149.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 149.86 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.9"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf0878a2-eb6b-459d-95d2-8680bb7ceef0")
+		)
+		(pin "8"
+			(uuid "2bbdd469-973e-47d4-9da4-3fc5d3119b48")
+		)
+		(pin "2"
+			(uuid "eef708b6-6bc6-492d-8a0e-e7a10d309922")
+		)
+		(pin "3"
+			(uuid "cd432ea2-21ac-4bd3-ac42-511b24a1e8c5")
+		)
+		(pin "4"
+			(uuid "be8d3ccd-bd30-4434-b0ac-377b671ab76d")
+		)
+		(pin "5"
+			(uuid "044b8217-843d-47c9-ab45-b6ca4015db9c")
+		)
+		(pin "6"
+			(uuid "e15add6a-aaee-4888-90bd-91e2d1c8bdda")
+		)
+		(pin "7"
+			(uuid "f78afced-86f4-4454-bce5-9422209bfe77")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Mechanical:Knob_6mm_BL_RED_CLIFF_CL170842CR")
+		(at 90.17 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a7d554d-bfdc-4d22-803b-42dc71d4b4d0")
+		(property "Reference" "M1"
+			(at 96.52 98.7424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Knob_6mm_BL_RED_CLIFF_CL170842CR"
+			(at 76.2 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Mechanical:Knob_CLIFF_CL170842CR"
+			(at 76.2 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "CL170842CR"
+			(at 96.52 101.2824 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "CLIFF Electronic Components Ltd"
+			(at 76.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CL170842CR"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 76.2 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "3185-CL170842CR-ND"
+			(at 76.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "1"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "990cd122-3301-46bc-9451-648181c8021f")
+		(property "Reference" "#PWR0146"
+			(at 203.2 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ef6d17d-d077-421f-b5cd-d2df8f1b9a18")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Diode:Schottky_30V_1A_Toshiba_CUS10S30")
+		(at 125.73 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c303e287-f3cd-4dcf-b43e-da5abc76ccab")
+		(property "Reference" "D7"
+			(at 128.27 81.5975 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Schottky_30V_1A_Toshiba_CUS10S30"
+			(at 157.48 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Diode:D_SOD-323"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/docget.jsp?did=14077&prodName=CUS10S30"
+			(at 137.16 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 125.73 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "CUS10S30,H3F"
+			(at 128.27 84.1375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Toshiba Semiconductor and Storage"
+			(at 154.94 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CUS10S30,H3F"
+			(at 152.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 149.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "CUS10S30H3FCT-ND"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.2"
+			(at 142.24 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6587f0db-6d1a-43ee-80b7-03ab8fc0ad08")
+		)
+		(pin "2"
+			(uuid "6edb1d92-6e8f-4d5e-aa7d-53bc272c6087")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KD_Capacitor:C_0805_1u_X7R_25V")
+		(at 167.64 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0a64585-7546-4530-b7cc-66090b75bfb9")
+		(property "Reference" "C21"
+			(at 170.18 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 154.94 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "KD_Capacitor:CAPC2012X135N"
+			(at 154.94 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1105/CL21B105KAFNNNE_Spec.pdf"
+			(at 154.94 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Code" "1u"
+			(at 170.18 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MFG_PartNo" "CL21B105KAFNNNE"
+			(at 154.94 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Digi-Key"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Supplier_PartNo" "1276-1066-1-ND"
+			(at 154.94 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "DNP" "F"
+			(at 154.94 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Price" "0.03"
+			(at 154.94 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2394568-13cd-4b37-8425-532cfe202dd3")
+		)
+		(pin "2"
+			(uuid "4068cb32-b60e-43e6-a31e-49899b657e2a")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 120.65 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff98045a-e87b-48cc-9b68-f0f7db295ab4")
+		(property "Reference" "#PWR0132"
+			(at 120.65 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6625ea0e-8686-487a-a21b-f4470e7eb803")
+		)
+		(instances
+			(project "GDBM"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/cf1cdf27-6546-4af7-9073-7f8b56965781"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
 )
